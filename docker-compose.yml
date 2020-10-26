@@ -1,0 +1,35 @@
+version: '3'
+
+services:
+  rasa:
+    image: wuyuehchia/myflyboost_rasa:1599799085
+    container_name: rasa
+    links:
+    - "app"
+    - "duckling"
+    ports:
+    - "5005:5005"
+    environment:
+      AWS_ACCESS_KEY_ID:
+      AWS_SECRET_ACCESS_KEY:
+    command:
+      run -m models --enable-api --cors "*" --debug --endpoints endpoints.yml
+
+  app:
+    image: wuyuehchia/myflyboost_app:1599801074
+    container_name: app
+    ports:
+    - "5055:5055"
+
+  duckling:
+    image: rasa/duckling:latest
+    container_name: duckling
+    ports:
+    - "8000:8000"
+
+  dynamodb:
+    image: amazon/dynamodb-local:latest
+    container_name: dynamodb
+    ports:
+      - "8080:8080"
+

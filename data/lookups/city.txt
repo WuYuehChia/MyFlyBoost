@@ -1,0 +1,202 @@
+Asia
+Eastern Asia
+China
+Beijing
+Japan
+Tokyo
+Mongolia
+Ulaanbaatar
+Korea
+North Korea
+Pyongyang
+South Korea
+Seoul
+Taiwan
+Taipei
+South-East Asia
+Brunei
+Seri Begawan
+Cambodia
+Phnom Penh
+Indonesia
+Jakarta
+Laos
+Vientiane
+Malaysia
+Kuala Lumpur
+Myanmar
+Naypyidaw
+The Philippines
+Philippines
+Manila
+Singapore
+Thailand
+Bangkok
+Vietnam
+Hanoi
+Northern Asia
+Russia
+Moscow
+Central Asia
+South Asia
+Afghanistan
+Kabul
+India
+New Delhi
+Iran
+Tehran
+Nepal
+Kathmandu
+Pakistan
+Islamabad
+Western Asia
+Middle East
+Iraq
+Baghdad
+Israel
+Jerusalem
+Kuwait
+Kuwait City
+Lebanon
+Beirut
+Qatar
+Doha
+Saudi Arabia
+Riyadh
+Syria
+Damascus
+Turkey
+Ankara
+United Arab Emirates
+Abu Dhabi
+Oceania
+Australia
+Canberra
+New Zealand
+Wellington
+Europe
+Western Europe
+Austria
+Vienna
+Belgium
+Brussels
+France
+Paris
+Germany
+Berlin
+Ireland
+Dublin
+Luxembourg
+Monaco
+Netherlands
+Amsterdam
+Switzerland
+Bern
+United Kingdom
+UK
+London
+Eastern Europe
+Belarus
+Minsk
+Bulgaria
+Sofia
+Czech Republic
+Prague
+Hungary
+Budapest
+Poland
+Warsaw
+Romania
+Bucharest
+Slovakia
+Bratislava
+Ukraine
+Kiev
+Northern Europe
+Denmark
+Copenhagen
+Estonia
+Tallinn
+Finland
+Helsinki
+Iceland
+Reykjavík
+Norway
+Oslo
+Sweden
+Stockholm
+Southern Europe
+Greece
+Athens
+Italy
+Rome
+Latvia
+Riga
+Lithuania
+Vilnius
+Portugal
+Lisbon
+Serbia
+Belgrade
+Slovenia
+Ljubljana
+Spain
+Madrid
+Vatican
+Vatican City
+America
+North America
+Canada
+Ottawa
+United States
+USA
+New York
+Washington D.C. 
+South America
+Argentina
+Buenos Aires
+Brazil
+Brasília
+Chile
+Santiago
+Costa Rica
+San José
+Cuba
+Havana
+Ecuador
+Quito
+Guatemala
+Guatemala City
+Mexico
+Mexico City
+Nicaragua
+Managua
+Paraguay
+Asuncion
+Peru
+Lima
+Puerto Rico
+San Juan
+Uruguay
+Montevideo
+Africa
+Egypt
+Cairo
+Morocco
+Rabat
+South Africa
+Pretoria
+Bloemfontein
+Cape Town
+Hong Kong
+Taipei
+Macau
+Tokyo
+Seoul
+New York
+Seattle
+London
+Paris
+Berlin
+Singapore
+Beijing

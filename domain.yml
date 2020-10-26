@@ -1,0 +1,363 @@
+intents:
+  - greet:
+      triggers: action_greet
+      use_entities: ["name"]
+  - goodbye:
+      triggers: action_goodbye
+      use_entities: ["name"]
+  - affirm
+  - deny
+  - thankyou:
+      triggers: action_thankyou
+      use_entities: []
+  - mood_great:
+      triggers: action_mood_great
+      use_entities: []
+  - mood_unhappy:
+      triggers: action_mood_unhappy
+      use_entities: []
+  - bot_challenge:
+      triggers: action_is_bot
+      use_entities: []
+  - stop:
+      triggers: action_stop
+      use_entities: []
+  - user_restart:
+      triggers: action_stop
+      use_entities: []
+  - continue:
+      triggers: action_continue
+      use_entities: []
+  - goback:
+      triggers: action_goback
+      use_entities: []
+  - insult:
+      triggers: action_response_insult
+      use_entities: []
+  - chitchat:
+      triggers: action_chitchat
+      use_entities: []
+  - how_to_get_started:
+      triggers: action_get_start
+      use_entities: []
+  - book_flight
+  - research:
+      triggers: action_research
+      use_entities: ["city","time"]
+  - explain:
+      triggers: action_explain_why
+      use_entities: ["city","time"]
+  - ask_weather:
+      triggers: weather_form
+      use_entities: ["city"]
+  - inform
+  - enter_data
+  - check_ticket
+  - cancel_ticket
+  - introduction:
+      triggers: action_intro
+      use_entities: []
+  - out_of_scope:
+      triggers: action_out_of_scope
+      use_entities: []
+  - city
+  - faq
+
+entities:
+  - aircraft_code
+  - airline_code
+  - airline_name
+  - airport_code
+  - airport_name
+  - arrive_date.date_relative
+  - arrive_date.day_name
+  - arrive_date.day_number
+  - arrive_date.month_name
+  - arrive_date.today_relative
+  - arrive_time.end_time
+  - arrive_time.period_mod
+  - arrive_time.period_of_day
+  - arrive_time.start_time
+  - arrive_time.time
+  - arrive_time.time_relative
+  - booking_class
+  - city_name
+  - class_type
+  - compartment
+  - connect
+  - cost_relative
+  - day_name
+  - day_number
+  - days_code
+  - depart_date.date_relative
+  - depart_date.day_name
+  - depart_date.day_number
+  - depart_date.month_name
+  - depart_date.today_relative
+  - depart_date.year
+  - depart_time.end_time
+  - depart_time.period_mod
+  - depart_time.period_of_day
+  - depart_time.start_time
+  - depart_time.time
+  - depart_time.time_relative
+  - economy
+  - fare_amount
+  - fare_basis_code
+  - flight
+  - flight_days
+  - flight_mod
+  - flight_number
+  - flight_stop
+  - flight_time
+  - fromloc.airport_code
+  - fromloc.airport_name
+#  - fromloc.city_name
+  - fromloc.state_code
+  - fromloc.state_name
+  - meal
+  - meal_code
+  - meal_description
+  - mod
+  - month_name
+  - or
+  - period_of_day
+  - restriction_code
+  - return_date.date_relative
+  - return_date.day_name
+  - return_date.day_number
+  - return_date.month_name
+  - return_date.today_relative
+  - return_time.period_mod
+  - return_time.period_of_day
+  - round_trip
+  - state_code
+  - state_name
+  - stoploc.airport_code
+  - stoploc.airport_name
+  - stoploc.city_name
+  - stoploc.state_code
+  - time
+  - time_relative
+  - today_relative
+  - toloc.airport_code
+  - toloc.airport_name
+  - city
+#  - toloc.city_name
+  - toloc.country_name
+  - toloc.state_code
+  - toloc.state_name
+  - transport_type
+  - name
+  - flight_no
+  - seat_type
+  - passport_no
+  - email
+
+slots:
+  fromloc_city:
+    type: unfeaturized
+  toloc_city:
+    type: unfeaturized
+  depart_time:
+    type: unfeaturized
+  flight_no:
+    type: unfeaturized
+  class_type:
+    type: categorical
+    values:
+      - first class
+      - business class
+      - economy class
+  seat_type:
+    type: categorical
+    values:
+      - window seat
+      - aisle seat
+      - not specify
+  user_name:
+    type: unfeaturized
+  passport_no:
+    type: unfeaturized
+  email:
+    type: unfeaturized
+  weather_city:
+    type: unfeaturized
+
+
+forms:
+  - flight_form
+  - booking_form
+#  - check_ticket_form
+#  - cancel_ticket_form
+  - weather_form
+
+responses:
+  utter_greet:
+    - text: "Hello~"
+    - text: "Hi, how are you?"
+  utter_user_greet:
+    - text: "Hello~{user_name}"
+    - text: "Hi, {user_name}, how are you?"
+  utter_explain_whatspossible:
+    - text: "I can help you:\n- ✈ Book a flight.\n- ✈ Answer some airport FAQs.\n- ✈ Give you a list you should be aware of before boarding.\n- ✈ Check about the weather forecast in a place within five days."
+  utter_mood_unhappy:
+    - text: "QQ"
+    - text: "Everything is good"
+  utter_did_that_help:
+    - text: "Did that help you?"
+  utter_mood_greet:
+    - text:
+      image: "https://media.giphy.com/media/tIeCLkB8geYtW/giphy.gif"
+  utter_goodbye:
+    - text: "Goodbye! See you next time!"
+    - text: "Have a nice day!"
+    - text: "Have a good trip!"
+  utter_sorry_goodbye:
+    - text: "I'm sorry I had not helped... See you next time."
+  utter_user_goodbye:
+    - text: "{user_name}. Thank you for your using, we welcome you to see you next time."
+  utter_noworries:
+    - text: "you are welcome :)"
+  utter_iamabot:
+    - text: "My name is Myflyboost.  \nI am an AI assistant, powered by [Rasa](https://rasa.com/docs/)."
+  utter_respond_insult:
+    - text: "Calm down, please."
+    - text: "OMG"
+    - text: "What!?"
+  utter_ask_fromloc_city:
+    - text: "Which city do you want to depart from?"
+  utter_ask_toloc_city:
+    - text: "Where are you flying to?"
+    - text: "What’s your final destination?"
+    - text: "Where are you traveling to?"
+  utter_ask_depart_time:
+    - text: "What is your travel date?"
+    - text: "What is your departure time？"
+    - text: "What time is your departure?"
+    - text: "When would you depart?"
+    - text: "What time will you be traveling?"
+  utter_ask_flight_no:
+    - text: "Can you tell me the Flight No. of the flight you want to book?"
+  utter_ask_class_type:
+    - text: "Do you want to go economy, business or first class?"
+      buttons:
+        - title: "First Class"
+          payload: '/enter_data{"class_type": "first class"}'
+        - title: "Business Class"
+          payload: '/enter_data{"class_type": "business class"}'
+        - title: "Economy Class"
+          payload: '/enter_data{"class_type": "economy class"}'
+  utter_ask_seat_type:
+    - text: "Would you prefer aisle seat or window seat？"
+      buttons:
+        - title: "Window Seat"
+          payload: '/enter_data{"seat_type": "window seat"}'
+        - title: "Aisle Seat"
+          payload: '/enter_data{"seat_type": "aisle seat"}'
+        - title: "Not Specify"
+          payload: '/deny'
+  utter_ask_user_name:
+    - text: "May I have your English full name?"
+    - text: "Can I get your English full name, please?"
+    - text: "May I have the travelers' English full name, please?"
+  utter_ask_passport_no:
+    - text: "May I have your Passport No.?"
+  utter_ask_email:
+    - text: "May I have your email address?"
+  utter_ask_weather_city:
+    - text: "Where do you want to know the weather?"
+  utter_wrong_fromloc_city:
+    - text: "I can't find the departure city in database...\nPlease check spelling or it's not reachable for flight."
+  utter_wrong_toloc_city:
+    - text: "I can't find the arrival city in database...\nPlease check spelling or it's not reachable for flight."
+  utter_wrong_flight_no:
+    - text: "I can't find the Flight_No in database...\nPlease check spelling or research the flight."
+  utter_wrong_user_name:
+    - text: "Sorry, your English full name format is wrong, this must be the same as the name on your passport."
+  utter_wrong_passport_no:
+    - text: "This passport number is invalid, please check your spelling."
+  utter_wrong_email:
+    - text: "This email is invalid, please check your spelling."
+  utter_explain_why:
+    - text: "I need complete and correct information to help you complete your ticket booking."
+  utter_chitchat:
+    - text: OK.
+    - text: Fine
+    - text: "😄"
+    - text: "😊"
+    - text: "👏"
+    - text: "😍"
+    - text: "👍"
+    - text: "Errrr..."
+    - text: Okay.
+    - text: Got it.
+  utter_continue:
+    - text: "Let's go on."
+  utter_goback:
+    - text: " OK. Please check your spelling carefully before typing."
+  utter_research:
+    - text: "Um... Let's research the flight."
+  utter_out_of_scope:
+    - text: "Sorry, I can’t handle that request."
+  utter_check_ticket:
+    - text: "Sorry, I can’t handle that request. You can check tickets in your email."
+  utter_cancel_ticket:
+    - text: "Sorry, I can’t handle that request. I am still in development."
+  utter_default:
+    - text: "Hmm, not sure what you mean... Can you input something else?"
+  utter_ask_rephrase:
+    - text: "I didn't quite get that, could you rephrase your message?"
+    - text: "Sorry, I'm not sure I understand. Could you rephrase it?"
+    - text: "I’m sorry, I didn’t get that. Could you rephrase what you said, please?"
+  utter_get_start:
+    - text: "I will help you to book a flight ticket."
+  utter_restart_with_button:
+    - buttons:
+        - payload: /goodbye
+          title: Stop
+      text: "Click the Stop button below if you want to end the conversation and then the bot will stop and restart."
+  utter_research_restart_continue_goback_with_button:
+    - buttons:
+        - payload: /research
+          title: Research the Flights
+        - payload: /goodbye
+          title: Stop
+        - payload: /continue
+          title: Continue
+        - payload: /goback
+          title: Last Step
+      text: "Is there anything wrong? If so, you can click the button below to do something."
+  utter_precautions_for_boarding:
+    - text: "You can start boarding the plane in 30 minutes and the plane will take off in 1 hour."
+  utter_anything_else:
+    - text: "Is there anything else I can help you with?"
+
+actions:
+  - action_get_start
+  - action_greet
+  - action_goodbye
+  - action_thankyou
+  - action_mood_great
+  - action_mood_unhappy
+  - action_out_of_scope
+  - action_response_insult
+  - action_chitchat
+  - action_is_bot
+  - action_intro
+  - action_explain_why
+  - action_research
+  - action_stop
+  - action_continue
+  - action_goback
+  - action_reset_flight_form
+  - action_reverted
+  - my_default_fallback
+  - action_default_ask_affirmation
+  - respond_faq
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: True
+
+

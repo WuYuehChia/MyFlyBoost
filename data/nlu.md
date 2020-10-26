@@ -1,0 +1,3282 @@
+## intent:book_flight
+- i want to go to [Japan](city){"entity": "city", "role": "toloc.city_name"}
+- how to go to [new york]{"entity": "city", "role": "toloc.city_name"} ?
+- I'd like to have a flight booking
+- I was hoping to reserve a seat for June 22nd.
+- Can you check to see whether there is another flight to [Athens]{"entity": "city", "role": "toloc.city_name"} Today?
+- I hope you can book me on another flight to [Athens]{"entity": "city", "role": "toloc.city_name"}
+- I am making a reservation for August 14th.
+- I need a flight on August 14th.
+- Ah yes, hello. I’d like to enquire about flights to [Hong Kong]{"entity": "city", "role": "toloc.city_name"} from [Kennedy Airport](entity_fromloc.airport_name) in [New York]{"entity": "city", "role": "fromloc.city_name"}, please. I’m off to a conference at the end of the month - Thursday 22nd until Tuesday 27th. Could you tell me about the flight availability and prices?  
+- Could you tell me about the flight availability
+- I’d like to enquire about flights to [Hong Kong]{"entity": "city", "role": "toloc.city_name"} from [Taoyuan Airport](entity_fromloc.airport_name) in [Taoyuan]{"entity": "city", "role": "fromloc.city_name"}, please.
+- Could you tell me about the flight
+- search the flight
+- may i check the flight list?
+- list the flight no.
+- list the flight number from [Republic Of Chine]{"entity": "city", "role": "fromloc.city_name"} to [United Of America]{"entity": "city", "role": "toloc.city_name"}.
+- list the flight number
+- Can I search the flight number on 11/19 13:00
+- Can you tell me all the flights on 11/20?
+- May I search the flight No. on last week?
+- I want to search the flight.
+- search the flight number.
+- search the flight no.
+- list the flight no.
+- list the flight number.
+- may i search the flight arrive in [canada]{"entity": "city", "role": "toloc.city_name"}
+- I plan to travel to [Vancouver]{"entity": "city", "role": "toloc.city_name"} in September.
+- I plan to go to [singapore]{"entity": "city", "role": "toloc.city_name"} in December
+- book a flight from [seattle]{"entity": "city", "role": "fromloc.city_name"} to [berlin]{"entity": "city", "role": "toloc.city_name"} at christmas
+- flight from [hong kong]{"entity": "city", "role": "fromloc.city_name"} to [taipei]{"entity": "city", "role": "toloc.city_name"} on christmas
+- Search the flight tickets from [tailand]{"entity": "city", "role": "fromloc.city_name"} to [Norway]{"entity": "city", "role": "toloc.city_name"} at 2020/9/13 12 pm
+- Search the flight from [canada]{"entity": "city", "role": "fromloc.city_name"} to [Shanghai]{"entity": "city", "role": "toloc.city_name"} at 2020/9/13 12 pm
+- flight to [hawai]{"entity": "city", "role": "toloc.city_name"} [at night](time)
+- flight to [asahikawa]{"entity": "city", "role": "toloc.city_name"} from [auckland]{"entity": "city", "role": "fromloc.city_name"} [at night](time)
+- flight to [beijing]{"entity": "city", "role": "toloc.city_name"} from [taipei]{"entity": "city", "role": "fromloc.city_name"}
+- book a flight arrive in [pingtune]{"entity": "city", "role": "toloc.city_name"} at next friday morning and start with [tamsui]{"entity": "city", "role": "fromloc.city_name"}
+- find a flight between [st. petersburg]{"entity": "city", "role": "fromloc.city_name"} and [charlotte]{"entity": "city", "role": "toloc.city_name"} the flight should leave in the afternoon and arrive as soon after 5 pm as possible it should be a [nonstop](flight_stop) flight
+- list a flight on [delta airlines](airline_name) from [toronto]{"entity": "city", "role": "fromloc.city_name"} to [san diego]{"entity": "city", "role": "toloc.city_name"}
+- list a flight on [american airlines](airline_name) from [toronto]{"entity": "city", "role": "fromloc.city_name"} to [san diego]{"entity": "city", "role": "toloc.city_name"}
+- list a flight from [toronto]{"entity": "city", "role": "fromloc.city_name"} to [san diego]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [oakland]{"entity": "city", "role": "fromloc.city_name"} to [salt lake city]{"entity": "city", "role": "toloc.city_name"} leaving after 17:00 wednesday
+- list flights from [oakland]{"entity": "city", "role": "fromloc.city_name"} to [salt lake city]{"entity": "city", "role": "toloc.city_name"} leaving after midnight thursday
+- list flights between [phoenix]{"entity": "city", "role": "fromloc.city_name"} and [las vegas]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [las vegas]{"entity": "city", "role": "fromloc.city_name"} to [denver]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [washington]{"entity": "city", "role": "toloc.city_name"} [dc](toloc.state_code) before 12:00
+- list flights from [washington]{"entity": "city", "role": "fromloc.city_name"} [dc](fromloc.state_code) to [pittsburgh]{"entity": "city", "role": "toloc.city_name"} leaving 18:00
+- list flights from [washington]{"entity": "city", "role": "fromloc.city_name"} [dc](fromloc.state_code) to [pittsburgh]{"entity": "city", "role": "toloc.city_name"}
+- list flights between [pittsburgh]{"entity": "city", "role": "fromloc.city_name"} and [milwaukee]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [las vegas]{"entity": "city", "role": "fromloc.city_name"} to [phoenix]{"entity": "city", "role": "toloc.city_name"}
+- list wednesday night flights from [oakland]{"entity": "city", "role": "fromloc.city_name"} to [salt lake city]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [oakland]{"entity": "city", "role": "fromloc.city_name"} to [salt lake city]{"entity": "city", "role": "toloc.city_name"} before 6 am thursday morning
+- please list afternoon flights between [st. petersburg]{"entity": "city", "role": "fromloc.city_name"} and [charlotte]{"entity": "city", "role": "toloc.city_name"}
+- what are the flights from [cleveland]{"entity": "city", "role": "fromloc.city_name"} to [dallas]{"entity": "city", "role": "toloc.city_name"}
+- please list only the flights from [cleveland]{"entity": "city", "role": "fromloc.city_name"} to [dallas]{"entity": "city", "role": "toloc.city_name"} that leave before noon
+- i need information on flights from [indianapolis]{"entity": "city", "role": "fromloc.city_name"} to [seattle]{"entity": "city", "role": "toloc.city_name"}
+- i need a flight from [memphis]{"entity": "city", "role": "fromloc.city_name"} to [seattle]{"entity": "city", "role": "toloc.city_name"}
+- i need flight information from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [tampa]{"entity": "city", "role": "toloc.city_name"}
+- i need a [daily](flight_days) flight from [st. louis]{"entity": "city", "role": "fromloc.city_name"} to [milwaukee]{"entity": "city", "role": "toloc.city_name"}
+- i need flights departing from [oakland]{"entity": "city", "role": "fromloc.city_name"} and arriving [salt lake city]{"entity": "city", "role": "toloc.city_name"}
+- i need information on flights from [toronto]{"entity": "city", "role": "fromloc.city_name"} to [san diego]{"entity": "city", "role": "toloc.city_name"}
+- i need information on flights from [toronto]{"entity": "city", "role": "fromloc.city_name"} to [san diego]{"entity": "city", "role": "toloc.city_name"}
+- show me all [delta airlines](airline_name) flights from [montreal]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"}
+- show me all flights from [orlando]{"entity": "city", "role": "fromloc.city_name"} to [montreal]{"entity": "city", "role": "toloc.city_name"} please
+- show me a [return](round_trip) flight from [miami]{"entity": "city", "role": "fromloc.city_name"} to [jfk](toloc.airport_code) please
+- show me [one way](round_trip) flights from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"} [after](depart_time.time_relative) 6 pm on wednesday
+- show me the flights from [indianapolis]{"entity": "city", "role": "fromloc.city_name"} to [memphis]{"entity": "city", "role": "toloc.city_name"}
+- show me [round trip](round_trip) flights from [burbank]{"entity": "city", "role": "fromloc.city_name"} to [seattle]{"entity": "city", "role": "toloc.city_name"}
+- show me [round trip](round_trip) flights from [orlando]{"entity": "city", "role": "fromloc.city_name"} to [montreal]{"entity": "city", "role": "toloc.city_name"}
+- show me [nonstop](flight_stop) flights from [montreal]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"}
+- show me [round trips](round_trip) between [montreal]{"entity": "city", "role": "fromloc.city_name"} and [orlando]{"entity": "city", "role": "toloc.city_name"}
+- show me [round trip](round_trip) flights from [montreal]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"}
+- show me the [cheapest](cost_relative) [one way](round_trip) flights from [montreal]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"}
+- show me the [cheapest](cost_relative) [one way](round_trip) flights from [orlando]{"entity": "city", "role": "fromloc.city_name"} to [montreal]{"entity": "city", "role": "toloc.city_name"}
+- show me the [cheapest](cost_relative) [economy](economy) flights from [miami]{"entity": "city", "role": "fromloc.city_name"} to [new york]{"entity": "city", "role": "toloc.city_name"}
+- how many [northwest](airline_name) flights leave [st. paul]{"entity": "city", "role": "fromloc.city_name"}
+- how many [northwest](airline_name) flights leave [washington]{"entity": "city", "role": "fromloc.city_name"} [dc](fromloc.state_code)
+- how many flights does [northwest](airline_name) have leaving [dulles](fromloc.airport_name)
+- show me all flights from [san jose]{"entity": "city", "role": "fromloc.city_name"} to [phoenix]{"entity": "city", "role": "toloc.city_name"}
+- show me all flights from [san jose]{"entity": "city", "role": "fromloc.city_name"} to [phoenix]{"entity": "city", "role": "toloc.city_name"}
+- show me flights from [phoenix]{"entity": "city", "role": "fromloc.city_name"} to [fort worth]{"entity": "city", "role": "toloc.city_name"}
+- show me flights from [fort worth]{"entity": "city", "role": "fromloc.city_name"} to [san jose]{"entity": "city", "role": "toloc.city_name"}
+- show me [first class](class_type) flights from [new york]{"entity": "city", "role": "fromloc.city_name"} to [miami]{"entity": "city", "role": "toloc.city_name"} [round trip](round_trip)
+- show me [first class](class_type) flights from [new york]{"entity": "city", "role": "fromloc.city_name"} to [miami]{"entity": "city", "role": "toloc.city_name"} [round trip](round_trip)
+- show me all [round trip](round_trip) flights from [new york]{"entity": "city", "role": "fromloc.city_name"} to [miami]{"entity": "city", "role": "toloc.city_name"} [nonstop](flight_stop)
+- show me all [round trip](round_trip) flights from [miami]{"entity": "city", "role": "fromloc.city_name"} to [new york]{"entity": "city", "role": "toloc.city_name"} [nonstop](flight_stop)
+- show me [one way](round_trip) flights from [indianapolis]{"entity": "city", "role": "fromloc.city_name"} to [memphis]{"entity": "city", "role": "toloc.city_name"} [before](depart_time.time_relative) 10 am on any day
+- show me [round trip](round_trip) flights from [burbank]{"entity": "city", "role": "fromloc.city_name"} to [tacoma]{"entity": "city", "role": "toloc.city_name"}
+- show me [nonstop](flight_stop) flights from [st. petersburg]{"entity": "city", "role": "fromloc.city_name"} to [toronto]{"entity": "city", "role": "toloc.city_name"}
+- show me [nonstop](flight_stop) flights from [toronto]{"entity": "city", "role": "fromloc.city_name"} to [st. petersburg]{"entity": "city", "role": "toloc.city_name"}
+- show me the [nonstop](flight_stop) flights from [toronto]{"entity": "city", "role": "fromloc.city_name"} to [st. petersburg]{"entity": "city", "role": "toloc.city_name"}
+- show me [weekday](flight_mod) flights from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"} [one way](round_trip)
+- show me [weekday](flight_mod) flights from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"} [one way](round_trip)
+- list flights from [chicago]{"entity": "city", "role": "fromloc.city_name"} to [san diego]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [chicago]{"entity": "city", "role": "fromloc.city_name"} to [san diego]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [kansas city]{"entity": "city", "role": "fromloc.city_name"} to [denver]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [denver]{"entity": "city", "role": "fromloc.city_name"} to [phoenix]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [phoenix]{"entity": "city", "role": "fromloc.city_name"} to [las vegas]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [las vegas]{"entity": "city", "role": "fromloc.city_name"} to [san diego]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [chicago]{"entity": "city", "role": "fromloc.city_name"} to [kansas city]{"entity": "city", "role": "toloc.city_name"} in the morning
+- list flights from [houston]{"entity": "city", "role": "fromloc.city_name"} to [san jose]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [houston]{"entity": "city", "role": "fromloc.city_name"} to [milwaukee]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [san jose]{"entity": "city", "role": "toloc.city_name"} on wednesday
+- list flights from [san jose]{"entity": "city", "role": "fromloc.city_name"} to [dallas]{"entity": "city", "role": "toloc.city_name"} on friday
+- list flights from [dallas]{"entity": "city", "role": "fromloc.city_name"} to [houston]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [new york]{"entity": "city", "role": "fromloc.city_name"} to [la]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [la guardia](fromloc.airport_name) to [burbank]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [la]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [ontario]{"entity": "city", "role": "fromloc.city_name"} [california](fromloc.state_name) to [orlando]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [ontario]{"entity": "city", "role": "fromloc.city_name"} [california](fromloc.state_name) to [orlando]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [indianapolis]{"entity": "city", "role": "fromloc.city_name"} to [memphis]{"entity": "city", "role": "toloc.city_name"} with fares on monday
+- list flights from [indianapolis]{"entity": "city", "role": "fromloc.city_name"} to [memphis]{"entity": "city", "role": "toloc.city_name"} on monday
+- list flights from [memphis]{"entity": "city", "role": "fromloc.city_name"} to [miami]{"entity": "city", "role": "toloc.city_name"} on wednesday
+- list flights from [miami]{"entity": "city", "role": "fromloc.city_name"} to [indianapolis]{"entity": "city", "role": "toloc.city_name"} on sunday
+- list flights from [charlotte]{"entity": "city", "role": "fromloc.city_name"} on saturday afternoon
+- list flights from [orlando]{"entity": "city", "role": "fromloc.city_name"} to [tacoma]{"entity": "city", "role": "toloc.city_name"} on saturday of fare basis code of [q](fare_basis_code)
+- list flights from [pittsburgh]{"entity": "city", "role": "fromloc.city_name"} to [newark]{"entity": "city", "role": "toloc.city_name"} on monday morning
+- list flights from [minneapolis]{"entity": "city", "role": "fromloc.city_name"} to [pittsburgh]{"entity": "city", "role": "toloc.city_name"} on friday
+- list flights [before](depart_time.time_relative) 9 am from [cincinnati]{"entity": "city", "role": "fromloc.city_name"} to [tampa]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [cincinnati]{"entity": "city", "role": "fromloc.city_name"} to [tampa]{"entity": "city", "role": "toloc.city_name"} [before](depart_time.time_relative) noon
+- list flights from [tampa]{"entity": "city", "role": "fromloc.city_name"} to [cincinnati]{"entity": "city", "role": "toloc.city_name"} [after](depart_time.time_relative) 3 pm
+- list [delta](airline_name) flights from [seattle]{"entity": "city", "role": "fromloc.city_name"} to [salt lake city]{"entity": "city", "role": "toloc.city_name"}
+- list [delta](airline_name) flights from [seattle]{"entity": "city", "role": "fromloc.city_name"} to [salt lake city]{"entity": "city", "role": "toloc.city_name"} with aircraft type
+- list flights from [baltimore]{"entity": "city", "role": "fromloc.city_name"} to [san francisco]{"entity": "city", "role": "toloc.city_name"} on friday
+- show me the [first class](class_type) and [economy class](class_type) flights between [jfk](fromloc.airport_code) and [orlando]{"entity": "city", "role": "toloc.city_name"}
+- show me the [business class](class_type) and [coach]{"entity": "class_type", "value": "economy class"} flights from [kennedy airport](fromloc.airport_name) to [miami]{"entity": "city", "role": "toloc.city_name"}
+- show me the [first class](class_type) and [coach]{"entity": "class_type", "value": "economy class"} flights from [jfk](fromloc.airport_code) to [miami]{"entity": "city", "role": "toloc.city_name"}
+- show [delta airlines](airline_name) flights from [jfk](fromloc.airport_code) to [miami]{"entity": "city", "role": "toloc.city_name"}
+- show [delta airlines](airline_name) from [boston]{"entity": "city", "role": "fromloc.city_name"} to [salt lake]{"entity": "city", "role": "toloc.city_name"}
+- show [delta airlines](airline_name) flights from [boston]{"entity": "city", "role": "fromloc.city_name"} to [salt lake]{"entity": "city", "role": "toloc.city_name"}
+- show [delta airlines](airline_name) flights from [boston]{"entity": "city", "role": "fromloc.city_name"} to [salt lake city]{"entity": "city", "role": "toloc.city_name"}
+- what is the [earliest arriving](flight_mod) flight from [boston]{"entity": "city", "role": "fromloc.city_name"} to [washington]{"entity": "city", "role": "toloc.city_name"} [dc](toloc.state_code)
+- what is the [earliest arriving](flight_mod) flight between [boston]{"entity": "city", "role": "fromloc.city_name"} and [washington]{"entity": "city", "role": "toloc.city_name"} [dc](toloc.state_code)
+- what 's the [earliest arriving](flight_mod) flight between [boston]{"entity": "city", "role": "fromloc.city_name"} and [washington]{"entity": "city", "role": "toloc.city_name"} [dc](toloc.state_code)
+- what is the [earliest arriving](flight_mod) flight from [houston]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"}
+- what is the [earliest arriving](flight_mod) flight from [houston]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"}
+- show me the flights between [houston]{"entity": "city", "role": "fromloc.city_name"} and [orlando]{"entity": "city", "role": "toloc.city_name"}
+- show me the flights between [houston]{"entity": "city", "role": "fromloc.city_name"} and [orlando]{"entity": "city", "role": "toloc.city_name"}
+- show me the flights from [houston]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"}
+- list all flights leaving [denver]{"entity": "city", "role": "fromloc.city_name"} between 8 pm and 9 pm
+- list all flights arriving in [denver]{"entity": "city", "role": "toloc.city_name"} between 8 and 9 pm
+- list all of the [daily](flight_days) flights arriving in [denver]{"entity": "city", "role": "toloc.city_name"} between 8 and 9 pm
+- list all of the [daily](flight_days) flights arriving in [denver]{"entity": "city", "role": "toloc.city_name"} from 8 to 9 pm
+- show me all of the [daily](flight_days) flights arriving in [denver]{"entity": "city", "role": "toloc.city_name"} between 8 pm and 9 pm
+- list all flights arriving or leaving [denver](city_name) between 8 and 9 pm
+- list all flights arriving in [denver]{"entity": "city", "role": "toloc.city_name"} between 8 and 9 pm
+- list all flights on all types of aircraft arriving in [denver]{"entity": "city", "role": "toloc.city_name"} between 8 and 9 pm
+- please list all flights from [nashville]{"entity": "city", "role": "fromloc.city_name"} to [memphis]{"entity": "city", "role": "toloc.city_name"} on monday morning
+- please list the flights from [nashville]{"entity": "city", "role": "fromloc.city_name"} to [memphis]{"entity": "city", "role": "toloc.city_name"} on monday morning
+- please list the flights from [memphis]{"entity": "city", "role": "fromloc.city_name"} to [new york city]{"entity": "city", "role": "toloc.city_name"} on a monday night
+- show me the morning flights from [memphis]{"entity": "city", "role": "fromloc.city_name"} to [new york city]{"entity": "city", "role": "toloc.city_name"}
+- give me the flights from [new york city]{"entity": "city", "role": "fromloc.city_name"} to [nashville]{"entity": "city", "role": "toloc.city_name"} leaving [after](depart_time.time_relative) 5 pm on wednesday
+- what are the [nonstop](flight_stop) flights from [cincinnati]{"entity": "city", "role": "fromloc.city_name"} to [charlotte]{"entity": "city", "role": "toloc.city_name"} leaving [after](depart_time.time_relative) noon and arriving before 7 pm
+- how many flights does [alaska airlines](airline_name) have to [burbank]{"entity": "city", "role": "toloc.city_name"}
+- list the [alaska airline](airline_name) flights from [burbank]{"entity": "city", "role": "fromloc.city_name"} to anywhere
+- list the [alaska airline](airline_name) flights from [burbank]{"entity": "city", "role": "fromloc.city_name"}
+- list the [alaska airlines](airline_name) flights arriving in [burbank]{"entity": "city", "role": "toloc.city_name"}
+- list the [alaska airlines](airline_name) flights a departing from [burbank]{"entity": "city", "role": "fromloc.city_name"}
+- list all [alaska airlines](airline_name) flights
+- list all flights departing from [seattle]{"entity": "city", "role": "fromloc.city_name"}
+- list the flights from [indianapolis]{"entity": "city", "role": "fromloc.city_name"} to [memphis]{"entity": "city", "role": "toloc.city_name"} that leave before noon
+- i would like flight information from [phoenix]{"entity": "city", "role": "fromloc.city_name"} to [denver]{"entity": "city", "role": "toloc.city_name"}
+- could i have flight information on flights from [salt lake city]{"entity": "city", "role": "fromloc.city_name"} to [phoenix]{"entity": "city", "role": "toloc.city_name"} please
+- could i have flight information on flights from [pittsburgh]{"entity": "city", "role": "fromloc.city_name"} to [phoenix]{"entity": "city", "role": "toloc.city_name"} please
+- i would like information on fl]{"entity": "city", "role": "fromloc.city_name"} [dc](fromloc.state_code) to [denver]{"entity": "city", "role": "toloc.city_name"}
+- what are the flights between [cincinnati]{"entity": "city", "role": "fromloc.city_name"} and [san jose]{"entity": "city", "role": "toloc.city_name"} [california](toloc.state_name) which leave [after](depart_time.time_relative 6 pm
+- what are the [nonstop](flight_stop) flights between [san jose]{"entity": "city", "role": "fromloc.city_name"} and [houston]{"entity": "city", "role": "toloc.city_name"} [texas](toloc.state_name)
+- what are the [nonstop](flight_stop) flights between [houston]{"entity": "city", "role": "fromloc.city_name"} and [memphis]{"entity": "city", "role": "toloc.city_name"}
+- what are the flights between [memphis]{"entity": "city", "role": "fromloc.city_name"} and [cincinnati]{"entity": "city", "role": "toloc.city_name"} on wednesday
+- flights leaving from [washington]{"entity": "city", "role": "fromloc.city_name"} what are the [american](airline_name) flights from [newark]{"entity": "city", "role": "fromloc.city_name"} to [nashville]{"entity": "city", "role": "toloc.city_name"}
+- please list flights from [orlando]{"entity": "city", "role": "fromloc.city_name"} to [philadelphia]{"entity": "city", "role": "toloc.city_name"}
+- please list flights from [san francisco]{"entity": "city", "role": "fromloc.city_name"} to [charlotte]{"entity": "city", "role": "toloc.city_name"}
+- please list flights from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [philadelphia]{"entity": "city", "role": "toloc.city_name"}
+- please list flights from [philadelphia]{"entity": "city", "role": "fromloc.city_name"} to [san francisco]{"entity": "city", "role": "toloc.city_name"}
+- please list flights from [san francisco]{"entity": "city", "role": "fromloc.city_name"} to [milwaukee]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [houston]{"entity": "city", "role": "fromloc.city_name"} to [denver]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [houston]{"entity": "city", "role": "fromloc.city_name"} to [phoenix]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [phoenix]{"entity": "city", "role": "fromloc.city_name"} to [houston]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [newark]{"entity": "city", "role": "fromloc.city_name"} to [houston]{"entity": "city", "role": "toloc.city_name"}
+- show flights from [denver]{"entity": "city", "role": "fromloc.city_name"} to [houston]{"entity": "city", "role": "toloc.city_name"}
+- show flights from [st. petersburg]{"entity": "city", "role": "fromloc.city_name"} to [charlotte]{"entity": "city", "role": "toloc.city_name"}
+- show flights from [orlando]{"entity": "city", "role": "fromloc.city_name"} to [kansas city]{"entity": "city", "role": "toloc.city_name"}
+- show flights from [kansas city]{"entity": "city", "role": "fromloc.city_name"} to [minneapolis]{"entity": "city", "role": "toloc.city_name"}
+- show flights from [kansas city]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"}
+- show flights from [minneapolis]{"entity": "city", "role": "fromloc.city_name"} to [kansas city]{"entity": "city", "role": "toloc.city_name"}
+- show flights from [kansas city]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [washington]{"entity": "city", "role": "fromloc.city_name"} [dc](fromloc.state_code) to [boston]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [washington]{"entity": "city", "role": "fromloc.city_name"} [dc](fromloc.state_code) to [montreal]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [washington]{"entity": "city", "role": "fromloc.city_name"} [dc](fromloc.state_code) to [montreal]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [washington]{"entity": "city", "role": "fromloc.city_name"} [dc](fromloc.state_code) to [toronto]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [toronto]{"entity": "city", "role": "fromloc.city_name"} to [washington]{"entity": "city", "role": "toloc.city_name"} [dc](toloc.state_code)
+- list flights from [oakland]{"entity": "city", "role": "fromloc.city_name"} to [salt lake city]{"entity": "city", "role": "toloc.city_name"}
+- please list the flights from [los angeles]{"entity": "city", "role": "fromloc.city_name"} to [charlotte]{"entity": "city", "role": "toloc.city_name"}
+- please list the flights from [charlotte]{"entity": "city", "role": "fromloc.city_name"} to [newark]{"entity": "city", "role": "toloc.city_name"}
+- please list the flights from [newark]{"entity": "city", "role": "fromloc.city_name"} to [los angeles]{"entity": "city", "role": "toloc.city_name"}
+- please list the flights from [cincinnati]{"entity": "city", "role": "fromloc.city_name"} to [burbank]{"entity": "city", "role": "toloc.city_name"} on [american airlines](airline_name)
+- please give me the flights from [kansas city]{"entity": "city", "role": "fromloc.city_name"} to [chicago]{"entity": "city", "role": "toloc.city_name"} on june sixteenth
+- please give me the flights from [chicago]{"entity": "city", "role": "fromloc.city_name"} to [kansas city]{"entity": "city", "role": "toloc.city_name"} on june seventeenth
+- please list all the flights from [kansas city]{"entity": "city", "role": "fromloc.city_name"} to [chicago]{"entity": "city", "role": "toloc.city_name"} on june sixteenth
+- please list all the flights from [chicago]{"entity": "city", "role": "fromloc.city_name"} to [kansas city]{"entity": "city", "role": "toloc.city_name"} on june seventeenth
+- can you find me a flight from [salt lake city]{"entity": "city", "role": "fromloc.city_name"} to [new york city]{"entity": "city", "role": "toloc.city_name"} next saturday [before](arrive_time.time_relative) arriving [before](arrive_time.time_relative) 6 pm
+- can you find me another flight from [cincinnati]{"entity": "city", "role": "fromloc.city_name"} to [new york]{"entity": "city", "role": "toloc.city_name"} on saturday [before](depart_time.time_relative) 6 pm
+- can you list all of the [delta](airline_name) flights from [salt lake city]{"entity": "city", "role": "fromloc.city_name"} to [new york]{"entity": "city", "role": "toloc.city_name"} [next](depart_date.date_relative) saturday arriving [before](arrive_time.time_relative) 6 pm
+- find flight from [san diego]{"entity": "city", "role": "fromloc.city_name"} to [phoenix]{"entity": "city", "role": "toloc.city_name"} on monday am
+- find flight from [phoenix]{"entity": "city", "role": "fromloc.city_name"} to [detroit]{"entity": "city", "role": "toloc.city_name"} on monday
+- find flight from [detroit]{"entity": "city", "role": "fromloc.city_name"} to [san diego]{"entity": "city", "role": "toloc.city_name"} on tuesday
+- find flight from [cincinnati]{"entity": "city", "role": "fromloc.city_name"} to [san jose]{"entity": "city", "role": "toloc.city_name"} on monday
+- find flight from [san jose]{"entity": "city", "role": "fromloc.city_name"} to [houston]{"entity": "city", "role": "toloc.city_name"} on wednesday
+- find flight from [houston]{"entity": "city", "role": "fromloc.city_name"} to [memphis]{"entity": "city", "role": "toloc.city_name"} on friday
+- find flight from [memphis]{"entity": "city", "role": "fromloc.city_name"} to [cincinnati]{"entity": "city", "role": "toloc.city_name"} on sunday
+- find [american](airline_name) flight from [newark]{"entity": "city", "role": "fromloc.city_name"} to [nashville]{"entity": "city", "role": "toloc.city_name"} [around](depart_time.time_relative) 6:30 pm
+- please find a flight [round trip](round_trip) from [los angeles]{"entity": "city", "role": "fromloc.city_name"} to [tacoma]{"entity": "city", "role": "toloc.city_name"} [washington](toloc.state_name) with a stopover in [san francisco](stoploc.city_name) [not exceeding](cost_relative) the price of [300 dollars](fare_amount) for june tenth 1993
+- are there any flights on june tenth from [burbank]{"entity": "city", "role": "fromloc.city_name"} to [tacoma]{"entity": "city", "role": "toloc.city_name"} 
+- please find a flight from [ontario]{"entity": "city", "role": "fromloc.city_name"} to [westchester]{"entity": "city", "role": "toloc.city_name"} that makes a stop in [chicago](stoploc.city_name) on may seventeenth [one way](round_trip) with [dinner](meal_description)
+- like to book a flight from [burbank]{"entity": "city", "role": "fromloc.city_name"} to [milwaukee]{"entity": "city", "role": "toloc.city_name"}
+- show me all the flights from [burbank]{"entity": "city", "role": "fromloc.city_name"} to [milwaukee]{"entity": "city", "role": "toloc.city_name"}
+- find me all the flights from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [st. louis](city_name)
+- now show me all the flights from [st. louis](city_name) to [burbank]{"entity": "city", "role": "toloc.city_name"}
+- find me all the [round trip](round_trip) flights from [burbank]{"entity": "city", "role": "fromloc.city_name"} to [milwaukee]{"entity": "city", "role": "toloc.city_name"} stopping in [st. louis](stoploc.city_name)
+- i 'd like to book two flights to [westchester county]{"entity": "city", "role": "toloc.city_name"}
+- i want to book a flight from [salt lake city]{"entity": "city", "role": "fromloc.city_name"} to [westchester county]{"entity": "city", "role": "toloc.city_name"}
+- i 'd like to book a flight from [cincinnati]{"entity": "city", "role": "fromloc.city_name"} to [new york city]{"entity": "city", "role": "toloc.city_name"} on [united airlines](airline_name) for next
+- please find all the flights from [cincinnati]{"entity": "city", "role": "fromloc.city_name"} to any airport in the [new york city]{"entity": "city", "role": "toloc.city_name"} area that arrive next saturday [before](arrive_time.time_relative) 6 pm
+- find me a flight from [cincinnati]{"entity": "city", "role": "fromloc.city_name"} to any airport in the [new york city]{"entity": "city", "role": "toloc.city_name"} area
+- i 'd like to fly from [miami]{"entity": "city", "role": "fromloc.city_name"} to [chicago]{"entity": "city", "role": "toloc.city_name"} on [american airlines](airline_name)
+- i would like to book a [round trip](round_trip) flight from [kansas city]{"entity": "city", "role": "fromloc.city_name"} to [chicago]{"entity": "city", "role": "toloc.city_name"}
+- find me a flight that flies from [memphis]{"entity": "city", "role": "fromloc.city_name"} to [tacoma]{"entity": "city", "role": "toloc.city_name"}
+- i would like to find a flight from [charlotte]{"entity": "city", "role": "fromloc.city_name"} to [las vegas]{"entity": "city", "role": "toloc.city_name"} that makes a stop in [st. louis](stoploc.city_name)
+- on april first i need a flight going from [phoenix]{"entity": "city", "role": "fromloc.city_name"} to [san diego]{"entity": "city", "role": "toloc.city_name"}
+- i would like a flight traveling [one way](round_trip) from [phoenix]{"entity": "city", "role": "fromloc.city_name"} to [san diego]{"entity": "city", "role": "toloc.city_name"} on april] first
+- i would like a flight from [orlando]{"entity": "city", "role": "fromloc.city_name"} to [salt lake city]{"entity": "city", "role": "toloc.city_name"} for april first on [delta airlines](airline_name)
+- i need a flight from [toronto]{"entity": "city", "role": "fromloc.city_name"} to [newark]{"entity": "city", "role": "toloc.city_name"} [one way](round_trip) leaving wednesday evening or thursday morning
+- monday morning](depart_time.period_of_day) i would like to fly from [columbus]{"entity": "city", "role": "fromloc.city_name"} to [indianapolis]{"entity": "city", "role": "toloc.city_name"}
+- on [wednesday april sixth i would like to fly from [long beach]{"entity": "city", "role": "fromloc.city_name"} to [columbus]{"entity": "city", "role": "toloc.city_name"} [after](depart_time.time_relative) 3 pm
+- [after](depart_time.time_relative:after) 12 pm on wednesday april sixth i would like to fly from [long beach]{"entity": "city", "role": "fromloc.city_name"} to [columbus]{"entity": "city", "role": "toloc.city_name"}
+- are there any flights from [long beach]{"entity": "city", "role": "fromloc.city_name"} to [columbus]{"entity": "city", "role": "toloc.city_name"} on wednesday april sixth
+- find a flight from [memphis]{"entity": "city", "role": "fromloc.city_name"} to [tacoma]{"entity": "city", "role": "toloc.city_name"} [dinner](meal_description)
+- on next wednesday flight from [kansas city]{"entity": "city", "role": "fromloc.city_name"} to [chicago]{"entity": "city", "role": "toloc.city_name"} should arrive in [chicago]{"entity": "city", "role": "toloc.city_name"} [around](arrive_time.time_relative) 7 pm return flight on thursday
+- flight on [american](airline_name) from [miami]{"entity": "city", "role": "fromloc.city_name"} to [chicago]{"entity": "city", "role": "toloc.city_name"} arrive in [chicago]{"entity": "city", "role": "toloc.city_name"} [about](arrive_time.time_relative) 5 pm
+- find flights arriving [new york city]{"entity": "city", "role": "toloc.city_name"} next saturday
+- find [nonstop](flight_stop) flights from [salt lake city]{"entity": "city", "role": "fromloc.city_name"} to [new york]{"entity": "city", "role": "toloc.city_name"} on saturday april ninth
+- show flights from [burbank]{"entity": "city", "role": "fromloc.city_name"} to [milwaukee]{"entity": "city", "role": "toloc.city_name"} for today
+- show flights tomorrow evening from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [st. louis]{"entity": "city", "role": "toloc.city_name"}
+- show flights saturday evening from [st. louis]{"entity": "city", "role": "fromloc.city_name"} to [burbank]{"entity": "city", "role": "toloc.city_name"}
+- show flights from [burbank]{"entity": "city", "role": "fromloc.city_name"} to [st. louis]{"entity": "city", "role": "toloc.city_name"} on monday
+- show flights from [burbank]{"entity": "city", "role": "fromloc.city_name"} to [milwaukee]{"entity": "city", "role": "toloc.city_name"} on monday
+- show flights tuesday evening from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [st. louis]{"entity": "city", "role": "toloc.city_name"}
+- show flights wednesday evening from [st. louis]{"entity": "city", "role": "fromloc.city_name"} to [burbank]{"entity": "city", "role": "toloc.city_name"}
+- which flights travel from [kansas city]{"entity": "city", "role": "fromloc.city_name"} to [los angeles]{"entity": "city", "role": "toloc.city_name"}
+- what flights travel from [las vegas]{"entity": "city", "role": "fromloc.city_name"} to [los angeles]{"entity": "city", "role": "toloc.city_name"}
+- which flights travel from [kansas city]{"entity": "city", "role": "fromloc.city_name"} to [los angeles]{"entity": "city", "role": "toloc.city_name"} on april ninth
+- which flights travel from [las vegas]{"entity": "city", "role": "fromloc.city_name"} to [los angeles]{"entity": "city", "role": "toloc.city_name"} [california](toloc.state_name) and arrive on april ninth between 4 and 5 pm
+- which flights on [us air](airline_name) go from [orlando]{"entity": "city", "role": "fromloc.city_name"} to [cleveland]{"entity": "city", "role": "toloc.city_name"}
+- which flights travel from [cleveland]{"entity": "city", "role": "fromloc.city_name"} to [indianapolis]{"entity": "city", "role": "toloc.city_name"} on april fifth
+- which flights travel from [indianapolis]{"entity": "city", "role": "fromloc.city_name"} to [san diego]{"entity": "city", "role": "toloc.city_name"} on april fifth
+- which flights go from [cleveland]{"entity": "city", "role": "fromloc.city_name"} to [indianapolis]{"entity": "city", "role": "toloc.city_name"} on april fifth
+- which flights travel from [nashville]{"entity": "city", "role": "fromloc.city_name"} to [tacoma]{"entity": "city", "role": "toloc.city_name"}
+- which flights travel from [tacoma]{"entity": "city", "role": "fromloc.city_name"} to [san jose]{"entity": "city", "role": "toloc.city_name"}
+- what are the flights from [tacoma]{"entity": "city", "role": "fromloc.city_name"} to [san jose]{"entity": "city", "role": "toloc.city_name"}
+- what are the flights from [tacoma]{"entity": "city", "role": "fromloc.city_name"} to [san jose]{"entity": "city", "role": "toloc.city_name"}
+- i need a flight that goes from [boston]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"}
+- are there any flights from [boston]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"} [connecting](connect) in [new york](stoploc.city_name)
+- are there any flights from [boston]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"} [connecting](connect) in [columbus](stoploc.city_name)
+- does this flight serve [dinner](meal_description)
+- i need a flight from [charlotte]{"entity": "city", "role": "fromloc.city_name"} to [miami]{"entity": "city", "role": "toloc.city_name"}
+- i need a [nonstop](flight_stop) flight from [miami]{"entity": "city", "role": "fromloc.city_name"} to [toronto]{"entity": "city", "role": "toloc.city_name"}
+- i need a [nonstop](flight_stop) flight from [toronto]{"entity": "city", "role": "fromloc.city_name"} to [st. louis]{"entity": "city", "role": "toloc.city_name"}
+- i need a flight from [toronto]{"entity": "city", "role": "fromloc.city_name"} to [st. louis]{"entity": "city", "role": "toloc.city_name"}
+- i need a flight from [st. louis]{"entity": "city", "role": "fromloc.city_name"} to [charlotte]{"entity": "city", "role": "toloc.city_name"}
+- i need a flight on [united airlines](airline_name) from [la guardia](fromloc.airport_name) to [san jose]{"entity": "city", "role": "toloc.city_name"}
+- i need a flight from [tampa]{"entity": "city", "role": "fromloc.city_name"} to [milwaukee]{"entity": "city", "role": "toloc.city_name"}
+- i need a flight from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [seattle]{"entity": "city", "role": "toloc.city_name"}
+- i need a flight from [memphis]{"entity": "city", "role": "fromloc.city_name"} to [las vegas]{"entity": "city", "role": "toloc.city_name"}
+- i need a flight from [las vegas]{"entity": "city", "role": "fromloc.city_name"} to [ontario]{"entity": "city", "role": "toloc.city_name"}
+- i need a flight from [ontario]{"entity": "city", "role": "fromloc.city_name"} to [memphis]{"entity": "city", "role": "toloc.city_name"}
+- which flights go from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [tampa]{"entity": "city", "role": "toloc.city_name"} and stop in [nashville](stoploc.city_name)
+- which flights leave [newark]{"entity": "city", "role": "fromloc.city_name"} [after](depart_time.time_relative) noon [next](depart_date.date_relative) saturday and arrive in [los angeles]{"entity": "city", "role": "toloc.city_name"}
+- which flights leave [detroit]{"entity": "city", "role": "fromloc.city_name"} and arrive at [st. petersburg]{"entity": "city", "role": "toloc.city_name"} [around](arrive_time.time_relative) 9 am
+- which flights on [northwest airline](airline_name) leave [detroit]{"entity": "city", "role": "fromloc.city_name"} and arrive at [st. petersburg]{"entity": "city", "role": "toloc.city_name"}
+- which flights leave [chicago]{"entity": "city", "role": "fromloc.city_name"} [next](depart_date.date_relative) tuesday and arrive in [detroit]{"entity": "city", "role": "toloc.city_name"} [around](arrive_time.time_relative) 6 pm
+- show me [round trip](round_trip) flights from [chicago]{"entity": "city", "role": "fromloc.city_name"} to [detroit]{"entity": "city", "role": "toloc.city_name"} leaving [next](depart_date.date_relative) tuesday and returning the [day after](return_date.date_relative)
+- which [round trip](round_trip) flights leave [chicago]{"entity": "city", "role": "fromloc.city_name"} [next](depart_date.date_relative) tuesday [around](depart_time.time_relative) 6 pm and arrive in [detroit]{"entity": "city", "role": "toloc.city_name"}
+- which [round trip](round_trip) flights leave [chicago]{"entity": "city", "role": "fromloc.city_name"} [next](depart_date.date_relative) tuesday and arrive in [detroit]{"entity": "city", "role": "toloc.city_name"} [around](arrive_time.time_relative) 6 pm
+- which flights leave on monday from [montreal]{"entity": "city", "role": "fromloc.city_name"} and arrive in [chicago]{"entity": "city", "role": "toloc.city_name"} in the morning
+- which flights leave [chicago]{"entity": "city", "role": "fromloc.city_name"} on april [twelfth](depart_date.day_number) and arrive in [indianapolis]{"entity": "city", "role": "toloc.city_name"} in the morning
+- which flights leave on wednesday april [thirteenth](depart_date.day_number) from [indianapolis]{"entity": "city", "role": "fromloc.city_name"} and arrive in [montreal]{"entity": "city", "role": "toloc.city_name"} in the morning
+- which flights leave april [twelfth](depart_date.day_number) from [indianapolis]{"entity": "city", "role": "fromloc.city_name"} and arrive in [montreal]{"entity": "city", "role": "toloc.city_name"} [around](arrive_time.time_relative) 10 pm
+- i 'd like to go from [long beach]{"entity": "city", "role": "fromloc.city_name"} to [st. louis]{"entity": "city", "role": "toloc.city_name"} and i 'd like to stop in [dallas](stoploc.city_name) i 'd also like to have [lunch](meal_description) during my flight
+- i would like to return from [chicago]{"entity": "city", "role": "fromloc.city_name"} [around](depart_time.time_relative) 7 pm to [kansas city]{"entity": "city", "role": "toloc.city_name"}
+- i would like to leave [this](depart_date.today_relative) afternoon on an [american](airline_name) flight from [cincinnati]{"entity": "city", "role": "fromloc.city_name"} to [burbank]{"entity": "city", "role": "toloc.city_name"}
+- on sunday evening i would like to leave [montreal]{"entity": "city", "role": "fromloc.city_name"} [quebec](fromloc.state_name) on a flight to [san diego]{"entity": "city", "role": "toloc.city_name"} [california](toloc.state_name)
+- what are the flights on sunday from [montreal]{"entity": "city", "role": "fromloc.city_name"} [quebec](fromloc.state_name) to [san diego]{"entity": "city", "role": "toloc.city_name"} [california](toloc.state_name)
+- on tuesday are the flights from [san diego]{"entity": "city", "role": "fromloc.city_name"} [california](fromloc.state_name) to [indianapolis]{"entity": "city", "role": "toloc.city_name"} [indiana](toloc.state_name) i would like the flight to be in the afternoon
+- on thursday morning i would like a [nonstop](flight_stop) flight from [indianapolis]{"entity": "city", "role": "fromloc.city_name"} to [toronto]{"entity": "city", "role": "toloc.city_name"}
+- on friday morning i would like to fly from [toronto]{"entity": "city", "role": "fromloc.city_name"} to [montreal]{"entity": "city", "role": "toloc.city_name"}
+- i would like an [early](depart_time.period_of_day) morning flight today from [los angeles]{"entity": "city", "role": "fromloc.city_name"} to [charlotte]{"entity": "city", "role": "toloc.city_name"}
+- on wednesday night i would like a flight from [charlotte]{"entity": "city", "role": "fromloc.city_name"} to [newark]{"entity": "city", "role": "toloc.city_name"}
+- on friday night i would like a flight from [newark]{"entity": "city", "role": "fromloc.city_name"} to [los angeles]{"entity": "city", "role": "toloc.city_name"}
+- find a flight from [tampa]{"entity": "city", "role": "fromloc.city_name"} to [montreal]{"entity": "city", "role": "toloc.city_name"} by way of [new york](stoploc.city_name)
+- please find a flight from [miami]{"entity": "city", "role": "fromloc.city_name"} [florida](fromloc.state_name) to [las vegas]{"entity": "city", "role": "toloc.city_name"} [nevada](toloc.state_name) arriving [before](arrive_time.time_relative) 4 o'clock pm
+- please find a flight from [las vegas]{"entity": "city", "role": "fromloc.city_name"} to [michigan](toloc.state_name)
+- please find a flight from [detroit]{"entity": "city", "role": "fromloc.city_name"} [michigan](fromloc.state_name) to [st. petersburg]{"entity": "city", "role": "toloc.city_name"} arriving [before](arrive_time.time_relative) 10 pm
+- please find a flight from [st. petersburg]{"entity": "city", "role": "fromloc.city_name"} to [miami]{"entity": "city", "role": "toloc.city_name"} on thursday
+- please find a flight from [san diego]{"entity": "city", "role": "fromloc.city_name"} to [toronto]{"entity": "city", "role": "toloc.city_name"} on [alaska airlines](airline_name)
+- please find the flights from [columbus]{"entity": "city", "role": "fromloc.city_name"} to [houston]{"entity": "city", "role": "toloc.city_name"} with a layover in [nashville](stoploc.city_name) tomorrow
+- please give me the flights from [nashville]{"entity": "city", "role": "fromloc.city_name"} to [houston]{"entity": "city", "role": "toloc.city_name"} [nonstop](flight_stop) with [dinner](meal_description) served
+- please find flights available from [kansas city]{"entity": "city", "role": "fromloc.city_name"} to [newark]{"entity": "city", "role": "toloc.city_name"}
+- please find a flight that goes from [kansas city]{"entity": "city", "role": "fromloc.city_name"} to [newark]{"entity": "city", "role": "toloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"} back to [kansas city]{"entity": "city", "role": "toloc.city_name"}
+- please find a flight from [kansas city]{"entity": "city", "role": "fromloc.city_name"} to [newark]{"entity": "city", "role": "toloc.city_name"}
+- please find a flight from [newark]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"}
+- please find a flight from [orlando]{"entity": "city", "role": "fromloc.city_name"} to [kansas city]{"entity": "city", "role": "toloc.city_name"}
+- i would like to fly from [columbus]{"entity": "city", "role": "fromloc.city_name"} to [phoenix]{"entity": "city", "role": "toloc.city_name"} through [cincinnati](stoploc.city_name) in the afternoon
+- does the airport at [burbank]{"entity": "city", "role": "toloc.city_name"} have a flight that comes in from [kansas city]{"entity": "city", "role": "fromloc.city_name"}
+- which flights arrive in [burbank]{"entity": "city", "role": "toloc.city_name"} from [kansas city]{"entity": "city", "role": "fromloc.city_name"} on saturdays in the afternoon
+- which flights arrive in [burbank]{"entity": "city", "role": "toloc.city_name"} from [las vegas]{"entity": "city", "role": "fromloc.city_name"} on saturday april twenty third in the afternoon
+- which flights are available from [orlando]{"entity": "city", "role": "fromloc.city_name"} to [cleveland]{"entity": "city", "role": "toloc.city_name"} that arrive [around](arrive_time.time_relative) 10 pm
+- what flights are available from [indianapolis]{"entity": "city", "role": "fromloc.city_name"} to [san diego]{"entity": "city", "role": "toloc.city_name"} on april twenty first in the [late afternoon](depart_time.period_of_day)
+- what flights leave [cleveland]{"entity": "city", "role": "fromloc.city_name"} going to [indianapolis]{"entity": "city", "role": "toloc.city_name"} on april twenty first in the morning
+- which flights are available on april twenty first in the morning from [nashville]{"entity": "city", "role": "fromloc.city_name"} to [tacoma]{"entity": "city", "role": "toloc.city_name"}
+- which flights are available from [tacoma]{"entity": "city", "role": "fromloc.city_name"} to [san jose]{"entity": "city", "role": "toloc.city_name"} in the morning on april twenty second
+- which flights are available from [san jose]{"entity": "city", "role": "fromloc.city_name"} to [nashville]{"entity": "city", "role": "toloc.city_name"} leaving in the morning on april twenty three
+- what is the [latest](flight_mod) flight from [baltimore]{"entity": "city", "role": "fromloc.city_name"} to [oakland]{"entity": "city", "role": "toloc.city_name"} that serves [dinner](meal_description)
+- what is the [earliest](flight_mod) flight between [baltimore]{"entity": "city", "role": "fromloc.city_name"} and [oakland]{"entity": "city", "role": "toloc.city_name"} that serves [breakfast](meal_description)
+- what is the [latest](flight_mod) [breakfast](meal_description) flight from [dallas]{"entity": "city", "role": "fromloc.city_name"} to [tampa]{"entity": "city", "role": "toloc.city_name"}
+- show me all [lufthansa](airline_name) flights from [seattle]{"entity": "city", "role": "fromloc.city_name"} to [boston]{"entity": "city", "role": "toloc.city_name"} with stopovers in [minneapolis](stoploc.city_name)
+- show me all flights from [seattle]{"entity": "city", "role": "fromloc.city_name"} to [boston]{"entity": "city", "role": "toloc.city_name"} with stopovers in [minneapolis](stoploc.city_name)
+- list [philadelphia]{"entity": "city", "role": "fromloc.city_name"} to [san francisco]{"entity": "city", "role": "toloc.city_name"} flights with stopovers in [dallas](stoploc.city_name)
+- show me the [connecting](connect) flights between [boston]{"entity": "city", "role": "fromloc.city_name"} and [denver]{"entity": "city", "role": "toloc.city_name"} and the types of aircraft used
+- show me all the morning flights from [philadelphia]{"entity": "city", "role": "fromloc.city_name"} to [fort worth]{"entity": "city", "role": "toloc.city_name"}
+- show me all the flights from [kansas city]{"entity": "city", "role": "fromloc.city_name"} to [st. paul]{"entity": "city", "role": "toloc.city_name"}
+- show me [northwest](airline_name) flight [608](flight_number) from [kansas city]{"entity": "city", "role": "fromloc.city_name"} to [st. paul]{"entity": "city", "role": "toloc.city_name"}
+- show me all the flights from [indianapolis]{"entity": "city", "role": "fromloc.city_name"} to [charlotte]{"entity": "city", "role": "toloc.city_name"} on monday
+- show me all the flights from [charlotte]{"entity": "city", "role": "fromloc.city_name"} to [minneapolis]{"entity": "city", "role": "toloc.city_name"} that leave at 2 pm or [later](depart_time.time_relative) on monday
+- show me all the flights from [charlotte]{"entity": "city", "role": "fromloc.city_name"} to [minneapolis]{"entity": "city", "role": "toloc.city_name"} on tuesday morning
+- show me the [direct](connect) flights from [charlotte]{"entity": "city", "role": "fromloc.city_name"} to [minneapolis]{"entity": "city", "role": "toloc.city_name"} on tuesday morning
+- show me flight [us](airline_code) [1500](flight_number) on monday from [charlotte]{"entity": "city", "role": "fromloc.city_name"} to [minneapolis]{"entity": "city", "role": "toloc.city_name"} please
+- show me all the flights from [minneapolis]{"entity": "city", "role": "fromloc.city_name"} to [indianapolis]{"entity": "city", "role": "toloc.city_name"} on tuesday that leave [after](depart_time.time_relative) 2 pm
+- show me the flights from [minneapolis]{"entity": "city", "role": "fromloc.city_name"} to [indiana](toloc.state_name)
+- show me the flights in from [minneapolis]{"entity": "city", "role": "fromloc.city_name"} to [indianapolis]{"entity": "city", "role": "toloc.city_name"} on tuesday afternoon
+- show me flight [us](airline_code) [1207](flight_number) from [indianapolis]{"entity": "city", "role": "fromloc.city_name"} to [charlotte]{"entity": "city", "role": "toloc.city_name"} on monday and flight us 15:00 from [charlotte]{"entity": "city", "role": "fromloc.city_name"} to [minneapolis]{"entity": "city", "role": "toloc.city_name"} on monday and flight [twa](airline_code) [639](flight_number) from [minneapolis]{"entity": "city", "role": "fromloc.city_name"} to [indianapolis]{"entity": "city", "role": "toloc.city_name"}
+- show me all the flights from [las vegas]{"entity": "city", "role": "fromloc.city_name"} to [new york city]{"entity": "city", "role": "toloc.city_name"}
+- show me all the flights on [america west](airline_name) and [twa](airline_code) from [las vegas]{"entity": "city", "role": "fromloc.city_name"} to [jfk](toloc.airport_code) on a friday
+- what are the flights from [tacoma]{"entity": "city", "role": "fromloc.city_name"} to [miami]{"entity": "city", "role": "toloc.city_name"} that leave [after](depart_time.time_relative) 6 pm tomorrow
+- i 'd like to fly from [san diego]{"entity": "city", "role": "fromloc.city_name"} to [houston]{"entity": "city", "role": "toloc.city_name"} on june tenth
+- is there an [american airlines](airline_name) flight from [houston]{"entity": "city", "role": "fromloc.city_name"} to [newark]{"entity": "city", "role": "toloc.city_name"} on june tenth [after](depart_time.time_relative) 6 pm
+- is there an [american airlines](airline_name) flight from [houston]{"entity": "city", "role": "fromloc.city_name"} to [newark]{"entity": "city", "role": "toloc.city_name"} on june tenth [after](depart_time.time_relative) 3 pm
+- i need to get from [cincinnati]{"entity": "city", "role": "fromloc.city_name"} to [denver]{"entity": "city", "role": "toloc.city_name"} on june sixth [by](arrive_time.time_relative) 6 pm
+- i need to fly from [denver]{"entity": "city", "role": "fromloc.city_name"} to [westchester county]{"entity": "city", "role": "toloc.city_name"} on june seventh [after](depart_time.time_relative) 3 pm
+- i need to take a [united airlines](airline_name) flight on june eighth from [westchester county]{"entity": "city", "role": "fromloc.city_name"} to [cincinnati]{"entity": "city", "role": "toloc.city_name"} [after](depart_time.time_relative) 3 pm
+- what [united airlines](airline_name) flights on june eighth go from [westchester county]{"entity": "city", "role": "fromloc.city_name"} to [cincinnati]{"entity": "city", "role": "toloc.city_name"}
+- on june eighth what flights go from [westchester county]{"entity": "city", "role": "fromloc.city_name"} to [cincinnati]{"entity": "city", "role": "toloc.city_name"}
+- does [us air](airline_name) fly from [cincinnati]{"entity": "city", "role": "fromloc.city_name"} to [denver]{"entity": "city", "role": "toloc.city_name"} on june sixth
+- list the flights from [cincinnati]{"entity": "city", "role": "fromloc.city_name"} to [denver]{"entity": "city", "role": "toloc.city_name"} on june sixth
+- list the flights from [denver]{"entity": "city", "role": "fromloc.city_name"} to [westchester county]{"entity": "city", "role": "toloc.city_name"} on june seventh
+- list the flights from [westchester county]{"entity": "city", "role": "fromloc.city_name"} to [cincinnati]{"entity": "city", "role": "toloc.city_name"} on june eighth
+- list the flights from [cincinnati]{"entity": "city", "role": "fromloc.city_name"} to [westchester county]{"entity": "city", "role": "toloc.city_name"} on june sixth
+- list the flights from [westchester county]{"entity": "city", "role": "fromloc.city_name"} to [denver]{"entity": "city", "role": "toloc.city_name"} on june seventh
+- list the flights from [denver]{"entity": "city", "role": "fromloc.city_name"} to [cincinnati]{"entity": "city", "role": "toloc.city_name"} on june eight
+- list the flights from [denver]{"entity": "city", "role": "fromloc.city_name"} to [cincinnati]{"entity": "city", "role": "toloc.city_name"} on june sixth [after](depart_time.time_relative) 4 pm
+- list the flights from [cincinnati]{"entity": "city", "role": "fromloc.city_name"} to [westchester county]{"entity": "city", "role": "toloc.city_name"} on june seventh
+- list the flights from [westchester county]{"entity": "city", "role": "fromloc.city_name"} to [cincinnati]{"entity": "city", "role": "toloc.city_name"} on june seventh leaving [after](depart_time.time_relative) 5 pm
+- what flights arrive at [love field](toloc.airport_name) on june sixth
+- list the flights from [montreal]{"entity": "city", "role": "fromloc.city_name"} to [philly]{"entity": "city", "role": "toloc.city_name"} [before](depart_time.time_relative) 9 am
+- list the flights from [cleveland]{"entity": "city", "role": "fromloc.city_name"} to [memphis]{"entity": "city", "role": "toloc.city_name"}
+- list the flights from [memphis]{"entity": "city", "role": "fromloc.city_name"} to [cleveland]{"entity": "city", "role": "toloc.city_name"}
+- list the flights from [denver]{"entity": "city", "role": "fromloc.city_name"} to [baltimore]{"entity": "city", "role": "toloc.city_name"} arriving on july first
+- list the flights from [dallas]{"entity": "city", "role": "fromloc.city_name"} to [baltimore]{"entity": "city", "role": "toloc.city_name"} arriving july first
+- list the flights from [pittsburgh]{"entity": "city", "role": "fromloc.city_name"} to [baltimore]{"entity": "city", "role": "toloc.city_name"} arriving on july first
+- list the flights on [canadian airlines international](airline_name)
+- show me the flights on [american airlines](airline_name) which fly from [st. petersburg]{"entity": "city", "role": "fromloc.city_name"} to [ontario]{"entity": "city", "role": "toloc.city_name"} [canada](toloc.country_name) with a stopover in [st. louis](stoploc.city_name)
+- show me the flights on [american airlines](airline_name) which go from [st. petersburg]{"entity": "city", "role": "fromloc.city_name"} to [ontario]{"entity": "city", "role": "toloc.city_name"} [california](toloc.state_name) by way of [st. louis](stoploc.city_name)
+- show me the flights from [houston]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"}
+- show me the flights from [orlando]{"entity": "city", "role": "fromloc.city_name"} to [houston]{"entity": "city", "role": "toloc.city_name"}
+- show me the flights from [detroit]{"entity": "city", "role": "fromloc.city_name"} to [las vegas]{"entity": "city", "role": "toloc.city_name"}
+- show me the [delta](airline_name) flights which serve a [snack](meal_description) to [coach](compartment) passengers
+- show me the [delta](airline_name) flights from [tampa]{"entity": "city", "role": "fromloc.city_name"} to [san francisco]{"entity": "city", "role": "toloc.city_name"}
+- show me [delta](airline_name) flight [486](flight_number)
+- list the [tower air](airline_name) flights on mondays
+- list all [tower air](airline_name) flights with [meals](meal)
+- what flights depart from [baltimore]{"entity": "city", "role": "fromloc.city_name"}
+- what flights depart from [baltimore]{"entity": "city", "role": "fromloc.city_name"} and arrive at [san francisco]{"entity": "city", "role": "toloc.city_name"} on a friday
+- what flights leave from [cincinnati]{"entity": "city", "role": "fromloc.city_name"} in the morning and arrive in [tampa]{"entity": "city", "role": "toloc.city_name"}
+- which flights depart from [tampa]{"entity": "city", "role": "fromloc.city_name"} and arrive in [cincinnati]{"entity": "city", "role": "toloc.city_name"} in the evening
+- which flights depart from [tampa]{"entity": "city", "role": "fromloc.city_name"} in the [early](depart_time.period_of_day) evening and arrive in [cincinnati]{"entity": "city", "role": "toloc.city_name"}
+- which flights depart from [philadelphia]{"entity": "city", "role": "fromloc.city_name"} and arrive in [atlanta]{"entity": "city", "role": "toloc.city_name"}
+- which flights depart from a [atlanta]{"entity": "city", "role": "fromloc.city_name"} and arrive in [toronto]{"entity": "city", "role": "toloc.city_name"}
+- which flights depart from [toronto]{"entity": "city", "role": "fromloc.city_name"} and arrive in [washington]{"entity": "city", "role": "toloc.city_name"} [dc](toloc.state_code)
+- which flights depart from [new york]{"entity": "city", "role": "fromloc.city_name"} and arrive in [los angeles]{"entity": "city", "role": "toloc.city_name"} [after](arrive_time.time_relative) 10 am
+- what flights are there between [washington]{"entity": "city", "role": "fromloc.city_name"} [dc](fromloc.state_code) and [columbus]{"entity": "city", "role": "toloc.city_name"} [ohio](toloc.state_name)
+- what are the flights between [washington]{"entity": "city", "role": "fromloc.city_name"} [dc](fromloc.state_code) and [columbus]{"entity": "city", "role": "toloc.city_name"} [ohio](toloc.state_name)
+- list all [us air](airline_name) flights arriving in [charlotte]{"entity": "city", "role": "toloc.city_name"} on saturday at 1 pm
+- list all flights from [memphis]{"entity": "city", "role": "fromloc.city_name"} to [miami]{"entity": "city", "role": "toloc.city_name"}
+- list all flights from [cleveland]{"entity": "city", "role": "fromloc.city_name"} to [kansas city]{"entity": "city", "role": "toloc.city_name"} on monday
+- list all flights from [kansas city]{"entity": "city", "role": "fromloc.city_name"} to [cleveland]{"entity": "city", "role": "toloc.city_name"}
+- list all flights from [cleveland]{"entity": "city", "role": "fromloc.city_name"} to [nashville]{"entity": "city", "role": "toloc.city_name"}
+- list all flights from [nashville]{"entity": "city", "role": "fromloc.city_name"} to [cleveland]{"entity": "city", "role": "toloc.city_name"} on sunday
+- which flights are leaving from [kansas city]{"entity": "city", "role": "fromloc.city_name"} to [atlanta]{"entity": "city", "role": "toloc.city_name"} [early](depart_time.period_mod) monday morning
+- which flights are leaving [atlanta]{"entity": "city", "role": "fromloc.city_name"} and arriving in [st. louis]{"entity": "city", "role": "toloc.city_name"} [close](arrive_time.time_relative) to 2:30 pm on tuesday
+- please list flights from [st. louis]{"entity": "city", "role": "fromloc.city_name"} to [st. paul]{"entity": "city", "role": "toloc.city_name"} which depart [after](depart_time.time_relative) 10 am thursday morning
+- list flights from [st. paul]{"entity": "city", "role": "fromloc.city_name"} to [kansas city]{"entity": "city", "role": "toloc.city_name"} friday in the evening with a [meal](meal) included
+- list [early](depart_time.period_of_day) morning flights from [cincinnati]{"entity": "city", "role": "fromloc.city_name"} to [tampa]{"entity": "city", "role": "toloc.city_name"}
+- list [early](depart_time.period_of_day) evening flights from [tampa]{"entity": "city", "role": "fromloc.city_name"} to [cincinnati]{"entity": "city", "role": "toloc.city_name"}
+- list evening flights from [tampa]{"entity": "city", "role": "fromloc.city_name"} to [cincinnati]{"entity": "city", "role": "toloc.city_name"}
+- list flights from [philadelphia]{"entity": "city", "role": "fromloc.city_name"} to [atlanta]{"entity": "city", "role": "toloc.city_name"} friday [am](depart_time.period_of_day)
+- list flights from [atlanta]{"entity": "city", "role": "fromloc.city_name"} to [toronto]{"entity": "city", "role": "toloc.city_name"} friday afternoon
+- list flights from [toronto]{"entity": "city", "role": "fromloc.city_name"} to [washington]{"entity": "city", "role": "toloc.city_name"} [dc](toloc.state_code) saturday [am](depart_time.period_of_day)
+- list flights from [washington]{"entity": "city", "role": "fromloc.city_name"} [dc](fromloc.state_code) to [philadelphia]{"entity": "city", "role": "toloc.city_name"} saturday pm
+- list [direct](connect) flights from [new york city]{"entity": "city", "role": "fromloc.city_name"} to [los angeles]{"entity": "city", "role": "toloc.city_name"} [after](depart_time.time_relative) 10 am
+- list [american airlines](airline_name) flights from [houston]{"entity": "city", "role": "fromloc.city_name"} to [milwaukee]{"entity": "city", "role": "toloc.city_name"} departing friday pm
+- list flights from [houston]{"entity": "city", "role": "fromloc.city_name"} to [milwaukee]{"entity": "city", "role": "toloc.city_name"} friday pm
+- list [american airlines](airline_name) flights from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [san jose]{"entity": "city", "role": "toloc.city_name"} wednesday
+- list [american airlines](airline_name) flights from [san jose]{"entity": "city", "role": "fromloc.city_name"} to [dallas]{"entity": "city", "role": "toloc.city_name"} friday afternoon
+- list flights from [dallas]{"entity": "city", "role": "fromloc.city_name"} to [houston]{"entity": "city", "role": "toloc.city_name"} arriving [sunday](arrive_date.day_name) afternoon
+- list flights from [seattle]{"entity": "city", "role": "fromloc.city_name"} to [salt lake city]{"entity": "city", "role": "toloc.city_name"} on [delta](airline_name) [l10](aircraft_code)
+- list flights from [seattle]{"entity": "city", "role": "fromloc.city_name"} to [salt lake city]{"entity": "city", "role": "toloc.city_name"} on [delta](airline_name) [be1](aircraft_code)
+- list flights from [boston]{"entity": "city", "role": "fromloc.city_name"} to [pittsburgh]{"entity": "city", "role": "toloc.city_name"} [daily](flight_days)
+- list flights from [pittsburgh]{"entity": "city", "role": "fromloc.city_name"} to [newark]{"entity": "city", "role": "toloc.city_name"} [daily](flight_days)
+- list flights from [newark]{"entity": "city", "role": "fromloc.city_name"} to [boston]{"entity": "city", "role": "toloc.city_name"} [daily](flight_days)
+- list [us air](airline_name) flights leaving saturday from [charlotte airport](fromloc.airport_name) at 1 pm
+- list [us air](airline_name) flights leaving saturday from [charlotte airport](fromloc.airport_name) [around](depart_time.time_relative) 1 pm
+- list flights from [memphis]{"entity": "city", "role": "fromloc.city_name"} to [miami]{"entity": "city", "role": "toloc.city_name"} wednesday evening
+- list flights from [miami]{"entity": "city", "role": "fromloc.city_name"} to [indianapolis]{"entity": "city", "role": "toloc.city_name"} sunday
+- list flights from [ontario]{"entity": "city", "role": "fromloc.city_name"} [california](fromloc.state_name) to [orlando]{"entity": "city", "role": "toloc.city_name"} [florida](toloc.state_name)
+- list flights from [ontario]{"entity": "city", "role": "fromloc.city_name"} [california](fromloc.state_name) to [salt lake city]{"entity": "city", "role": "toloc.city_name"} [utah](toloc.state_name)
+- list flights from [ontario]{"entity": "city", "role": "fromloc.city_name"} [california](fromloc.state_name) to [salt lake city]{"entity": "city", "role": "toloc.city_name"} [utah](toloc.state_name) monday
+- list flights from [salt lake city]{"entity": "city", "role": "fromloc.city_name"} [utah](fromloc.state_name) to [phoenix]{"entity": "city", "role": "toloc.city_name"} [arizona](toloc.state_name) monday
+- list flights from [salt lake city]{"entity": "city", "role": "fromloc.city_name"} to [phoenix]{"entity": "city", "role": "toloc.city_name"} [arizona](toloc.state_name) tuesday
+- list flights from [phoenix]{"entity": "city", "role": "fromloc.city_name"} [arizona](fromloc.state_name) to [ontario]{"entity": "city", "role": "toloc.city_name"} [california](toloc.state_name) wednesday
+- flights [newark]{"entity": "city", "role": "fromloc.city_name"} to [los angeles]{"entity": "city", "role": "toloc.city_name"} wednesday morning
+- i would like flights leaving from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"}
+- i would like flights from [ontario]{"entity": "city", "role": "fromloc.city_name"} to [tacoma]{"entity": "city", "role": "toloc.city_name"}
+- i would like flights from [minneapolis]{"entity": "city", "role": "fromloc.city_name"} to [san diego]{"entity": "city", "role": "toloc.city_name"}
+- i would like flights from [salt lake city]{"entity": "city", "role": "fromloc.city_name"} to [cincinnati]{"entity": "city", "role": "toloc.city_name"}
+- i would like to see flights from [cincinnati]{"entity": "city", "role": "fromloc.city_name"} to [salt lake city]{"entity": "city", "role": "toloc.city_name"}
+- i 'd like flights from [new york]{"entity": "city", "role": "fromloc.city_name"} to [miami]{"entity": "city", "role": "toloc.city_name"}
+- i would like flights from [miami]{"entity": "city", "role": "fromloc.city_name"} to [new york]{"entity": "city", "role": "toloc.city_name"}
+- i would like a flight leaving [san francisco]{"entity": "city", "role": "fromloc.city_name"} for [san diego]{"entity": "city", "role": "toloc.city_name"}
+- i would like flights from [san diego]{"entity": "city", "role": "fromloc.city_name"} to [las vegas]{"entity": "city", "role": "toloc.city_name"}
+- i would like a flight from [san diego]{"entity": "city", "role": "fromloc.city_name"} to [las vegas]{"entity": "city", "role": "toloc.city_name"}
+- i would like flights from [las vegas]{"entity": "city", "role": "fromloc.city_name"} to [san francisco]{"entity": "city", "role": "toloc.city_name"}
+- i would like a flight from [toronto]{"entity": "city", "role": "fromloc.city_name"} to [detroit]{"entity": "city", "role": "toloc.city_name"}
+- i would like a flight from [detroit]{"entity": "city", "role": "fromloc.city_name"} to [st. louis]{"entity": "city", "role": "toloc.city_name"}
+- i would like a flight from [toronto]{"entity": "city", "role": "fromloc.city_name"} to [st. louis]{"entity": "city", "role": "toloc.city_name"}
+- i would like flights from [san francisco]{"entity": "city", "role": "fromloc.city_name"} to [long beach]{"entity": "city", "role": "toloc.city_name"}
+- i would like flights leaving [san francisco]{"entity": "city", "role": "fromloc.city_name"} to [san diego]{"entity": "city", "role": "toloc.city_name"}
+- i would like a flight from [san francisco]{"entity": "city", "role": "fromloc.city_name"} to [st. petersburg]{"entity": "city", "role": "toloc.city_name"}
+- show me a [one way](round_trip) flight from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"} leaving wednesday afternoon [after](depart_time.time_relative) 6 pm
+- show me [one way](round_trip) flights from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"} on wednesday
+- show me flights from [columbus]{"entity": "city", "role": "fromloc.city_name"} to [chicago]{"entity": "city", "role": "toloc.city_name"} [business class](class_type) that leave [before](depart_time.time_relative) 10 am
+- show me the [cheapest](cost_relative) [round trip](round_trip) between [st. petersburg]{"entity": "city", "role": "fromloc.city_name"} and [detroit]{"entity": "city", "role": "toloc.city_name"} that arrives [before](arrive_time.time_relative) 7 pm
+- show me [nonstop](flight_stop) flights from [kansas city]{"entity": "city", "role": "fromloc.city_name"} to [phoenix]{"entity": "city", "role": "toloc.city_name"}
+- show me the [cheapest](cost_relative) [first class](class_type) [round trip](round_trip) from [new york]{"entity": "city", "role": "fromloc.city_name"} to [miami]{"entity": "city", "role": "toloc.city_name"}
+- now show me all the [round trips](round_trip) from [new york]{"entity": "city", "role": "fromloc.city_name"} to [miami]{"entity": "city", "role": "toloc.city_name"}
+- show me the [cheapest](cost_relative) [one way](round_trip) flight from [san francisco]{"entity": "city", "role": "fromloc.city_name"} to [houston]{"entity": "city", "role": "toloc.city_name"}
+- now show me the [cheapest](cost_relative) [one way](round_trip) flight from [houston]{"entity": "city", "role": "fromloc.city_name"} to [boston]{"entity": "city", "role": "toloc.city_name"}
+- now show me [one way](round_trip) flights from [houston]{"entity": "city", "role": "fromloc.city_name"} to [boston]{"entity": "city", "role": "toloc.city_name"}
+- show me flights between [detroit]{"entity": "city", "role": "fromloc.city_name"} and [st. louis]{"entity": "city", "role": "toloc.city_name"} on [delta](airline_name) [northwest](airline_name) [us air](airline_name) and [united airlines](airline_name)
+- show me flights from [montreal]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"} and [long beach]{"entity": "city", "role": "toloc.city_name"}
+- show me flights from [montreal]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"}
+- i need a flight on friday afternoon in june from [new york]{"entity": "city", "role": "fromloc.city_name"} to [cleveland]{"entity": "city", "role": "toloc.city_name"}
+- i need a flight from [new york]{"entity": "city", "role": "fromloc.city_name"} to [los angeles]{"entity": "city", "role": "toloc.city_name"} on saturday evening on [us air](airline_name)
+- i 'd like a [red eye](flight_mod) flight from [new york]{"entity": "city", "role": "fromloc.city_name"} to [los angeles]{"entity": "city", "role": "toloc.city_name"} on saturday evening on [us air](airline_name)
+- i 'd like a flight from [new york]{"entity": "city", "role": "fromloc.city_name"} to [los angeles]{"entity": "city", "role": "toloc.city_name"} on saturday morning on [us air](airline_name)
+- i need a flight from [san francisco]{"entity": "city", "role": "fromloc.city_name"} to [milwaukee]{"entity": "city", "role": "toloc.city_name"} on monday morning
+- i need a flight from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [washington]{"entity": "city", "role": "toloc.city_name"} [dc](toloc.state_code) on monday night
+- how about flights from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [washington]{"entity": "city", "role": "toloc.city_name"} [dc](toloc.state_code) on tuesday mornings
+- can i get a flight on tuesday night from [washington]{"entity": "city", "role": "fromloc.city_name"} [dc](fromloc.state_code) to [oakland]{"entity": "city", "role": "toloc.city_name"}
+- how about from [dc](fromloc.state_code) to [oakland]{"entity": "city", "role": "toloc.city_name"} on wednesday morning
+- what 's the [cheapest](cost_relative) flight from [columbus]{"entity": "city", "role": "fromloc.city_name"} to [st. louis]{"entity": "city", "role": "toloc.city_name"} [round trip](round_trip) on [twa](airline_code)
+- what 's the [cheapest](cost_relative) [round trip](round_trip) flight on [twa](airline_code) from [columbus]{"entity": "city", "role": "fromloc.city_name"} to [st. paul]{"entity": "city", "role": "toloc.city_name"}
+- i want to fly from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [los angeles]{"entity": "city", "role": "toloc.city_name"}
+- can i get the [shortest](flight_mod) flight from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"}
+- what is the [shortest](flight_mod) flight from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [long beach]{"entity": "city", "role": "toloc.city_name"}
+- what is the [shortest](flight_mod) flight from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [st. petersburg]{"entity": "city", "role": "toloc.city_name"}
+- what is the [shortest](flight_mod) flight from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [long beach]{"entity": "city", "role": "toloc.city_name"}
+- what is the [shortest](flight_mod) flight from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [san diego]{"entity": "city", "role": "toloc.city_name"}
+- can i get a flight today from [san francisco]{"entity": "city", "role": "fromloc.city_name"} to [detroit]{"entity": "city", "role": "toloc.city_name"} [michigan](toloc.state_name)
+- what 's the [cheapest](cost_relative) flight from [san francisco]{"entity": "city", "role": "fromloc.city_name"} to [detroit]{"entity": "city", "role": "toloc.city_name"} today
+- i want to fly from [san francisco]{"entity": "city", "role": "fromloc.city_name"} to [milwaukee]{"entity": "city", "role": "toloc.city_name"} and from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [denver]{"entity": "city", "role": "toloc.city_name"}
+- what 's the [cheapest](cost_relative) flight from [san francisco]{"entity": "city", "role": "fromloc.city_name"} to [milwaukee]{"entity": "city", "role": "toloc.city_name"}
+- what 's the [cheapest](cost_relative) flight tomorrow from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [denver]{"entity": "city", "role": "toloc.city_name"}
+- what 's the [cheapest](cost_relative) flight from [san francisco]{"entity": "city", "role": "fromloc.city_name"} to [denver]{"entity": "city", "role": "toloc.city_name"}
+- what flights leave from [cleveland]{"entity": "city", "role": "fromloc.city_name"} and go to [dallas]{"entity": "city", "role": "toloc.city_name"}
+- show me all [nonstop](flight_stop) flights from [st. petersburg]{"entity": "city", "role": "fromloc.city_name"} to [charlotte]{"entity": "city", "role": "toloc.city_name"}
+- show me flights between [toronto]{"entity": "city", "role": "fromloc.city_name"} and [san diego]{"entity": "city", "role": "toloc.city_name"}
+- show me the flights between [oakland]{"entity": "city", "role": "fromloc.city_name"} and [salt lake city]{"entity": "city", "role": "toloc.city_name"}
+- what is the [earliest](flight_mod) [daily](flight_days) flight between [oakland]{"entity": "city", "role": "fromloc.city_name"} and [salt lake city]{"entity": "city", "role": "toloc.city_name"}
+- what is the [latest](flight_mod) [daily](flight_days) flight between [oakland]{"entity": "city", "role": "fromloc.city_name"} and [salt lake city]{"entity": "city", "role": "toloc.city_name"}
+- show me the flights between [los angeles]{"entity": "city", "role": "fromloc.city_name"} and [dallas]{"entity": "city", "role": "toloc.city_name"}
+- what are the flights between [dallas]{"entity": "city", "role": "fromloc.city_name"} and [phoenix]{"entity": "city", "role": "toloc.city_name"}
+- are there any flights between [dallas]{"entity": "city", "role": "fromloc.city_name"} and [phoenix]{"entity": "city", "role": "toloc.city_name"} using a [dc10](aircraft_code) aircraft
+- show me the flights between [milwaukee]{"entity": "city", "role": "fromloc.city_name"} and [indiana](toloc.state_name)
+- what are the flights between [milwaukee]{"entity": "city", "role": "fromloc.city_name"} and [pittsburgh]{"entity": "city", "role": "toloc.city_name"}
+- show me the flights between [pittsburgh]{"entity": "city", "role": "fromloc.city_name"} and"toloc.city_name" [washington]{"entity": "city", "role": "toloc.city_name"} [dc](toloc.state_code)
+- what are the flights between [dca](airport_code) and [milwaukee](city_name)
+- i 'd like a flight to [san diego]{"entity": "city", "role": "toloc.city_name"} from [washington]{"entity": "city", "role": "fromloc.city_name"} [dc](fromloc.state_code)
+- i 'd like to fly from [cleveland]{"entity": "city", "role": "fromloc.city_name"} to [dallas]{"entity": "city", "role": "toloc.city_name"}
+- i want to fly from [washington]{"entity": "city", "role": "fromloc.city_name"} [dc](fromloc.state_code) to [phoenix]{"entity": "city", "role": "toloc.city_name"} [arizona](toloc.state_name)
+- i need a flight from [phoenix]{"entity": "city", "role": "fromloc.city_name"} to [atlanta]{"entity": "city", "role": "toloc.city_name"}
+- i would like to fly from [atlanta]{"entity": "city", "role": "fromloc.city_name"} to [san diego]{"entity": "city", "role": "toloc.city_name"}
+- i would like to fly from [san diego]{"entity": "city", "role": "fromloc.city_name"} to [seattle]{"entity": "city", "role": "toloc.city_name"}
+- i would like to fly from [orlando]{"entity": "city", "role": "fromloc.city_name"} to [kansas city]{"entity": "city", "role": "toloc.city_name"}
+- i need a flight from [kansas city]{"entity": "city", "role": "fromloc.city_name"} to [minneapolis]{"entity": "city", "role": "toloc.city_name"}
+- i need a flight from [san diego]{"entity": "city", "role": "fromloc.city_name"} to [washington]{"entity": "city", "role": "toloc.city_name"} [dc](toloc.state_code)
+- i need a flight from [washington]{"entity": "city", "role": "fromloc.city_name"} [dc](fromloc.state_code) to [san diego]{"entity": "city", "role": "toloc.city_name"}
+- i want a flight from [montreal]{"entity": "city", "role": "fromloc.city_name"} to [washington]{"entity": "city", "role": "toloc.city_name"} [dc](toloc.state_code)
+- i want a flight from [nashville]{"entity": "city", "role": "fromloc.city_name"} to [seattle]{"entity": "city", "role": "toloc.city_name"} that arrives [no later than](arrive_time.time_relative) [3 pm](arrive_time.time)
+- i want a flight from [memphis]{"entity": "city", "role": "fromloc.city_name"} to [seattle]{"entity": "city", "role": "toloc.city_name"} that arrives [no later than](arrive_time.time_relative) [3 pm](arrive_time.time)
+- i need a flight from [indianapolis]{"entity": "city", "role": "fromloc.city_name"} to [seattle]{"entity": "city", "role": "toloc.city_name"} arriving in [seattle]{"entity": "city", "role": "toloc.city_name"} at [12:05 pm](arrive_time.time)
+- i need a flight from [newark]{"entity": "city", "role": "fromloc.city_name"} to [tampa]{"entity": "city", "role": "toloc.city_name"}.
+- i 'd like to travel from [burbank]{"entity": "city", "role": "fromloc.city_name"} to [milwaukee]{"entity": "city", "role": "toloc.city_name"}
+- give me the flights from [phoenix]{"entity": "city", "role": "fromloc.city_name"} to [milwaukee]{"entity": "city", "role": "toloc.city_name"} on wednesday evening
+- give me the flights from [phoenix]{"entity": "city", "role": "fromloc.city_name"} to [milwaukee]{"entity": "city", "role": "toloc.city_name"} on wednesday on [american airlines](airline_name)
+- give me the flights from [phoenix]{"entity": "city", "role": "fromloc.city_name"} to [milwaukee]{"entity": "city", "role": "toloc.city_name"} on [american airlines](airline_name)
+- give me the flights from [phoenix]{"entity": "city", "role": "fromloc.city_name"} to [milwaukee]{"entity": "city", "role": "toloc.city_name"}
+- show me the flights between [houston]{"entity": "city", "role": "fromloc.city_name"} and [orlando]{"entity": "city", "role": "toloc.city_name"}
+- now show me all the flights from [st. louis]{"entity": "city", "role": "fromloc.city_name"} to [burbank]{"entity": "city", "role": "toloc.city_name"}
+- i need a flight from [phoenix]{"entity": "city", "role": "fromloc.city_name"} to [atlanta]{"entity": "city", "role": "toloc.city_name"}
+- i would like to fly from [atlanta]{"entity": "city", "role": "fromloc.city_name"} to [san diego]{"entity": "city", "role": "toloc.city_name"}
+- i would like to fly from [san diego]{"entity": "city", "role": "fromloc.city_name"} to [seattle]{"entity": "city", "role": "toloc.city_name"}
+- i would like to fly from [orlando]{"entity": "city", "role": "fromloc.city_name"} to [kansas city]{"entity": "city", "role": "toloc.city_name"}.
+- i need a flight from [kansas city]{"entity": "city", "role": "fromloc.city_name"} to [minneapolis]{"entity": "city", "role": "toloc.city_name"}
+- i need a flight from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [indianapolis]{"entity": "city", "role": "toloc.city_name"}.
+- get flights from [detroit]{"entity": "city", "role": "fromloc.city_name"} to [toronto]{"entity": "city", "role": "toloc.city_name"}.
+- book a ticket from [beijing]{"entity": "city", "role": "fromloc.city_name"}
+- a ticket to [tokyo]{"entity": "city", "role": "toloc.city_name"}
+- book a ticket to [Osaka]{"entity": "city", "role": "toloc.city_name"} from [taiwan]{"entity": "city", "role": "fromloc.city_name"}
+- a ticket to [korea]{"entity": "city", "role": "toloc.city_name"}.
+- a flight to [taiwan]{"entity": "city", "role": "toloc.city_name" , "group":"1"} at [2 pm]{"entity": "arrive_time.time"  , "group":"1"} and arrive in [japan]{"entity": "city", "role": "toloc.city_name" , "group":"2"} at [16 pm]{"entity": "arrive_time.time"  , "group":"2"}
+- i want book a flight to [india]{"entity": "city", "role": "toloc.city_name"}
+- book a flight to [america]{"entity": "city", "role": "toloc.city_name"}
+- a flight to [Philippines]{"entity": "city", "role": "toloc.city_name"}
+- i want to fly from [nashville]{"entity": "city", "role": "fromloc.city_name"} to [seattle]{"entity": "city", "role": "toloc.city_name"} and i want the [cheapest](cost_relative) fare [round trip](round_trip)
+- i want to fly from [memphis]{"entity": "city", "role": "fromloc.city_name"} to [seattle]{"entity": "city", "role": "toloc.city_name"} [round trip](round_trip) with the [cheapest](cost_relative) fare
+- i want to fly from [indianapolis]{"entity": "city", "role": "fromloc.city_name"} to [seattle]{"entity": "city", "role": "toloc.city_name"} [round trip](round_trip) with the [cheapest](cost_relative) fare
+- what flights go from [dallas]{"entity": "city", "role": "fromloc.city_name"} to [phoenix]{"entity": "city", "role": "toloc.city_name"}
+- what flights go from [phoenix]{"entity": "city", "role": "fromloc.city_name"} to [salt lake city]{"entity": "city", "role": "toloc.city_name"}
+- i need an [early](flight_mod) flight from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [denver]{"entity": "city", "role": "toloc.city_name"}
+- what flights go from [denver]{"entity": "city", "role": "fromloc.city_name"} to [st. louis]{"entity": "city", "role": "toloc.city_name"} on tuesday morning
+- i need to fly from [st. louis]{"entity": "city", "role": "fromloc.city_name"} to [milwaukee]{"entity": "city", "role": "toloc.city_name"} on wednesday afternoon
+- flights from [washington]{"entity": "city", "role": "fromloc.city_name"} to [seattle]{"entity": "city", "role": "toloc.city_name"}
+- flights from [atlanta]{"entity": "city", "role": "fromloc.city_name"} to [seattle]{"entity": "city", "role": "toloc.city_name"}
+- flights from [san diego]{"entity": "city", "role": "fromloc.city_name"} to [seattle]{"entity": "city", "role": "toloc.city_name"}
+- i need information on flights from [washington]{"entity": "city", "role": "fromloc.city_name"} to [boston]{"entity": "city", "role": "toloc.city_name"} that leave on a saturday
+- i need the flights from [washington]{"entity": "city", "role": "fromloc.city_name"} to [montreal]{"entity": "city", "role": "toloc.city_name"} on a saturday
+- i want to go from [boston]{"entity": "city", "role": "fromloc.city_name"} to [washington]{"entity": "city", "role": "toloc.city_name"} on a saturday
+- i need a flight from [cleveland]{"entity": "city", "role": "fromloc.city_name"} to [dallas]{"entity": "city", "role": "toloc.city_name"} that leaves [before](depart_time.time_relative) noon see if too much information
+- list saturday flights from [washington]{"entity": "city", "role": "fromloc.city_name"} to [boston]{"entity": "city", "role": "toloc.city_name"}
+- list saturday flights from [boston]{"entity": "city", "role": "fromloc.city_name"} to [washington]{"entity": "city", "role": "toloc.city_name"}
+- get flights from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [dtw](toloc.airport_code)
+- list flights from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [detroit]{"entity": "city", "role": "toloc.city_name"}
+- get flights from [detroit]{"entity": "city", "role": "fromloc.city_name"} to [toronto]{"entity": "city", "role": "toloc.city_name"}
+- get flights from [toronto]{"entity": "city", "role": "fromloc.city_name"} to [milwaukee]{"entity": "city", "role": "toloc.city_name"}
+- get [last](flight_mod) flight from [oakland]{"entity": "city", "role": "fromloc.city_name"} to [salt lake city]{"entity": "city", "role": "toloc.city_name"} on wednesday [or](or) [first](flight_mod) flight from [oakland]{"entity": "city", "role": "fromloc.city_name"} to [salt lake city]{"entity": "city", "role": "toloc.city_name"} on thursday
+- get [first](flight_mod) flight from [oakland]{"entity": "city", "role": "fromloc.city_name"} to [salt lake city]{"entity": "city", "role": "toloc.city_name"} on thursday
+- get [last](flight_mod) flight from [oakland]{"entity": "city", "role": "fromloc.city_name"} to [salt lake city]{"entity": "city", "role": "toloc.city_name"} on wednesday
+- list [last](flight_mod) wednesday flight from [oakland]{"entity": "city", "role": "fromloc.city_name"} to [salt lake city]{"entity": "city", "role": "toloc.city_name"}
+- get flight from [toronto]{"entity": "city", "role": "fromloc.city_name"} to [san diego]{"entity": "city", "role": "toloc.city_name"} stopping at [dtw](stoploc.airport_code)
+- get flights between [st. petersburg]{"entity": "city", "role": "fromloc.city_name"} and [charlotte]{"entity": "city", "role": "toloc.city_name"}
+- i need a flight from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [indianapolis]{"entity": "city", "role": "toloc.city_name"} leaving monday [before](depart_time.time_relative) 9 am
+- i need a flight departing from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [indianapolis]{"entity": "city", "role": "toloc.city_name"} leaving monday [before](depart_time.time_relative) 8 am
+- i need flight information for a flight departing from [indianapolis]{"entity": "city", "role": "fromloc.city_name"} to [cleveland]{"entity": "city", "role": "toloc.city_name"} departing tuesday at noon
+- i need flight information for a flight departing from [cleveland]{"entity": "city", "role": "fromloc.city_name"} to [milwaukee]{"entity": "city", "role": "toloc.city_name"} wednesday [after](depart_time.time_relative) 6 pm
+- i need flight information for flights departing from [cleveland]{"entity": "city", "role": "fromloc.city_name"} going back to [milwaukee]{"entity": "city", "role": "toloc.city_name"} wednesday [after](depart_time.time_relative) 5 pm
+- i need flight information for flights departing from [cleveland]{"entity": "city", "role": "fromloc.city_name"} to [milwaukee]{"entity": "city", "role": "toloc.city_name"} on wednesday [after](depart_time.time_relative) 5 pm
+- i need flight information for flights departing from [cleveland]{"entity": "city", "role": "fromloc.city_name"} to [milwaukee]{"entity": "city", "role": "toloc.city_name"} on wednesday [after](depart_time.time_relative) 5 pm
+- i need a flight from [denver]{"entity": "city", "role": "fromloc.city_name"} to [salt lake city]{"entity": "city", "role": "toloc.city_name"} on monday
+- i need a flight from [salt lake city]{"entity": "city", "role": "fromloc.city_name"} to [phoenix]{"entity": "city", "role": "toloc.city_name"} departing wednesday [after](depart_time.time_relative) 5 pm
+- i need a flight from [oakland]{"entity": "city", "role": "fromloc.city_name"} to [salt lake city]{"entity": "city", "role": "toloc.city_name"} on wednesday departing [after](depart_time.time_relative) 6 pm
+- i want a flight from [toronto]{"entity": "city", "role": "fromloc.city_name"} to [san diego]{"entity": "city", "role": "toloc.city_name"}
+- i need information on flights between [st. petersburg]{"entity": "city", "role": "fromloc.city_name"} and [charlotte]{"entity": "city", "role": "toloc.city_name"}
+- which flights go from [new york]{"entity": "city", "role": "fromloc.city_name"} to [miami]{"entity": "city", "role": "toloc.city_name"} and back
+- show me flights from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"} [one way](round_trip)
+- show me flights from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"}
+- please show me [first class](class_type) flights from [indianapolis]{"entity": "city", "role": "fromloc.city_name"} to [memphis]{"entity": "city", "role": "toloc.city_name"} [one way](round_trip) leaving [before](depart_time.time_relative) 10 am
+- now show me all [round trip](round_trip) flights from [burbank]{"entity": "city", "role": "fromloc.city_name"} to [seattle]{"entity": "city", "role": "toloc.city_name"} that arrive [before](arrive_time.time_relative) 7 pm in [seattle]{"entity": "city", "role": "toloc.city_name"}
+- please list all flights from [new york]{"entity": "city", "role": "fromloc.city_name"} to [miami]{"entity": "city", "role": "toloc.city_name"} any any type of class
+- [pingtune]{"entity": "city", "role": "fromloc.city_name"} to [tamsui]{"entity": "city", "role": "toloc.city_name"}
+- from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"} [one way](round_trip) [after](depart_time.time_relative) 5 pm wednesday
+- and from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [atlanta]{"entity": "city", "role": "toloc.city_name"} [before](depart_time.time_relative) 10 am [daily](flight_days)
+- give me the flights from [los angeles]{"entity": "city", "role": "fromloc.city_name"} to [pittsburgh]{"entity": "city", "role": "toloc.city_name"} on tuesday
+- give me the flights from [pittsburgh]{"entity": "city", "role": "fromloc.city_name"} to [los angeles]{"entity": "city", "role": "toloc.city_name"} thursday evening
+- give me the [round trip](round_trip) flights from [cleveland]{"entity": "city", "role": "fromloc.city_name"} to [miami]{"entity": "city", "role": "toloc.city_name"} next wednesday
+- give me the flights and fares for a trip to [cleveland]{"entity": "city", "role": "toloc.city_name"} from [miami]{"entity": "city", "role": "fromloc.city_name"} on wednesday
+- give me the flights from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [phoenix]{"entity": "city", "role": "toloc.city_name"} on saturday [or](or) sunday on [american airlines](airline_name)
+- give me the [meal](meal) flights departing [early](depart_time.period_mod) saturday morning from [chicago]{"entity": "city", "role": "fromloc.city_name"} to [seattle]{"entity": "city", "role": "toloc.city_name"} [nonstop](flight_stop)
+- give me the flights from [chicago]{"entity": "city", "role": "fromloc.city_name"} to [seattle]{"entity": "city", "role": "toloc.city_name"} saturday morning that have [meals](meal)
+- give me flights from [seattle]{"entity": "city", "role": "fromloc.city_name"} to [chicago]{"entity": "city", "role": "toloc.city_name"} that have [meals](meal) on [continental](airline_name)
+- give me the flights from [seattle]{"entity": "city", "role": "fromloc.city_name"} to [chicago]{"entity": "city", "role": "toloc.city_name"} that have [meals](meal) on [continental](airline_name) saturday morning
+- give me the flights from [chicago]{"entity": "city", "role": "fromloc.city_name"} to [seattle]{"entity": "city", "role": "toloc.city_name"} on [continental](airline_name) that have [meals](meal) [early](depart_time.period_mod) saturday morning
+- give me a combination of [continental](airline_name) flights from [chicago]{"entity": "city", "role": "fromloc.city_name"} to [seattle]{"entity": "city", "role": "toloc.city_name"} that have [meals](meal) [early](depart_time.period_mod) saturday morning
+- give me the saturday morning flights with [meals](meal) from [chicago]{"entity": "city", "role": "fromloc.city_name"} to [minneapolis]{"entity": "city", "role": "toloc.city_name"}
+- give me the saturday morning flights on [continental](airline_name) that have [meals](meal) from [chicago]{"entity": "city", "role": "fromloc.city_name"} to [minneapolis]{"entity": "city", "role": "toloc.city_name"}
+- give me the saturday morning flights from [chicago]{"entity": "city", "role": "fromloc.city_name"} to [st. paul]{"entity": "city", "role": "toloc.city_name"} on [continental](airline_name) that have [meals](meal)
+- give me the flights from [new york]{"entity": "city", "role": "fromloc.city_name"} to [las vegas]{"entity": "city", "role": "toloc.city_name"} [nonstop](flight_stop)
+- give me the flights from [memphis]{"entity": "city", "role": "fromloc.city_name"} to [las vegas]{"entity": "city", "role": "toloc.city_name"} [nonstop](flight_stop)
+- give me the [cheapest](cost_relative) [round trip](round_trip) flights from [indianapolis]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"} [around](depart_time.time_relative) december twenty fifth
+- i need a friday flight from [newark]{"entity": "city", "role": "fromloc.city_name"} to [tampa]{"entity": "city", "role": "toloc.city_name"}
+- i need a sunday flight from [tampa]{"entity": "city", "role": "fromloc.city_name"} to [charlotte]{"entity": "city", "role": "toloc.city_name"}
+- give me a flight from [charlotte]{"entity": "city", "role": "fromloc.city_name"} to [baltimore]{"entity": "city", "role": "toloc.city_name"} on tuesday morning
+- can i have a morning flight from [baltimore]{"entity": "city", "role": "fromloc.city_name"} to [newark]{"entity": "city", "role": "toloc.city_name"} please
+- i would like a [connecting](connect) flight from [dallas]{"entity": "city", "role": "fromloc.city_name"} to [san francisco]{"entity": "city", "role": "toloc.city_name"} leaving [after](depart_time.time_relative) 4 o'clock
+- please list all the flights from [dallas]{"entity": "city", "role": "fromloc.city_name"} to [san francisco]{"entity": "city", "role": "toloc.city_name"}
+- tell me again the morning flights on [american airlines](airline_name) from [philadelphia]{"entity": "city", "role": "fromloc.city_name"} to [dallas]{"entity": "city", "role": "toloc.city_name"}
+- tell me the flights that leave [philadelphia]{"entity": "city", "role": "fromloc.city_name"} and go to [dallas]{"entity": "city", "role": "toloc.city_name"}
+- i want a flight from [los angeles]{"entity": "city", "role": "fromloc.city_name"} to [charlotte]{"entity": "city", "role": "toloc.city_name"} [early](depart_time.period_mod) in the morning
+- i would like a morning flight from [charlotte]{"entity": "city", "role": "fromloc.city_name"} to [newark]{"entity": "city", "role": "toloc.city_name"}
+- i 'd like a morning flight from [newark]{"entity": "city", "role": "fromloc.city_name"} to [los angeles]{"entity": "city", "role": "toloc.city_name"}
+- i 'd like an evening flight from [newark]{"entity": "city", "role": "fromloc.city_name"} to [los angeles]{"entity": "city", "role": "toloc.city_name"}
+- i would like a flight on tuesday which leaves from [san diego]{"entity": "city", "role": "fromloc.city_name"} to [indianapolis]{"entity": "city", "role": "toloc.city_name"} [indiana](toloc.state_name) and that leaves in the afternoon
+- i would like to leave thursday morning from [indianapolis]{"entity": "city", "role": "fromloc.city_name"} to [toronto]{"entity": "city", "role": "toloc.city_name"}
+- i would like a flight on friday morning from [toronto]{"entity": "city", "role": "fromloc.city_name"} to [montreal]{"entity": "city", "role": "toloc.city_name"}
+- i would like a flight from [cincinnati]{"entity": "city", "role": "fromloc.city_name"} to [burbank]{"entity": "city", "role": "toloc.city_name"} on [american](airline_name)
+- i need a flight leaving [kansas city]{"entity": "city", "role": "fromloc.city_name"} to [chicago]{"entity": "city", "role": "toloc.city_name"} leaving [next](depart_date.date_relative) wednesday and returning [the following day](return_date.date_relative)
+- what flights go from [long beach]{"entity": "city", "role": "fromloc.city_name"} to [st. louis]{"entity": "city", "role": "toloc.city_name"}
+- what are the flights from [memphis]{"entity": "city", "role": "fromloc.city_name"} to [las vegas]{"entity": "city", "role": "toloc.city_name"}
+- what are the flights from [las vegas]{"entity": "city", "role": "fromloc.city_name"} to [ontario]{"entity": "city", "role": "toloc.city_name"}
+- what are the flights from [ontario]{"entity": "city", "role": "fromloc.city_name"} to [memphis]{"entity": "city", "role": "toloc.city_name"}
+- what are the flights from [tampa]{"entity": "city", "role": "fromloc.city_name"} to [milwaukee]{"entity": "city", "role": "toloc.city_name"}
+- what are the flights from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [seattle]{"entity": "city", "role": "toloc.city_name"}
+- what are the flights from [la guardia](fromloc.airport_name) to [san jose]{"entity": "city", "role": "toloc.city_name"} on [united](airline_name)
+- what are the flights on [mondays](depart_date.day_name) that travel from [charlotte]{"entity": "city", "role": "fromloc.city_name"} [north carolina](fromloc.state_name) to [phoenix]{"entity": "city", "role": "toloc.city_name"} [arizona](toloc.state_name)
+- what are the flights from [phoenix]{"entity": "city", "role": "fromloc.city_name"} [arizona](fromloc.state_name) to [st. paul]{"entity": "city", "role": "toloc.city_name"} [minnesota](toloc.state_name) on tuesday
+- what are the flights on thursday leaving from [st. paul]{"entity": "city", "role": "fromloc.city_name"} [minnesota](fromloc.state_name) to [st. louis]{"entity": "city", "role": "toloc.city_name"}
+- what are the flights from [st. louis]{"entity": "city", "role": "fromloc.city_name"} to [charlotte]{"entity": "city", "role": "toloc.city_name"} [north carolina](toloc.state_name) leaving on friday
+- what are the flights from [boston]{"entity": "city", "role": "fromloc.city_name"} to [orlando]{"entity": "city", "role": "toloc.city_name"} that stop in [new york](stoploc.city_name)
+- i need a morning flight from [burbank]{"entity": "city", "role": "fromloc.city_name"} to [milwaukee]{"entity": "city", "role": "toloc.city_name"} on [next](depart_date.date_relative) monday
+- how about a flight from [milwaukee]{"entity": "city", "role": "fromloc.city_name"} to [st. louis]{"entity": "city", "role": "toloc.city_name"} that leaves monday night
+- and a flight from [st. louis]{"entity": "city", "role": "fromloc.city_name"} to [burbank]{"entity": "city", "role": "toloc.city_name"} that leaves tuesday afternoon
+- how about a flight leaving tuesday night from [st. louis]{"entity": "city", "role": "fromloc.city_name"} to [burbank]{"entity": "city", "role": "toloc.city_name"}
+- i need a flight from [salt lake]{"entity": "city", "role": "fromloc.city_name"} to [newark airport](toloc.airport_name) that arrives on saturday [before](arrive_time.time_relative) 6 pm
+- i 'd like a flight from [cincinnati]{"entity": "city", "role": "fromloc.city_name"} to [newark airport](toloc.airport_name) that arrives on saturday [before](arrive_time.time_relative) 6 pm
+- i need a flight on [american airlines](airline_name) from [miami]{"entity": "city", "role": "fromloc.city_name"} to [chicago]{"entity": "city", "role": "toloc.city_name"} that arrives [around](arrive_time.time_relative) 5 pm
+- i need a flight from [memphis]{"entity": "city", "role": "fromloc.city_name"} to [tacoma]{"entity": "city", "role": "toloc.city_name"} that goes through [los angeles](stoploc.city_name)
+- the flights from [ontario]{"entity": "city", "role": "fromloc.city_name"} to [westchester]{"entity": "city", "role": "toloc.city_name"} that stop in [chicago](stoploc.city_name)
+- i 'd like to fly from [miami]{"entity": "city", "role": "fromloc.city_name"} to [chicago]{"entity": "city", "role": "toloc.city_name"}  on [american airlines](airline_name) arriving [around](arrive_time.time_relative) 5 pm
+
+## intent:inform
+- I am leaving for [New York]{"entity": "city", "role": "toloc.city_name"} tomorrow.
+- I am leaving for [Vatican]{"entity": "city", "role": "toloc.city_name"} at the weekend.
+- I am going to [Brazil]{"entity": "city", "role": "toloc.city_name"}.
+- I am going to  [Santiago]{"entity": "city", "role": "toloc.city_name"}.
+- I will leave for [New York]{"entity": "city", "role": "toloc.city_name"} tomorrow morning.
+- I will leave for [Vatican]{"entity": "city", "role": "toloc.city_name"}.
+- I will go to [Brazil]{"entity": "city", "role": "toloc.city_name"}.
+- I will go to  [Santiago]{"entity": "city", "role": "toloc.city_name"}.
+- I’m flying to [Taipei]{"entity": "city", "role": "toloc.city_name"}, [Taiwan](toloc.country_name)
+- I am leaving for [Egypt]{"entity": "city", "role": "toloc.city_name"} today.
+- I am leaving for [Morocco]{"entity": "city", "role": "toloc.city_name"}.
+- I am going to [United States]{"entity": "city", "role": "toloc.city_name"}.
+- I am going to [Madrid]{"entity": "city", "role": "toloc.city_name"}.
+- I will leave for [Serbia]{"entity": "city", "role": "toloc.city_name"} today morning.
+- I will leave for [Lisbon]{"entity": "city", "role": "toloc.city_name"}.
+- I will go to [Rome]{"entity": "city", "role": "toloc.city_name"}.
+- I will go to [Riga]{"entity": "city", "role": "toloc.city_name"}.
+- departure is [hong kong]{"entity": "city", "role": "fromloc.city_name"}.
+- departure is [macau]{"entity": "city", "role": "fromloc.city_name"}.
+- departure is [tokyo]{"entity": "city", "role": "fromloc.city_name"}.
+- departure is [seoul]{"entity": "city", "role": "fromloc.city_name"}.
+- departure is [new york]{"entity": "city", "role": "fromloc.city_name"}.
+- departure is [seattle]{"entity": "city", "role": "fromloc.city_name"}.
+- departure is [london]{"entity": "city", "role": "fromloc.city_name"}.
+- departure is [paris]{"entity": "city", "role": "fromloc.city_name"}.
+- departure is [berlin]{"entity": "city", "role": "fromloc.city_name"}.
+- departure is [taipei]{"entity": "city", "role": "fromloc.city_name"}.
+- departure is [singapore]{"entity": "city", "role": "fromloc.city_name"}.
+- departure is [beijing]{"entity": "city", "role": "fromloc.city_name"}.
+- origin is [hong kong]{"entity": "city", "role": "fromloc.city_name"}.
+- origin is [macau]{"entity": "city", "role": "fromloc.city_name"}.
+- origin is [tokyo]{"entity": "city", "role": "fromloc.city_name"}.
+- origin is [seoul]{"entity": "city", "role": "fromloc.city_name"}.
+- origin is [new york]{"entity": "city", "role": "fromloc.city_name"}.
+- origin is [seattle]{"entity": "city", "role": "fromloc.city_name"}.
+- origin is [london]{"entity": "city", "role": "fromloc.city_name"}.
+- origin is [paris]{"entity": "city", "role": "fromloc.city_name"}.
+- origin is [berlin]{"entity": "city", "role": "fromloc.city_name"}.
+- origin is [taipei]{"entity": "city", "role": "fromloc.city_name"}.
+- origin is [singapore]{"entity": "city", "role": "fromloc.city_name"}.
+- origin is [beijing]{"entity": "city", "role": "fromloc.city_name"}.
+- destination is [hong kong]{"entity": "city", "role": "toloc.city_name"}.
+- destination is [macau]{"entity": "city", "role": "toloc.city_name"}.
+- destination is [tokyo]{"entity": "city", "role": "toloc.city_name"}.
+- destination is [seoul]{"entity": "city", "role": "toloc.city_name"}.
+- destination is [new york]{"entity": "city", "role": "toloc.city_name"}.
+- destination is [seattle]{"entity": "city", "role": "toloc.city_name"}.
+- destination is [london]{"entity": "city", "role": "toloc.city_name"}.
+- destination is [paris]{"entity": "city", "role": "toloc.city_name"}.
+- destination is [berlin]{"entity": "city", "role": "toloc.city_name"}.
+- destination is [taipei]{"entity": "city", "role": "toloc.city_name"}.
+- destination is [singapore]{"entity": "city", "role": "toloc.city_name"}.
+- destination is [beijing]{"entity": "city", "role": "toloc.city_name"}.
+- arrival is [hong kong]{"entity": "city", "role": "toloc.city_name"}.
+- arrival is [macau]{"entity": "city", "role": "toloc.city_name"}.
+- arrival is [tokyo]{"entity": "city", "role": "toloc.city_name"}.
+- arrival is [seoul]{"entity": "city", "role": "toloc.city_name"}.
+- arrival is [new york]{"entity": "city", "role": "toloc.city_name"}.
+- arrival is [seattle]{"entity": "city", "role": "toloc.city_name"}.
+- arrival is [london]{"entity": "city", "role": "toloc.city_name"}.
+- arrival is [paris]{"entity": "city", "role": "toloc.city_name"}.
+- arrival is [berlin]{"entity": "city", "role": "toloc.city_name"}.
+- arrival is [taipei]{"entity": "city", "role": "toloc.city_name"}.
+- arrival is [singapore]{"entity": "city", "role": "toloc.city_name"}.
+- arrival is [beijing]{"entity": "city", "role": "toloc.city_name"}.
+- departure is [hong kong]{"entity": "city", "role": "fromloc.city_name"} and destination is [beijing]{"entity": "city", "role": "toloc.city_name"}.
+- departure is [macau]{"entity": "city", "role": "fromloc.city_name"} and destination is [singapore]{"entity": "city", "role": "toloc.city_name"}.
+- departure is [tokyo]{"entity": "city", "role": "fromloc.city_name"} and destination is [taipei]{"entity": "city", "role": "toloc.city_name"}.
+- departure is [seoul]{"entity": "city", "role": "fromloc.city_name"} and destination is [berlin]{"entity": "city", "role": "toloc.city_name"}.
+- departure is [new york]{"entity": "city", "role": "fromloc.city_name"} and destination is [paris]{"entity": "city", "role": "toloc.city_name"}.
+- departure is [seattle]{"entity": "city", "role": "fromloc.city_name"} and destination is [london]{"entity": "city", "role": "toloc.city_name"}.
+- departure is [london]{"entity": "city", "role": "fromloc.city_name"} and destination is [seattle]{"entity": "city", "role": "toloc.city_name"}.
+- departure is [paris]{"entity": "city", "role": "fromloc.city_name"} and destination is [new york]{"entity": "city", "role": "toloc.city_name"}.
+- departure is [berlin]{"entity": "city", "role": "fromloc.city_name"} and destination is [seoul]{"entity": "city", "role": "toloc.city_name"}.
+- departure is [taipei]{"entity": "city", "role": "fromloc.city_name"} and destination is [tokyo]{"entity": "city", "role": "toloc.city_name"}.
+- departure is [singapore]{"entity": "city", "role": "fromloc.city_name"} and destination is [macau]{"entity": "city", "role": "toloc.city_name"}.
+- departure is [beijing]{"entity": "city", "role": "fromloc.city_name"} and destination is [hong kong]{"entity": "city", "role": "toloc.city_name"}.
+- destination is [hong kong]{"entity": "city", "role": "fromloc.city_name"} and departure is [beijing]{"entity": "city", "role": "toloc.city_name"}.
+- destination is [macau]{"entity": "city", "role": "fromloc.city_name"} and departure is [singapore]{"entity": "city", "role": "toloc.city_name"}.
+- destination is [tokyo]{"entity": "city", "role": "fromloc.city_name"} and departure is [taipei]{"entity": "city", "role": "toloc.city_name"}.
+- destination is [seoul]{"entity": "city", "role": "fromloc.city_name"} and departure is [berlin]{"entity": "city", "role": "toloc.city_name"}.
+- destination is [new york]{"entity": "city", "role": "fromloc.city_name"} and departure is [paris]{"entity": "city", "role": "toloc.city_name"}.
+- destination is [seattle]{"entity": "city", "role": "fromloc.city_name"} and departure is [london]{"entity": "city", "role": "toloc.city_name"}.
+- destination is [london]{"entity": "city", "role": "fromloc.city_name"} and departure is [seattle]{"entity": "city", "role": "toloc.city_name"}.
+- destination is [paris]{"entity": "city", "role": "fromloc.city_name"} and departure is [new york]{"entity": "city", "role": "toloc.city_name"}.
+- destination is [berlin]{"entity": "city", "role": "fromloc.city_name"} and departure is [seoul]{"entity": "city", "role": "toloc.city_name"}.
+- destination is [taipei]{"entity": "city", "role": "fromloc.city_name"} and departure is [tokyo]{"entity": "city", "role": "toloc.city_name"}.
+- destination is [singapore]{"entity": "city", "role": "fromloc.city_name"} and departure is [macau]{"entity": "city", "role": "toloc.city_name"}.
+- destination is [beijing]{"entity": "city", "role": "fromloc.city_name"} and departure is [hong kong]{"entity": "city", "role": "toloc.city_name"}.
+- origin is [hong kong]{"entity": "city", "role": "fromloc.city_name"} and arrival is [macau]{"entity": "city", "role": "toloc.city_name"}.
+- origin is [macau]{"entity": "city", "role": "fromloc.city_name"} and arrival is [tokyo]{"entity": "city", "role": "toloc.city_name"}.
+- origin is [tokyo]{"entity": "city", "role": "fromloc.city_name"} and arrival is [seoul]{"entity": "city", "role": "toloc.city_name"}.
+- origin is [seoul]{"entity": "city", "role": "fromloc.city_name"} and arrival is [new york]{"entity": "city", "role": "toloc.city_name"}.
+- origin is [new york]{"entity": "city", "role": "fromloc.city_name"} and arrival is [seattle]{"entity": "city", "role": "toloc.city_name"}.
+- origin is [seattle]{"entity": "city", "role": "fromloc.city_name"} and arrival is [paris]{"entity": "city", "role": "toloc.city_name"}.
+- origin is [london]{"entity": "city", "role": "fromloc.city_name"} and arrival is [berlin]{"entity": "city", "role": "toloc.city_name"}.
+- origin is [paris]{"entity": "city", "role": "fromloc.city_name"} and arrival is [taipei]{"entity": "city", "role": "toloc.city_name"}.
+- origin is [berlin]{"entity": "city", "role": "fromloc.city_name"} and arrival is [singapore]{"entity": "city", "role": "toloc.city_name"}.
+- origin is [taipei]{"entity": "city", "role": "fromloc.city_name"} and arrival is [beijing]{"entity": "city", "role": "toloc.city_name"}.
+- origin is [singapore]{"entity": "city", "role": "fromloc.city_name"} and arrival is [hong kong]{"entity": "city", "role": "toloc.city_name"}.
+- origin is [beijing]{"entity": "city", "role": "fromloc.city_name"} and arrival is [london]{"entity": "city", "role": "toloc.city_name"}.
+- arrival is [hong kong]{"entity": "city", "role": "toloc.city_name"} and origin is [macau]{"entity": "city", "role": "fromloc.city_name"}.
+- arrival is [macau]{"entity": "city", "role": "toloc.city_name"} and origin is [tokyo]{"entity": "city", "role": "fromloc.city_name"}.
+- arrival is [tokyo]{"entity": "city", "role": "toloc.city_name"} and origin is [seoul]{"entity": "city", "role": "fromloc.city_name"}.
+- arrival is [seoul]{"entity": "city", "role": "toloc.city_name"} and origin is [new york]{"entity": "city", "role": "fromloc.city_name"}.
+- arrival is [new york]{"entity": "city", "role": "toloc.city_name"} and origin is [seattle]{"entity": "city", "role": "fromloc.city_name"}.
+- arrival is [seattle]{"entity": "city", "role": "toloc.city_name"} and origin is [paris]{"entity": "city", "role": "fromloc.city_name"}.
+- arrival is [london]{"entity": "city", "role": "toloc.city_name"} and origin is [berlin]{"entity": "city", "role": "fromloc.city_name"}.
+- arrival is [paris]{"entity": "city", "role": "toloc.city_name"} and origin is [taipei]{"entity": "city", "role": "fromloc.city_name"}.
+- arrival is [berlin]{"entity": "city", "role": "toloc.city_name"} and origin is [singapore]{"entity": "city", "role": "fromloc.city_name"}.
+- arrival is [taipei]{"entity": "city", "role": "toloc.city_name"} and origin is [beijing]{"entity": "city", "role": "fromloc.city_name"}.
+- arrival is [singapore]{"entity": "city", "role": "toloc.city_name"} and origin is [hong kong]{"entity": "city", "role": "fromloc.city_name"}.
+- arrival is [beijing]{"entity": "city", "role": "toloc.city_name"} and origin is [london]{"entity": "city", "role": "fromloc.city_name"}.
+- the destination is [Shanghai]{"entity": "city", "role": "toloc.city_name"} and the departure is [Hokkaido]{"entity": "city", "role": "fromloc.city_name"}.
+- arrival is [Hokkaido]{"entity": "city", "role": "toloc.city_name"} and origin is [Osaka]{"entity": "city", "role": "fromloc.city_name"}
+- My departure is [chicago]{"entity": "city", "role": "fromloc.city_name"}.
+- I will take off from [Taoyuan]{"entity": "city", "role": "fromloc.city_name"} Airport.
+- My departure city is [canada]{"entity": "city", "role": "fromloc.city_name"}
+- My starting city is [New Zealand]{"entity": "city", "role": "fromloc.city_name"}.
+- origin is [Czech]{"entity": "city", "role": "fromloc.city_name"}.
+- origin is [Taoyuan]{"entity": "city", "role": "fromloc.city_name"}.
+- origin of city is [Hualien]{"entity": "city", "role": "fromloc.city_name"}.
+- My arrival city is [Holland]{"entity": "city", "role": "toloc.city_name"}.
+- my arrival is [Norway]{"entity": "city", "role": "toloc.city_name"}
+- arrival is [cuba]{"entity": "city", "role": "toloc.city_name"}
+- My destination is [Washington]{"entity": "city", "role": "toloc.city_name"}.
+- the destination is [Austria]{"entity": "city", "role": "toloc.city_name"}
+- destination is [englan]{"entity": "city", "role": "toloc.city_name"}.
+- I’m flying to [New York]{"entity": "city", "role": "toloc.city_name"} today.
+- My destination will be [San Francisco]{"entity": "city", "role": "toloc.city_name"}.
+- departure is [Thailand]{"entity": "city", "role": "fromloc.city_name"} and destination is [Vietnam]{"entity": "city", "role": "toloc.city_name"}
+- my departure is [Russia]{"entity": "city", "role": "fromloc.city_name"} and my destination is [Doha]{"entity": "city", "role": "toloc.city_name"}
+- the departure is [Turkey]{"entity": "city", "role": "fromloc.city_name"} and the destination is [Poland]{"entity": "city", "role": "toloc.city_name"}
+- origin is [Greece]{"entity": "city", "role": "fromloc.city_name"} and arrival is [Italy]{"entity": "city", "role": "toloc.city_name"}
+- origin is [Finland]{"entity": "city", "role": "fromloc.city_name"} and arrival is [Iceland]{"entity": "city", "role": "toloc.city_name"}
+- the origin is [Rome]{"entity": "city", "role": "fromloc.city_name"} and the arrival is [Ottawa]{"entity": "city", "role": "toloc.city_name"}
+- My departure is [Athens]{"entity": "city", "role": "fromloc.city_name"}.
+- My departure city is [Oslo]{"entity": "city", "role": "fromloc.city_name"}
+- My starting city is [Helsinki]{"entity": "city", "role": "fromloc.city_name"}.
+- departure is [Bulgaria]{"entity": "city", "role": "fromloc.city_name"}.
+- origin is [Netherlands]{"entity": "city", "role": "fromloc.city_name"}.
+- origin is [Monaco]{"entity": "city", "role": "fromloc.city_name"}.
+- origin of city is [Brussels]{"entity": "city", "role": "fromloc.city_name"}.
+- My arrival city is [France]{"entity": "city", "role": "toloc.city_name"}.
+- my arrival is [Brussels]{"entity": "city", "role": "toloc.city_name"}
+- arrival is [Vienna]{"entity": "city", "role": "toloc.city_name"}
+- My destination is [Oceania]{"entity": "city", "role": "toloc.city_name"}.
+- the destination is [Abu Dhabi]{"entity": "city", "role": "toloc.city_name"}
+- destination is [Qatar]{"entity": "city", "role": "toloc.city_name"}.
+- I’m flying to [New Taipei]{"entity": "city", "role": "toloc.city_name"}.
+- My destination will be [Kaohsiung]{"entity": "city", "role": "toloc.city_name"}.
+- My arrival city is [hong kong]{"entity": "city", "role": "toloc.city_name"}.
+- my arrival is [macau]{"entity": "city", "role": "toloc.city_name"}
+- My destination is [seoul]{"entity": "city", "role": "toloc.city_name"}.
+- the destination is [new york]{"entity": "city", "role": "toloc.city_name"}
+- destination is [seattle]{"entity": "city", "role": "toloc.city_name"}.
+- I’m flying to [london]{"entity": "city", "role": "toloc.city_name"}.
+- My destination will be [paris]{"entity": "city", "role": "toloc.city_name"}
+- My destination will be [beijing]{"entity": "city", "role": "toloc.city_name"}
+- destination is [berlin]{"entity": "city", "role": "toloc.city_name"}.
+- destination is [tokyo]{"entity": "city", "role": "toloc.city_name"} and departure is [Xiaogang]{"entity": "city", "role": "fromloc.city_name"}.
+- my destination is [Korea]{"entity": "city", "role": "toloc.city_name"} and my departure is [Wuhan]{"entity": "city", "role": "fromloc.city_name"}.
+- the destination is [Shanghai]{"entity": "city", "role": "toloc.city_name"} and the departure is [Hokkaido]{"entity": "city", "role": "fromloc.city_name"}.
+- arrival is [Hokkaido]{"entity": "city", "role": "toloc.city_name"} and origin is [Osaka]{"entity": "city", "role": "fromloc.city_name"}
+- arrival is [Kyoto]{"entity": "city", "role": "toloc.city_name"} and origin is [Shibuya]{"entity": "city", "role": "fromloc.city_name"}.
+- the arrival is [Pyongyang]{"entity": "city", "role": "toloc.city_name"} and the origin is [Seoul]{"entity": "city", "role": "fromloc.city_name"}
+- [pingtune]{"entity": "city", "role": "fromloc.city_name"} to [tamsui]{"entity": "city", "role": "toloc.city_name"}
+- [Tamsui]{"entity": "city", "role": "fromloc.city_name"} to [Pingtune]{"entity": "city", "role": "toloc.city_name"}
+- [Keelung]{"entity": "city", "role": "fromloc.city_name"} to [Kaohsiung]{"entity": "city", "role": "toloc.city_name"}
+- [usa]{"entity": "city", "role": "fromloc.city_name"} to [england]{"entity": "city", "role": "toloc.city_name"}
+- [UK]{"entity": "city", "role": "fromloc.city_name"} to [france]{"entity": "city", "role": "toloc.city_name"}
+- [Europe]{"entity": "city", "role": "fromloc.city_name"} to [Australia]{"entity": "city", "role": "toloc.city_name"}
+- [vancouver]{"entity": "city", "role": "fromloc.city_name"} to [Sri Lanka]{"entity": "city", "role": "toloc.city_name"}
+- [EU]{"entity": "city", "role": "fromloc.city_name"} to [Africa]{"entity": "city", "role": "toloc.city_name"}
+- fly from [taiwan]{"entity": "city", "role": "fromloc.city_name"} to [china]{"entity": "city", "role": "toloc.city_name"}
+- fly to [china]{"entity": "city", "role": "toloc.city_name"} from [taiwan]{"entity": "city", "role": "fromloc.city_name"}
+- fly from [china]{"entity": "city", "role": "fromloc.city_name"} to [taiwan]{"entity": "city", "role": "toloc.city_name"}
+- fly to [taiwan]{"entity": "city", "role": "toloc.city_name"} from [china]{"entity": "city", "role": "fromloc.city_name"}
+- i would like a flight that leaves on sunday from [montreal]{"entity": "city", "role": "fromloc.city_name"} [quebec](fromloc.state_name) to [san diego]{"entity": "city", "role": "toloc.city_name"} [california](toloc.state_name)
+- fly to [Macao]{"entity": "city", "role": "toloc.city_name"} from [Philippines]{"entity": "city", "role": "fromloc.city_name"}.
+- to [india]{"entity": "city", "role": "toloc.city_name"}
+- i want to go [greece]{"entity": "city", "role": "toloc.city_name"}
+- to [usa]{"entity": "city", "role": "toloc.city_name"}
+- from [usa]{"entity": "city", "role": "fromloc.city_name"}
+- from [india]{"entity": "city", "role": "fromloc.city_name"}
+- flight to [France]{"entity": "city", "role": "toloc.city_name"}
+- go to [france]{"entity": "city", "role": "toloc.city_name"}
+- i want from [uk]{"entity": "city", "role": "fromloc.city_name"}
+- i want to go [uk]{"entity": "city", "role": "fromloc.city_name"}
+- go to [greece]{"entity": "city", "role": "fromloc.city_name"}
+- from [Indonesia]{"entity": "city", "role": "fromloc.city_name"} to [Hong Kong]{"entity": "city", "role": "toloc.city_name"}
+- [canada]{"entity": "city", "role": "fromloc.city_name"} to [taiwan]{"entity": "city", "role": "toloc.city_name"}
+- i want a flight [round trip](round_trip) from [memphis]{"entity": "city", "role": "fromloc.city_name"} to [seattle]{"entity": "city", "role": "toloc.city_name"}
+- i 'd like to travel to [kansas city]{"entity": "city", "role": "toloc.city_name"} from [chicago]{"entity": "city", "role": "fromloc.city_name"} [next](depart_date.date_relative) wednesday
+- i 'd like a [round trip](round_trip) flight to [kansas city]{"entity": "city", "role": "toloc.city_name"} from [chicago]{"entity": "city", "role": "fromloc.city_name"} on wednesday may twenty sixth arriving at 7 pm
+- yes i 'd like to find a flight from [memphis]{"entity": "city", "role": "fromloc.city_name"} to [tacoma]{"entity": "city", "role": "toloc.city_name"} stopping in [los angeles](stoploc.city_name)
+- fly from [korea]{"entity": "city", "role": "fromloc.city_name"} to [japan]{"entity": "city", "role": "toloc.city_name"}.
+- fly to [japan]{"entity": "city", "role": "toloc.city_name"} from [korea]{"entity": "city", "role": "fromloc.city_name"}.
+- fly from [japan]{"entity": "city", "role": "fromloc.city_name"} to [korea]{"entity": "city", "role": "toloc.city_name"}.
+- fly to [korea]{"entity": "city", "role": "toloc.city_name"} from [japan]{"entity": "city", "role": "fromloc.city_name"}.
+- to [hong kong]{"entity": "city", "role": "toloc.city_name"} from [greece]{"entity": "city", "role": "fromloc.city_name"}.
+- arrive in [Hokkaido]{"entity": "city", "role": "toloc.city_name"}
+- to [antwerp]{"entity": "city", "role": "toloc.city_name"}
+- to [aomori]{"entity": "city", "role": "toloc.city_name"}
+- i want to go to [Hong Kong]{"entity": "city", "role": "toloc.city_name"}
+- go to [taipei]{"entity": "city", "role": "toloc.city_name"}
+- [london]{"entity": "city", "role": "fromloc.city_name"} and i want to go to [Seoul]{"entity": "city", "role": "toloc.city_name"}
+- i want to go to [Seattle]{"entity": "city", "role": "toloc.city_name"}
+- go to [Paris]{"entity": "city", "role": "toloc.city_name"}
+- [Seattle]{"entity": "city", "role": "fromloc.city_name"} and i want to go to [Berlin]{"entity": "city", "role": "toloc.city_name"}
+- I’m off to a conference at the end of the month - Thursday 22nd until Tuesday 27th
+- I want to depart on August 14th.
+- this morning
+- this evening
+- in the morning
+- in the evening
+- in this morning
+- in this evening
+- [at night](time)
+- at 16:30 on 8/30
+- Can you check if June 22nd is possible?
+- Is June 22nd available?
+- I would like to leave on June 22nd.
+- next weekend
+- 2020/7/25
+- on July first
+- on june 13
+- tomorrow afternoon
+- next friday
+
+## intent:enter_data
+- Is there any seat for [KN76](flight_no)?
+- i want to book the [JO87](flight_no)
+- i want to book the flight [CA 758](flight_no)
+- i want to book the flight [YZ63](flight_no)
+- i would like to book the [AE79](flight_no)
+- [BPA633](flight_no) is the flight no. i want to book.
+- [AE85](flight_no) is the flight number i want to book.
+- um... [YZ74](flight_no) is the best.
+- [NA895](flight_no) is good.
+- [YZ076](flight_no) is ok.
+- OK. I want [UA023](flight_no)
+- I want the [BPA88](flight_no)
+- I want the [CTZ 608](flight_no)
+- I want the flight no. [CA770](flight_no)
+- I want the [AE939](flight_no)
+- [IA16](flight_no) best meets my needs.
+- [CTZ17](flight_no) fit my standards
+- The [BPA15](flight_no) meets my requirement.
+- [CTZ 235](flight_no) meet my needs
+- [IA647](flight_no) qualifying to my standards
+- [SA460](flight_no) fit my requests
+- Flight number [AA835](flight_no) meet my standards
+- Flight number [iOPEX830](flight_no) is the best.
+- the Flight number [NA895](flight_no) is good.
+- the Flight no. [NA820](flight_no) is ok.
+- the Flight no. [ABC996](flight_no) meet my qualifications
+- The [JO671](flight_no) fit my requests.
+- Flight number [iOPEX235](flight_no) meet my standards
+- the [YZ74](flight_no) is the best.
+- the [NA895](flight_no) is good.
+- the [IA41](flight_no) is ok.
+- the [AE415](flight_no) meet my qualifications
+- The [UA062](flight_no) fit my requests.
+- May I choose the [AE 746](flight_no)?
+- Can I have the [CA640](flight_no)?
+- I would like the [JO535](flight_no).
+- I would like the [CA061](flight_no).
+- I would like the [CA31](flight_no).
+- I would like the [CA81](flight_no).
+- I would like the [YZ297](flight_no).
+- the flight no. I want is [AA78](flight_no)
+- I would prefer to [UA321](flight_no)
+- Is there any seat for [LM763](flight_no)?
+- Is [AKB48](flight_no) okay?
+- i want to book the [sa039](flight_no)
+- um... [az898](flight_no) is the best.
+- OK. I want [iOPEX 768](flight_no)
+- I want the [BPA88](flight_no)
+- I want the [BPA417](flight_no)
+- I want the flight no. [UA487](flight_no)
+- I want the [NA90](flight_no)
+- [ABC123](flight_no) best meets my needs.
+- [SA889](flight_no) fit my standards
+- The [YZ327](flight_no) meets my requirement.
+- [YZ331](flight_no) meet my needs
+- [YZ96](flight_no) qualifying to my standards
+- [AE641](flight_no) fit my requests
+- Flight number [SA658](flight_no) meet my standards
+- [CTZ647](flight_no) meet my qualifications
+- The [BPA19](flight_no) fit my requests.
+- May I choose the [JO749](flight_no)?
+- Can I have the [CA640](flight_no)?
+- I would like the [NA884](flight_no).
+- I would like the [AA934](flight_no).
+- I would like the [IA066](flight_no).
+- I would like the [CA81](flight_no).
+- I would like the [YZ297](flight_no).
+- the flight no. I want is [IA618](flight_no)
+- I would prefer to [AA978](flight_no)
+- i'd like the [DL010](flight_no)
+- i'd like the flight number [AA34](flight_no)
+- i'd like the [IA 070](flight_no)
+- i'd like the flight number [iOPEX473](flight_no)
+- i'd like the [AE967](flight_no)
+- i'd like the flight number [YZ350](flight_no)
+- I prefer [iOPEX390](flight_no) to IOPEX377
+- I prefer [AE271](flight_no) to CIZ56
+- i prefer [AE786](flight_no)
+- I prefer [JO 338](flight_no) to YZ863
+- I prefer [JO123](flight_no) to JO 513
+- i prefer [CTZ456](flight_no)
+- I prefer [CTZ56](flight_no) to IA565
+- I prefer [YZ 659](flight_no) to KU 45
+- i prefer [YZ350](flight_no)
+- I prefer [YZ 96](flight_no) to PA069
+- I prefer [iOPEX29](flight_no) to CA134
+- i prefer [iOPEX 133](flight_no)
+- Is [NA272](flight_no) okay?
+- How about [YZ933](flight_no)?
+- How about [CA134](flight_no)?
+- Sorry. I change my mind. I want to book the flight [AE119](flight_no)
+- I change my mind. I want to book the flight [AE22](flight_no)
+- I want to change to book the [CA535](flight_no)
+- I'm sorry. I change my order to [AE48](flight_no).
+- [IND010](flight_no)
+- [BA 030](flight_no)
+- [IA846](flight_no)
+- [BA 982](flight_no)
+- [WN 417](flight_no)
+- [BA908](flight_no)
+- [EW301](flight_no)
+- [EA331](flight_no)
+- [AC687](flight_no)
+- [LX245](flight_no)
+- [PA817](flight_no)
+- [first class](class_type)
+- [business class](class_type)
+- [economy class](class_type)
+- [first]{"entity": "class_type", "value": "first class"}
+- [first-class]{"entity": "class_type", "value": "first class"}
+- [first-cla]{"entity": "class_type", "value": "first class"}
+- [first-rate]{"entity": "class_type", "value": "first class"}
+- [first rate]{"entity": "class_type", "value": "first class"}
+- [business]{"entity": "class_type", "value": "business class"}
+- [business-class]{"entity": "class_type", "value": "business class"}
+- [business-cla]{"entity": "class_type", "value": "business class"}
+- [coach]{"entity": "class_type", "value": "economy class"}
+- [coach class]{"entity": "class_type", "value": "economy class"}
+- [coach-cla]{"entity": "class_type", "value": "economy class"}
+- [economy]{"entity": "class_type", "value": "economy class"}
+- [economy-class]{"entity": "class_type", "value": "economy class"}
+- [economy-cla]{"entity": "class_type", "value": "economy class"}
+- i prefer [business class](class_type)
+- i prefer [first class](class_type)
+- i prefer [economy class](class_type)
+- i prefer [coach]{"entity": "class_type", "value": "economy class"}
+- i prefer [coach class]{"entity": "class_type", "value": "economy class"}
+- i want [business class](class_type)
+- i want [first class](class_type)
+- i want [economy class](class_type)
+- i want [coach class]{"entity": "class_type", "value": "economy class"}
+- i want [coach]{"entity": "class_type", "value": "economy class"}
+- Well, I’d like to go first class, but unfortunately I’ll have to go [economy]{"entity": "class_type", "value": "economy class"} - company rules, you see. 
+- Well, I’d like to go [first class](class_type)
+- I’ll have to go [business]{"entity": "class_type", "value": "business class"}
+- I prefer to [economy class](class_type)
+- I prefer to [first-class]{"entity": "class_type", "value": "first class"}
+- [Mary](name) prefers [business class]{"entity": "class_type", "value": "business class"} to economy class
+- I prefer [first class]{"entity": "class_type", "value": "first class"} to business class
+- I prefer [coach]{"entity": "class_type", "value": "economy class"} to first class
+- i prefer [business class](class_type)
+- I want to change to [first class](class_type)
+- I want to change to [business class](class_type)
+- I want to change to [economy class](class_type)
+- Sorry. I want to change to [economy class](class_type)
+- Excuse me. I want to change to [coach](class_type)
+- I changed my mind. I want a [first class](class_type) ticket.
+- I want to change my order to [first class](class_type).
+- I want changing my order to [business class](class_type).
+- sure, i would like [window seat](seat_type)
+- sure, i 'd like [window seat](seat_type)
+- of course, i would like to have an [aisle seat](seat_type)
+- yes, i 'd like to have a [window seat](seat_type)
+- A seat near the [windows]{"entity": "seat_type", "value": "window seat"} will be fine.
+- [window seat](seat_type)
+- [aisle seat](seat_type)
+- [not specify](seat_type)
+- [windows seats]{"entity": "seat_type", "value": "window seat"}
+- [window seats]{"entity": "seat_type", "value": "window seat"}
+- [windows seats]{"entity": "seat_type", "value": "window seat"}
+- [window]{"entity": "seat_type", "value": "window seat"}
+- [windows]{"entity": "seat_type", "value": "window seat"}
+- [window seats]{"entity": "seat_type", "value": "window seat"}
+- [aisle seats]{"entity": "seat_type", "value": "aisle seat"}
+- [aisle]{"entity": "seat_type", "value": "aisle seat"}
+- [not specify](seat_type)
+- Can I have 2 seats near the emergency exit.
+- Can I have a seat near the [window]{"entity": "seat_type", "value": "window seat"}.
+- May I have a seat beside the [aisle]{"entity": "seat_type", "value": "aisle seat"}.
+- Is it possible to get an [aisle seat](seat_type)?
+- I need a seat by [window]{"entity": "seat_type", "value": "window seat"} side
+- A [window seat](seat_type) will be perfect.
+- an [aisle seat](seat_type)
+- sit by the [aisle]{"entity": "seat_type", "value": "aisle seat"}
+- sit next to the [aisle]{"entity": "seat_type", "value": "aisle seat"}
+- I prefer an [aisle seat](seat_type).
+- I prefer an [windows seat]{"entity": "seat_type", "value": "window seat"}.
+- I prefer [window]{"entity": "seat_type", "value": "window seat"}
+- I prefer [aisle]{"entity": "seat_type", "value": "aisle seat"}
+- I would like an [aisle seat](seat_type).
+- I would like to have a [windows seats]{"entity": "seat_type", "value": "window seat"}.
+- I want [aisle seats]{"entity": "seat_type", "value": "aisle seat"}
+- Could you give me an [aisle seat](seat_type), please!
+- Could I have a [window seat](seat_type), please
+- I can take the [aisle seat](seat_type).
+- Excuse me. I want an [aisle seat](seat_type) in the smoking section, if I may.
+- I'd rather have an [aisle seat](seat_type).
+- I'd like a seat on the [aisle]{"entity": "seat_type", "value": "aisle seat"}, please.
+- If possible, I'd like to have an [window seat](seat_type) in non-smoking section.
+- Could I get a [window seat](seat_type)?
+- I want a seat near the [window]{"entity": "seat_type", "value": "window seat"}
+- I want to change to [window seat](class_type)
+- I want to change to [aisle seat](class_type)
+- I want to change to [not specify](class_type)
+- I want to change my order to [aisle seat](class_type).
+- I want changing my order to [window seat](class_type).
+- Sorry. I want to change to [window seat](class_type)
+- Excuse me. I want to change to [aisle seat](class_type)
+- I changed my mind. I want a [aisle seat](class_type).
+- [CHIU, CHENG-HAN]{"entity": "name", "role": "english_full_name"}
+- [WU,YUEH-CHIA]{"entity": "name", "role": "english_full_name"}
+- [Ouyang,Feifan]{"entity": "name", "role": "english_full_name"}
+- [Cardei, Mis]{"entity": "name", "role": "english_full_name"}
+- [M. Cardei]{"entity": "name", "role": "english_full_name"}
+- [Ford, Jroh-Henry]{"entity": "name", "role": "english_full_name"}
+- [Hesham, El-Rewini]{"entity": "name", "role": "english_full_name"}
+- my name is [XIN,CHEN]{"entity": "name", "role": "english_full_name"}
+- my English full name is [ZIH MO LE SAI,DA-LI-YA-LAN]{"entity": "name", "role": "english_full_name"}
+- my full name is [WANG,LIN]{"entity": "name", "role": "english_full_name"}
+- my English full name is [CIOU,JHIH-SYUN]{"entity": "name", "role": "english_full_name"}
+- my full name is [JHU,YOU-TENG]{"entity": "name", "role": "english_full_name"}
+- my English full name is [WU,JIA-EN]{"entity": "name", "role": "english_full_name"}
+- my full name is [CHEN,YAN-CIH]{"entity": "name", "role": "english_full_name"}
+- my English full name is [LI, YI-LUN]{"entity": "name", "role": "english_full_name"}
+- my full name is [JHENG, SU-HUEI]{"entity": "name", "role": "english_full_name"}
+- my name is [LIN,YOU-JIA]{"entity": "name", "role": "english_full_name"}
+- my name is [CAI,YI-LIN]{"entity": "name", "role": "english_full_name"}
+- my English full name is [JHOU, JIE-LUN]{"entity": "name", "role": "english_full_name"}
+- my full name is [MA, YING-JIOU]{"entity": "name", "role": "english_full_name"}
+- I am [Christina Sullivan]{"entity": "name", "role": "english_full_name"}
+- I am [Hattie Rice]{"entity": "name", "role": "english_full_name"}
+- I am [Robert Starks]{"entity": "name", "role": "english_full_name"}
+- I'm [Gladys Bynum]{"entity": "name", "role": "english_full_name"}
+- I'm [Harvey Cordano]{"entity": "name", "role": "english_full_name"}
+- I'm [Jeanine Hwang]{"entity": "name", "role": "english_full_name"}
+- I'm [Virginia Mason]{"entity": "name", "role": "english_full_name"}
+- i am [Irene Leslie]{"entity": "name", "role": "english_full_name"}
+- i am [Carly Dinwiddie]{"entity": "name", "role": "english_full_name"}
+- i am [Irene](name)
+- i am [Carly](name)
+- i am [Karen Mease]{"entity": "name", "role": "english_full_name"}
+- i am [Marcus Caulfield]{"entity": "name", "role": "english_full_name"}
+- my name is [JHANG,JIA-HAN]{"entity": "name", "role": "english_full_name"}
+- I am [CHEN,YOU-JIA]{"entity": "name", "role": "english_full_name"}
+- I am [WANG, SHAO-HAN]{"entity": "name", "role": "english_full_name"}
+- I am [CHEN, SIAO-MING]{"entity": "name", "role": "english_full_name"}
+- I'm [JHEN,SIAO-MING]{"entity": "name", "role": "english_full_name"}
+- I'm [SHEN,JI]{"entity": "name", "role": "english_full_name"}
+- I'm [OU YANG,FEI-FAN]{"entity": "name", "role": "english_full_name"}
+- I'm [CHEN,JI]{"entity": "name", "role": "english_full_name"}
+- i am [LIN,ZIH-WEI]{"entity": "name", "role": "english_full_name"}
+- OK. i am [Anna](name)
+- i am [ChenHan](name) ,understand?
+- My name is [Porter](name), you know?
+- My name is [Jack](name)
+- My name is [Hadon](name)
+- My name is [Sherry](name), please
+- My name is [Kevin](name), please
+- My name is [Austin Merritt]{"entity": "name", "role": "english_full_name"}
+- My name is [Steven Orrico]{"entity": "name", "role": "english_full_name"}
+- My name is [Sergey Swift]{"entity": "name", "role": "english_full_name"}
+- My name is [Luke Graham]{"entity": "name", "role": "english_full_name"}
+- My name is [Ashleigh Mees]{"entity": "name", "role": "english_full_name"}
+- My name is [chelsea Parker]{"entity": "name", "role": "english_full_name"}
+- My name is [jessie maglione]{"entity": "name", "role": "english_full_name"}
+- My name is [Kenneth Sherman]{"entity": "name", "role": "english_full_name"}
+- My name is [Lee George]{"entity": "name", "role": "english_full_name"}
+- My name is [Louise Caudill]{"entity": "name", "role": "english_full_name"}
+- My name is [Richard smith]{"entity": "name", "role": "english_full_name"}
+- My name is [Shane Goodyear]{"entity": "name", "role": "english_full_name"}
+- My name is [Sondra Boyd]{"entity": "name", "role": "english_full_name"}
+- My name si [tom Harbin]{"entity": "name", "role": "english_full_name"}
+- My name is [Ashleigh Mees]{"entity": "name", "role": "english_full_name"}
+- My name is [chelsea Parker]{"entity": "name", "role": "english_full_name"}
+- My name is [jessie maglione]{"entity": "name", "role": "english_full_name"}
+- My name is [Kenneth Sherman]{"entity": "name", "role": "english_full_name"}
+- My name is [Lee George]{"entity": "name", "role": "english_full_name"}
+- My name is [Louise Caudill]{"entity": "name", "role": "english_full_name"}
+- My name is [Richard smith]{"entity": "name", "role": "english_full_name"}
+- My name is [Shane Goodyear]{"entity": "name", "role": "english_full_name"}
+- My name is [Sondra Boyd]{"entity": "name", "role": "english_full_name"}
+- My name si [tom Harbin]{"entity": "name", "role": "english_full_name"}
+- This is [Kim Vanderveen]{"entity": "name", "role": "english_full_name"}
+- This is [Norma Taylor]{"entity": "name", "role": "english_full_name"}
+- my name is [Alexander Kohn]{"entity": "name", "role": "english_full_name"}
+- my name is [betty mclendon]{"entity": "name", "role": "english_full_name"}
+- my name is [Brian Leung]{"entity": "name", "role": "english_full_name"}
+- my name is [Claude Ake]{"entity": "name", "role": "english_full_name"}
+- my name is [Earl Ring]{"entity": "name", "role": "english_full_name"}
+- my name is [Felicia Cosby]{"entity": "name", "role": "english_full_name"}
+- my name is [Frances Kunkle]{"entity": "name", "role": "english_full_name"}
+- my name is [Greg King]{"entity": "name", "role": "english_full_name"}
+- my name is [james culpit]{"entity": "name", "role": "english_full_name"}
+- my name is [Jermaine Mccleery]{"entity": "name", "role": "english_full_name"}
+- my name is [John Evers]{"entity": "name", "role": "english_full_name"}
+- my name is [Joseph Parson]{"entity": "name", "role": "english_full_name"}
+- my English full name is [Monica Ser]{"entity": "name", "role": "english_full_name"}
+- my full name is [Nigel Partida]{"entity": "name", "role": "english_full_name"}
+- my name is [Staci Simpson]{"entity": "name", "role": "english_full_name"}
+- my name is [susan crandall]{"entity": "name", "role": "english_full_name"}
+- my name is [Tabitha Schoenthal]{"entity": "name", "role": "english_full_name"}
+- my name's [Michael Peppers]{"entity": "name", "role": "english_full_name"}
+- [Jamie Moore]{"entity": "name", "role": "english_full_name"}
+- [Jane Baines]{"entity": "name", "role": "english_full_name"}
+- [John Strickland]{"entity": "name", "role": "english_full_name"}
+- [Keith Donnell]{"entity": "name", "role": "english_full_name"} PhD
+- [Linda Mchone]{"entity": "name", "role": "english_full_name"}
+- [Michele Perry]{"entity": "name", "role": "english_full_name"}
+- [Michelle Garcia]{"entity": "name", "role": "english_full_name"}
+- [Michelle Vinion]{"entity": "name", "role": "english_full_name"}
+- [Mr. Sweney]{"entity": "name", "role": "english_full_name"}
+- sure, my full name is [shang john, hollico]{"entity": "name", "role": "english_full_name"}
+- You can call me [Bryan Ferragni]{"entity": "name", "role": "english_full_name"}.
+- You can call me [Bryan](name) ok?
+- You can call me [william](name), ok?
+- ok, It's 	[Gustavo Sutton]{"entity": "name", "role": "english_full_name"}
+- sure, It is [Aaron Robertson]{"entity": "name", "role": "english_full_name"}
+- of course. It's [Tsui,IN-WIN]{"entity": "name", "role": "english_full_name"}
+- It is [Austin Pitcher]{"entity": "name", "role": "english_full_name"}
+- [Jarrett Garrix]{"entity": "name", "role": "english_full_name"} is my full name, please.
+- [harry porter]{"entity": "name", "role": "english_full_name"}
+- aka [Eduardo Clements]{"entity": "name", "role": "english_full_name"}
+- [Clements, Eduardo]{"entity": "name", "role": "english_full_name"}
+- okok ,my name is [Wilson, Isabelle]{"entity": "name", "role": "english_full_name"}
+- by the way, I am [Gaddis, Minnie-Hason]{"entity": "name", "role": "english_full_name"}
+- by the way, I'm [Harry Stella, Peter]{"entity": "name", "role": "english_full_name"}
+- it's my pleasure, my name is [Yen, Li-Hsing]{"entity": "name", "role": "english_full_name"}
+- no problem. my name is [HONG,Xiaoyan]{"entity": "name", "role": "english_full_name"}
+- My name is [manuel](name)
+- I am [Aniket](name)
+- I'm [Pete Smith]{"entity": "name", "role": "english_full_name"}
+- I am [Sherry](name)
+- [Peter](name)
+- [jack](name)
+- [Eric](name)
+- [Paul](name)
+- [Jacky](name)
+- [Michelle](name)
+- [Michael](name)
+- [Owen](name)
+- [Jenny](name)
+- [Sharon](name)
+- [Smith](name)
+- [Allen](name)
+- [Lucy](name)
+- [Sara](name)
+- [Penny](name)
+- [Kobe](name)
+- [William](name)
+- it's [Robert Weir]{"entity": "name", "role": "english_full_name"} 
+- I'm sorry. My correct name is [Steven Jobs]{"entity": "name", "role": "english_full_name"} 
+- As a matter of fact, my name is [William Gates]{"entity": "name", "role": "english_full_name"} 
+- In fact, my name is [Donald Trump]{"entity": "name", "role": "english_full_name"} 
+- Actually, my name is [Ma Ying-jeou]{"entity": "name", "role": "english_full_name"} 
+- [A112293472](passport_no)
+- [AC123593472](passport_no)
+- [EB9347265](passport_no)
+- [T11234566698](passport_no)
+- [MA1157923472](passport_no)
+- My passport no. is [P1024518754](passport_no)
+- My passport no. is [K144572072](passport_no)
+- My passport no. is [LA189737226](passport_no)
+- My passport no. is [136495984](passport_no)
+- My passport number is [W146451817](passport_no)
+- My passport number is [UK144564562072](passport_no)
+- My passport number is [K1445899](passport_no)
+- OK. [I184391509](passport_no)
+- OK. [I184391509](passport_no)
+- Sure. [HD158565063](passport_no) ,please
+- Sure. [HD158565063](passport_no) ,please
+- Of course. [N1244318](passport_no)
+- Of course. [N1244318](passport_no)
+- My passport no. is [T1024518754](passport_no)
+- My passport no. is [KO2642072](passport_no)
+- My passport no. is [46456189737226](passport_no)
+- My passport no. is [1364959841146546](passport_no)
+- My passport number is [W146451817](passport_no)
+- My passport number is [UK144564562072](passport_no)
+- My passport number is [K1445899](passport_no)
+- here is my passport. [VO45688222333](passport_no)
+- here is my passport. [6934953555684](passport_no)
+- OK. [150978923122](passport_no)
+- OK. [I184789645](passport_no)
+- Sure. [HD43334891328](passport_no) ,please
+- Sure. [HD158565063](passport_no) ,please
+- Of course. [NT1246564318](passport_no)
+- Of course. [H148340047](passport_no)
+- My passport no. is [L239041099](passport_no)
+- My passport no. is [A127533992](passport_no)
+- My passport no. is [B263836362](passport_no)
+- My passport no. is [C216150025](passport_no)
+- My passport number is [D237740431](passport_no)
+- My passport number is [E136313528](passport_no)
+- My passport number is [F247537144](passport_no)
+- here is my passport. [G275821705](passport_no)
+- here is my passport. [H289481078](passport_no)
+- OK. [I283088005](passport_no)
+- OK. [J203804556](passport_no)
+- Sure. [K229973271](passport_no) ,please
+- Sure. [L240894579](passport_no) ,please
+- Of course. [M217611463](passport_no)
+- Of course. [N267461692](passport_no)
+- here is my passport. [O298016441](passport_no)
+- here is my passport. [P247199034](passport_no)
+- OK. [Q213015511](passport_no)
+- OK. [R276310852](passport_no)
+- Sure. [S264561877](passport_no) ,please
+- Sure. [T294375433](passport_no) ,please
+- Of course. [U233392933](passport_no)
+- Of course. [V282117450](passport_no)
+ here is my passport. [W274614791](passport_no)
+- here is my passport. [X286779894](passport_no)
+- OK. [Y256641191](passport_no)
+- OK. [Z273973210](passport_no)
+- Sure. [CK645648699](passport_no) ,please
+- Sure. [XP78932319](passport_no) ,please
+- Of course. [QP7564315616564](passport_no)
+- Of course. [KY4156563148](passport_no)
+- OK. it's [UY649834995](passport_no)
+- OK. it is [ZQ21651654730](passport_no)
+- Sure. it's [IO6462648699](passport_no) ,please
+- Sure. it is [QW765462319](passport_no) ,please
+- Of course. it is [4315616564](passport_no)
+- Of course. it's [4156563148](passport_no)
+- OK. it's [Y25546434178](passport_no)
+- OK. it is [4313273973210](passport_no)
+- Sure. it's [LL64567893699](passport_no) ,please
+- Sure. it is [MM7845641789](passport_no) ,please
+- Of course. it is [QF74693421319](passport_no)
+- Of course. it's [BQ478923331445648](passport_no)
+- it is [YH46513244788933](passport_no)
+- it's [1321846145648](passport_no)
+- it is [744964699865](passport_no)
+- it's [6479861445648](passport_no)
+- it is [MI74693421319](passport_no)
+- it's [RU47464664](passport_no)
+- [123456789](passport_no)
+- [963558632](passport_no)
+- [98989519878](passport_no)
+- [367954356](passport_no)
+- [3598559433](passport_no)
+- I'm sorry. My correct passport number is [PA0940443](passport_no)
+- As a matter of fact, my passport number is [F81243466](passport_no)
+- In fact, my actual passport number is [DA866789](passport_no)
+- jack123@yahoo.com
+- harrcc@gmail.com.tw
+- happy0615@tku.edu.tw
+- jack0322@gmail.com
+- My email is Richard@Simmons.com
+- it's R_Iuliucci@yahoo.com
+- it's Shannon.Adelman@Hurt.com
+- my business mail is s_Dibenedetto@Simpson.net
+- my email is Carole@Hart.com
+- my email is Elinor_Stock@Higgenbotham.com
+- my email is K_Spivey@yahoo.com
+- my email is Kelly@Coulter.net
+- my email is M_Jones@Luna.com
+- my email is Mia_Gainey@gmail.com
+- my email is S_Calderon@Cofield.com
+- my email is Virginia@Brown.com
+- my emayl is V_Comley@Nelson.com
+- My name, passport number and email are [Harry Potter]{"entity": "name", "role": "english_full_name"}, [SA12345678](passport_no) and harryisgood@gmail.com
+- My name is [Kobe Hakke]{"entity": "name", "role": "english_full_name"}. My passport No. and email are [SA12345678](passport_no) and kobeisgood@gmail.com
+
+## intent:check_ticket
+- I would like to confirm my flight.
+- I want to check my flight ticket
+- I would like to confirm my flight.
+- check tickets
+- my flight ticket
+
+## intent:cancel_ticket
+- I want to rebook or cancel my flight, what do I need to do?
+- I want to change my flight
+- I want to cancel my flight
+- What if I have a ticket or want to book a new ticket and am concerned about traveling?
+- I want to cancel my flight
+- I would like to cancel my flight.
+- return a ticket
+- bounce a check
+- Refund
+- Can I get a refund for an unused air ticket?
+- excuse me , miss . i want to cancel my flight
+- Cancellation refund rerouting rebooking
+- return ticket
+- return an airline ticket
+- My trip was canceled
+- cancel my ticket and get a refund
+- I need to cancel my airline ticket and get a refund
+- I need to cancel and refund my airline ticket。
+- Can I cancel refundable tickets and change my ticket online for free?
+- I am writing this mail request refund flight ticket due to irresistible reason ,looking forward hear you back.
+- I’dId like to have Full refund for my cancellation flight.
+- Good afternoon , I have a ticket for New York tomorrow , but I have to change my plan , I would like to apply for a refund of my ticket .
+- I have to change my plan , I would like to apply for a refund of my ticket
+- I have to change my plan
+- Please refund it for me .
+- I need to cancel my flight .
+- I need to reschedule my flight.
+- Can I change my flight schedule ?
+- I would like to apply for a refund of my ticket
+
+## intent:city
+- [taipei](city)
+- [taipei](city).
+- [taipei](city) city
+- [china](city)
+- [japan](city)
+- [korea](city)
+- [taiwam](city)
+- [india](city)
+- [tokiyo](city)
+- [maxico](city)
+- [Australia](city)
+- [Egypt](city)
+- [Italy](city)
+- [Thailand](city).
+- [usa](city).
+- [chiang mai](city)
+- [new york](city)
+- [amsterdam](city)
+- [asahikawa](city)
+- [aacau](city)
+- [tokyo](city)
+- [seoul](city)
+- [seattle](city)
+- [london](city)
+- [paris](city)
+- [berlin](city)
+- [auckland](city)
+- [bangkok](city)
+- [beijing](city)
+- [brisbane](city)
+- [brussels](city)
+- [cebu](city)
+- [chengdu](city)
+- [chicago](city)
+- [chennai](city)
+- [singapore](city)
+- [Czech Republic](city)
+- [United Kingdom](city)
+- [UK](city)
+- [Guatemala](city)
+- [Vancouver](city)
+- [Hong kong](city)
+
+## intent:introduction
+- Excuse me, what is your name?
+- who are you
+- who're you?
+- tell me about yourself
+- what are you
+- what're you
+- Myflyboost?
+- What's Myflyboost?
+- what is Myflyboost
+- Is your name myflyboost?
+- Can you introduce yourself
+- Please introduce yourself
+- introduce yourself
+- What made you
+- What are you doing?
+- What do you do
+- intro
+- introduction
+- I want to know you
+- What can you do
+- what's your name
+- what is your name
+- What can Myflyboost do
+
+## intent:research
+- another flight
+- Please give me a new reservation
+- some thing else
+- what else?
+- research the flight
+- research
+- research please
+- i want to research the flight
+- May I research the flight?
+- reseach flight no.
+- reseach flight number
+- can I research the others?
+- i want search another
+- search others
+- search another
+- search other flights
+- I want to search for other
+- change the search
+- There are no flights that meet my needs.
+- There are no flights that meet my requirment.
+- There's no flight I want.
+- There's no flight I need.
+- There's no flight that I want.
+- I'm not getting the flight number I need.
+- I'm not getting the flight no. I need.
+- I'd like to search for other flights.
+- I would like to search for other flights.
+- I want to search other flights.
+
+## intent:explain
+- ?
+- None
+- none
+- i don't have one
+- i don't have it
+- i don't know
+- i have none
+- have no idea
+- my own
+- n/a
+- no idea
+- not sure yet
+- we don't have one
+- what!?
+- whats that
+- can you elaborate
+- why do you need that?
+- could you explain why you need that
+- Why do you need to know that?
+- could you tell me more
+- explain it to me
+- explain that
+- i want more information
+- i would like to know why you need that
+- please elaborate
+- please explain
+- why do you need to know that
+- why is that necessary
+- give me more details
+- why
+- what do you mean
+- what does that mean
+- how come?
+- what?
+- I don't know.
+- It's my business
+- I don't want to tell you.
+
+## intent:greet
+- hey bro
+- hi rasa
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+- hola
+- yo
+- yo man
+- haloha
+- Aloha
+- Bom dia
+- Bonjour
+- Good Morning
+- Good morning
+- Good mourning
+- Guten Morgen
+- HELLO
+- HEY
+- HEllo
+- HI
+- Hallo
+- Hei
+- Hellllooooooo
+- Hello
+- Hello Bot
+- Hello Rasa
+- Hello!
+- Hey
+- Hey Sara
+- Hey bot
+- Heya
+- Heylo
+- Hi
+- Hi Myflyboost
+- Hi Myflyboost!
+- Hi bot
+- Hi man
+- Hi rasa
+- Hi Myflyboost
+- Hi Myflyboost..
+- Hi there
+- Hi!
+- Hi'
+- Hi,
+- Hi, bot
+- Hieee
+- Hieeeeeeeeeeeee
+- Hola
+- I said, helllllloooooO!!!!
+- Well hello there ;)
+- What is up?
+- Whats up
+- Whats up my bot
+- Whats up?
+- ayyyy whaddup
+- bonjour
+- ey boss
+- good evening
+- good moring
+- good morning
+- greet
+- greetings
+- hai
+- hallo
+- hallo sara
+- halloo
+- halloooo
+- halo
+- halo sara
+- heeey
+- heelio
+- hell9o
+- hellio
+- hello
+- hello Myflyboost
+- hello everybody
+- hello friend
+- hello hi
+- hello is anybody there
+- hello it is me again
+- hello robot
+- hello Myflyboost
+- hello sweatheart
+- hello sweet boy
+- hello there
+- hello world
+- my name is [Johb Cena]{"entity": "name", "role": "english_full_name"}, how are you?
+- hello, my name is [Charles Pfeffer]{"entity": "name", "role": "english_full_name"}
+- hello  my name is [Groge](name)
+- hi my name is [Jackson Wang]{"entity": "name", "role": "english_full_name"}
+- hello?
+- hello]
+- hellooo
+- helloooo
+- helo
+- hey
+- hey bot
+- hey bot!
+- hey dude
+- hey hey
+- hey let's talk
+- hey ther
+- hey there
+- hey there boy
+- hey there..
+- hey, let's talk
+- heya
+- heyho
+- heyo
+- hhola
+- hi
+- hi !
+- hi Mister
+- hi again
+- hi can you speak ?
+- hi folks
+- hi friend
+- hi friends
+- hi hi
+- hi i'm [Sandra Hernandez]{"entity": "name", "role": "english_full_name"}
+- hi im [Amanda Anderson]{"entity": "name", "role": "english_full_name"}
+- hi mrs rasa
+- hi pal!
+- hi sara
+- hi there
+- hi there it's me
+- hi!
+- hi.........................................................
+- hi?
+- hieee
+- hii
+- hiihihi
+- hiii
+- hlo
+- hola
+- howdy
+- jojojo
+- jop
+- konichiwa
+- merhaba
+- ola sara
+- rasa hello
+- salut
+- sup
+- wasssup
+- wasssup!
+- what up
+- whats popping
+- whats up
+- yo
+- yoo
+- ssup?
+- helleo
+- what's up bro!
+
+## intent:goodbye
+- Have a nice day!
+- Have a good time!
+- bye
+- goodbye
+- see you around
+- see you later
+- see you next time
+- see you
+- 88
+- Bye
+- Bye bye
+- adios
+- adios?
+- bye .
+- bye :P
+- bye bot
+- bye bye
+- bye bye bot
+- bye for now
+- bye udo
+- bye was nice talking to you
+- bye!
+- byee
+- catch you later
+- ciao
+- cya
+- farewell
+- good bye
+- good bye rasa bot!
+- good night
+- goodbye
+- goodbye.
+- goodnight
+- gotta go
+- k byyye
+- ok Bye
+- ok bye
+- ok, bye
+- ok.bye
+- see u later
+- see ya
+- see you
+- see you . bye
+- take care
+- then bye
+- talk to you later
+- toodle-oo
+- Exit
+- Close this talk
+- byr
+- get out
+
+## intent:affirm
+- no problem
+- perfect
+- very good
+- great
+- Kidding, i need
+- Just kidding, i want
+- Just kidding, yes, please
+- I say yes
+- yes thank you
+- yes thank you,please
+- yes
+- yep
+- indeed
+- of course
+- that sounds good
+- correct
+- ok
+- why not?
+- sure
+- yeeees!!
+- Certainly
+- Accept
+- Awesome!
+- Cool
+- Good
+- Great
+- I accept
+- I accept.
+- I agree
+- I am using it
+- I changed my mind. I want to accept it
+- I do
+- I get it
+- I guess so
+- I have used it in the past
+- I will
+- I'd absolutely love that
+- I'm sure I will!
+- I'm using it
+- Nice
+- OK
+- Ofcourse
+- Oh yes
+- Oh, ok
+- Ok
+- Ok let's start
+- Ok.
+- Okay
+- Okay!
+- PLEASE
+- SURE
+- Sure
+- Sweet
+- That would be great
+- YES
+- YUP
+- Yea
+- Yeah
+- Yeah sure
+- Yep
+- Yep that's fine
+- Yep!
+- Yepp
+- Yes
+- Yes I do
+- Yes please
+- Yes please!
+- Yes, I accept
+- Yes.
+- Yup
+- a little
+- absolutely
+- accept
+- accepted
+- agreed
+- ah ok
+- alright
+- alright, cool
+- amayzing
+- amazing!
+- awesome
+- awesome!
+- confirm
+- cool
+- cool :)
+- cool story bro
+- cool!
+- coolio
+- definitely yes without a doubt
+- done
+- fair enough
+- fcourse
+- fine
+- fuck yeah!
+- go
+- go ahead
+- go for it
+- going super well
+- good.
+- great
+- great lets do that
+- great!
+- hell yeah
+- hell yes
+- hm, i'd like that
+- how nice!
+- i accept
+- i agree
+- i am!
+- i want that
+- i will!
+- it is ok
+- its okay
+- ja
+- ja cool
+- ja thats great
+- jezz
+- jo
+- k
+- kk
+- lets do it
+- lets do this
+- not bad
+- of course
+- ofcoure i do
+- ofcourse
+- oh awesome!
+- oh cool
+- oh good !!
+- oh super
+- ok
+- ok cool
+- ok fine
+- ok friend
+- ok good
+- ok great
+- ok i accept
+- ok sara
+- ok, I behave now
+- ok, I understood
+- ok, Sara
+- ok...
+- okay
+- okay cool
+- okay sure
+- okay..
+- oki doki
+- okie
+- ook
+- oui
+- perfect
+- please
+- si
+- sort of
+- sure
+- sure thing
+- sure!
+- that is cool
+- that ok
+- that sounds fine
+- that's great
+- thats fine
+- thats good
+- thats great
+- top
+- uh-huh
+- very much
+- well yes
+- y
+- ya
+- ya cool
+- ya go for it
+- ya i want
+- ya please
+- ya thats cool
+- yaah
+- yap
+- yaps
+- yas
+- yay
+- ye
+- ye splease
+- yea
+- yeah
+- yeah do that
+- yeah sure
+- yeah'=
+- yeah, why not
+- yeeeeezzzzz
+- yeeees
+- yep
+- yep i want that
+- yep if i have to
+- yep please
+- yep that's nice
+- yep thats cool
+- yep, will do thank you
+- yep. :/
+- yes
+- yes ...
+- yes I do
+- yes accept please
+- yes baby
+- yes cool
+- yes give me information
+- yes go ahead
+- yes go for it
+- yes great
+- yes i accept
+- yes i agree
+- yes i have built a bot before
+- yes i have!
+- yes it is
+- yes it was okay
+- yes of course
+- yes pleae
+- yes please
+- yes please!
+- yes pls
+- yes sirfr
+- yes that's great
+- yes that's what i want
+- yes you can
+- yes'
+- yes, I'd love to
+- yes, cool
+- yes, give me information, please
+- yes,i am
+- yes.
+- yesh
+- yess
+- yessoo
+- yesss
+- yesssss
+- yesyestyes
+- yesyesyes
+- yez
+- yop
+- you asked me a yes or no question, which i answered with yes
+- you got me, I accept, if you want me to
+- yres
+- ys
+- yup
+- yyeeeh
+- Okay cool
+- ok..
+- considering
+- More a less
+- cool beans
+- sounds good!
+- really
+
+## intent:deny
+- Don't do it.
+- There's nothing I want.
+- There's nothing I need.
+- sorry, i cannot rephrase
+- oh my god, not again!
+- you kill me
+- not yet
+- Just kidding, no, please
+- kidding, no
+- Just kidding, I don't want
+- i don't care!!!!
+- not good
+- Don't care about that.
+- no thanks
+- i don't want
+- i don't care
+- no
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
+- it 's wrong
+- that 's wrong
+- I don't want to
+- I don't want to give it to you
+- I don't want to say
+- I dont want to tell
+- I'm not giving you my email address
+- I'm not going to give it to you
+- NEIN
+- NO
+- NO DON"T WANT THIS!
+- Nah
+- Neither
+- Never
+- Nevermind
+- No
+- No thank you
+- No, not really.
+- No, thank you
+- No.
+- Nopes
+- Not really
+- absolutely not
+- decline
+- definitely not
+- deny
+- i decline
+- i don not like this
+- i don't think so
+- i don't want either of those
+- i don't want to
+- i don't want to give you my email
+- i dont want to
+- i dont want to accept :P lol
+- i guess it means - no
+- i'm afraid not
+- i'm not sure
+- it is going pretty badly
+- it sucks
+- it sux
+- n
+- na
+- nah
+- nah I'm good
+- nah not for me
+- nah, first time
+- nah, i'm good
+- nehi
+- nein
+- neither
+- never
+- never mind
+- no
+- no :(
+- no I dont want
+- no I haven't decided yet if I want to sign up
+- no and no again
+- no bots at all
+- no go
+- no i can't
+- no i don't accept
+- no i dont want to
+- no i dont want to accept :P lol
+- no i won't
+- no ma'am
+- no sir
+- no sorry
+- no thank s
+- no thank you
+- no thanks
+- no way
+- no you did it wrong
+- no!!!!
+- no, i hate it
+- no, my frst time
+- no, thank you
+- no, thanks
+- no, thankyou
+- no. u r idiot
+- non
+- noooooooooo
+- noooooooooooooooooooooooooooooooooooooooo
+- nop
+- nope
+- nope!
+- nope. i am good
+- not going well at all
+- not really
+- not right now
+- not yet
+- nö
+- sorry not right now
+- still dont want to tell
+- thanks but no thanks
+- this sucks
+- very bad
+- I do not need help installing
+- I don't wanna tell this
+- no stop
+- stop it, i do not care!!!
+- none of them
+- I don't agree
+- fucking stop
+- fucking no
+
+## intent:thankyou
+- thank you
+- okay thank you
+- thanks
+- thank you very much
+- Cool. Thanks
+- Great, thanks
+- Thank you
+- Thank you Myflyboost
+- Thank you so much
+- Thank's!
+- Thanks
+- Thanks bot
+- Thanks for that
+- Thanks!
+- amazing, thanks
+- cheers
+- cheers bro
+- cool thank you
+- cool thanks
+- cool, thanks
+- danke
+- great thanks
+- ok thanks
+- ok thanks sara
+- ok thanks!
+- perfect thank you
+- thank u
+- thank you
+- thank you anyways
+- thanks
+- thanks a bunch for everything
+- thanks a lot
+- thanks for forum link, I'll check it out
+- thanks for the help
+- thanks this is great news
+- thanks you
+- thanks!
+- thankyou
+- thnks
+- thx
+- yes thanks
+- thanks for your information
+- thanks f
+- thanks for your help
+
+## intent:mood_great
+- amazing
+- great
+- wonderful
+- I am feeling very good
+- I am great
+- I'm good
+- happy
+- i am happy now
+- i am very happy now
+- :)
+- :D
+- HAHA
+- I am happy
+- LOL
+- Lol
+- Lol thats funny
+- Looks nice
+- WOW
+- Wow
+- You are great
+- You're cute.
+- You're nice.
+- You're really cool
+- hAHAHA
+- ha ha
+- haha
+- hahah
+- hahaha
+- happy
+- i am feeling happy
+- i am happy
+- i am happy today
+- i am very happy with your response
+- i love you
+- it's pretty cool
+- lol
+- love you
+- okay Rasabot, you're cool
+- rasa is awesome
+- okay Myflyboost, you're cool
+- Myflyboost is awesome
+- such a great demo
+- that is funny
+- that was a great interaction
+- thats funny
+- today was a nice day
+- wow
+- you are a badass bot!
+- you are awesome
+- you are cool
+- you are cool man
+- you are doin great
+- you are funny
+- you are great
+- you are my new bestfriend
+- you seem pretty cool :D
+- I like you
+- I love you
+- you are realy intelligent
+- I like Rasa
+- hèhè
+- like u
+- you are so smart
+- That's awesome.
+- you good
+- Great information
+- I mean to say that I liked the explanation
+- Got it
+- good job.
+
+## intent:mood_unhappy
+- im lonely
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- not very good
+- extremely sad
+- so sad
+- i am qq
+- i am so tired
+- I am feeling bad
+- I am sad
+- I am super sad
+- I'm sad
+- I'm super sad
+- Now I'm sad
+- This is bad
+- You are quite bad
+- bad
+- bad boy
+- crappy joke
+- documentation of rasa is very bad
+- i am angry over you
+- i am feel sad
+- i am sad
+- i am sad about that
+- i am very sad
+- i feel sad
+- i sad
+- i'm sad
+- rasa is bad
+- sad
+- so sad
+- so sad :(
+- super sad
+- u broke my heart
+- very very sad
+- you are bad
+- you are bad bot
+- you make me sad
+- You are mad
+- You are rude
+- bots are bad
+- i dont like bots
+- this is a really frustrating experience
+- you're rather dull
+- i am so worry
+- i will leave
+- Although I understand your still in development, I feel a little bit disappointed.
+- Surely you're not so smart lik i thought
+- iam not feeling good
+- Thats so rude
+- sadly
+- That tool here isnt good
+- boring
+
+## intent:bot_challenge
+- are you a bot?
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?
+- are you a AI robot?
+- are you a AI chatbot?
+
+
+## intent:how_to_get_started
+- I don't know how to use SkyScanner, what should I do?
+- Could you reserve a plane ticket for me?
+- I am planning a trip and need help with my airline reservation.
+- I want to book a flight.
+- how can I search the flight no.
+- how can I get the flight no.
+- how can I search the flight number.
+- how can I get the flight number.
+- flight ticket
+- book a flight
+- go abroad
+- Make flight reservations
+- make a flight reservation
+- i want to make a flight reservation
+- Can I book ticket?
+- book flight
+- May I book a ticket?
+- i want go abroad
+- book a flight ticket
+- buy a ticket
+- can i book a ticket?
+- Can you teach me how to book a flight?
+- how can you help me?
+- can you help me?
+- can you help me booking a flight?
+- Can you book a ticket for me?
+- may i book a flight ticket?
+- you can do
+- how can i do
+- what can i do
+- can you help me to book a flight?
+- can you tell me how to search the flight?
+- Can you shw me some information about flight?
+- Get started
+- Help me get started
+- Hi, how can i get started
+- How can I book a flight ticket?
+- How can I get started with Myflyboost?
+- How can I get started?
+- How can I try out this?
+- How do I get started
+- How do I start
+- How do i get started
+- How get started?
+- How to get start
+- How to get started
+- I would like to search the flight
+- I want to start
+- I want to implement Myflyboost
+- I want to know how to get started with this
+- Lets start with the basics
+- Please tell me how I can start?
+- Please tell me how to get started
+- Please tell me how to get started with Myflyboost
+- Sure, give me the basics
+- Tell me how to get started
+- Tell me how to get started with Myflyboost
+- Tell me more about Get started with this
+- can i try it out
+- can u teach me
+- can you explain how can i how to do
+- can you guide me know to book a flight ticket?
+- can you help me book a flight?
+- from where I should start?
+- get starte
+- get started
+- get started pls
+- give me some flights information 
+- help me build a bot
+- help me get started
+- help with myflyboost
+- how do I get started?
+- how do I start
+- how do I use myflyboost
+- how do i get started with this myself?
+- how do i get started?
+- how do i sstart
+- how do i start
+- how easy is it to use?
+- how start
+- how to get strated?
+- how to start with it
+- how to start with Myflyboost?
+- how to use
+- how toget strated?
+- how t oget started
+- hw to get started with Myflyboost
+- i am new
+- i am a new user
+- i m new
+- i need help with rasa
+- i wanna get started
+- i want to book a flight please help me
+- i want to get started
+- need help in finding information about flight
+- ow to get started with myflyboost
+- parts of rasa
+- please teach me
+- pls explain how to get started
+- so, how do I use rasa?
+- start
+- tell me how to start
+- where do i find instructions
+- where do i start?
+- where should i start from
+- where to start?
+- i am new but so how can i start
+
+## intent:stop
+- I don't need you anymore
+- ok then you cant help me
+- that was shit, you're not helping
+- you can't help me
+- you can't help me with what i need
+- i guess you can't help me then
+- ok i guess you can't help me
+- that's not what i want
+- ok, but that doesnt help me
+- this is leading to nothing
+- this conversation is not really helpful
+- you cannot help me with what I want
+- I think you cant help me
+- hm i don't think you can do what i want
+- stop
+- do you get anything?
+- and you call yourself bot company? pff
+- and that's it?
+- nothing else?
+- stop, please.
+- I don't won't continue.
+- Please,stop.
+- don't continue.
+- stop to continue
+- it’s time to go
+- we’d better be going.
+- shut down
+
+## intent:continue
+- Go ahead.
+- continue to next step
+- go to the next step
+- i have to go to the next step
+- i want next step
+- i want to go to the next step
+- next please
+- next step
+- next step now
+- next step please
+- next step pls
+- ok continue please
+- ok, next step
+- please go to the next step
+- take me to the next step
+- what is the next step ?
+- continue 
+- continue, please
+- I'd like to continue
+- forget it
+
+## intent:goback
+- i want change my answer
+- i want change.
+- I changed my mind
+- go back,please
+- stop go back
+- Back to previous step
+- go back
+- i say go back!
+- last step
+- previous
+- I want to modify my personal information
+- I want to modify the answer
+- return, please
+- return last step
+- go back to last step.
+- GO BACK!
+- go back.
+- I misread the sign
+- I misunderstood what you meant
+- you misunderstood what i meant
+- I wrote the wrong word.
+- I said something I shouldn’t have
+- I was wrong
+- I made a mistake
+- It’s my fault
+- you misunderstood me
+- you don't 
+- Oh no. actually.. 
+- I listened wrong.
+- I heard wrong.
+- I misheard.
+- I wrote the wrong word.
+- I misspelled the word. 
+- I said something wrong. 
+- Oops, I mean.
+- The thing I said earlier was wrong. Actually, I meant.
+- No, that’s wrong. What I wanted to say is.
+- I take it back
+- I said it wrong.  I am incorrect by saying
+- I made a mistake
+- I just made a wrong statement.
+- I have been totally out of my mind.
+- I know I used a wrong word in the privious message.   
+- I just said the wrong thing 
+
+## intent:user_restart
+- yep you can restart
+- Please restart this chat
+- ok restart please
+- please restart the bot
+- restart this conversation
+- i want to restart
+- why don't you restart????
+- hey, i said restart
+- restart session pls
+- restart ps
+- restart
+- everything is wrong
+- all the thing go wrong
+
+## intent:out_of_scope
+- what is rasa 
+- what's rasa 
+- rasa?
+- can you share your boss with me?
+- i want to get to know your owner
+- i want to know the company which designed you
+- i want to know the company which generated you
+- i want to know the company which invented you
+- i want to know who invented you
+- May I ask who invented you?
+- please tell me the company who created you
+- please tell me who created you
+- tell me more about your creators
+- tell me more about your founders
+- how do i build a bot
+- how do i build a bot?
+- sudo reboot
+- sudo 
+- I want to order food
+- teach me math
+- 8*9=?
+- tell me a story
+- tell a joke
+- tell me a Ghost Story
+- 123
+- 8966
+- What is 2 + 2?
+- Who’s the US President?
+- I need a job
+- book a hotel 
+- I'd like to book a hotel
+- hotel
+- i want a sex
+- bring me a gift
+- im looking for a restaurant
+- 非英文
+- Wie fange ich mit Rasa an?
+- hilf mir beim start
+- tschüssikowski
+- ¿Qué pasa?
+- ça va ?
+- como te llamas
+- wer bist Du?
+- como inicio en rasa
+- come stai?
+- como estas
+- de donde eres
+- de que lugar eres?
+- epdi iruka
+- eres humana
+- kalhmera sara ti kaneis
+- kannst du auch deutsch?
+- kannst du dies auch auf deutsch?
+- oui je besoine de l'aide
+- que puedes hacer?
+- tu parles francais?
+- tudo bom
+- tu pagal
+- kannst du mir helfen
+- tu kaisi he
+- こにちは
+- 日本語分かる？
+- chào
+- 你好
+- I'm speaking a non-english language.
+- 呵呵
+- 我该如何使用
+- 你懂中文吗？
+- 您好
+- 你叫什么名字
+- 你是谁
+- 中文
+- kya hindi me bat kar sakate ho
+- Dumme sara
+- αστεία λές
+- rasa codigo abierto
+- 卧槽
+- 英文其他
+- - I am asking you an out of scope question
+- 4 + 2 = ?
+- After registration I see that I have an available balance of 0.00000000. What does this balance represent?
+- Are you ready?
+- But you're an english site :(
+- Can I ask you questions first?
+- Can I die
+- Can I get a hamburger?
+- Can YouTube talk?
+- Can you call me back ?
+- Can you give me your datacenter's password
+- Can you give me your datacenter's password?
+- Can you make sandwiches?
+- Can you please send me an uber
+- Do I have to accept?
+- Do you know [Kevin Pelton]{"entity": "name", "role": "english_full_name"}
+- Find nearest pizzahut
+- Have we met before?
+- HomeBase is advertised as a community. Is there a way to interact with other members of the community?
+- How long does it take to set up a Rasa bot?
+- I already told you! I'm a shitmuncher
+- I am an opioid addic
+- I am an opioid addict
+- I can barely see this white text on light gray background ...
+- I have installed it
+- I ned a GP in 94301
+- I need a GP in 94301
+- I need a girl friend!
+- I need to eat cake
+- I wan to buy a plane
+- I wanna marry you
+- I want a new laptop
+- I want book a hotel
+- I want french cuisine
+- I want pizza
+- I want to die
+- I want to order pizza
+- I want to use pipe
+- I will check
+- I'm a shitmuncher
+- Is Rasa really smart?
+- Is this Goal-Oriented Chatbot?
+- Is today saturday?
+- Mail me the guide
+- Make me a sandwich
+- NLW
+- Nice name
+- Pizza bot
+- Recharge
+- SEL ME SOMETHING
+- The Try it out is not working
+- Today
+- Try it out broken
+- What day is it today?
+- What did you eat yesterday?
+- What do you prefer?
+- What is todays date
+- What is your hobbies?
+- What makes you better than a human?
+- What's 1 + 1?
+- What's do YouTube do
+- What's your backend system?
+- Where am I right now?
+- Where am I?
+- Who ?
+- Who are your customers
+- Why don’t you answer?
+- Why is my TRUST score set to 50 after I completed the registration process?
+- Won't you ask me how I am?
+- You'r blue.
+- [Kristin](name), I want to marry you
+- a tamed mouse will arrive at your doorstep in the next couple of days
+- aRE YOU SINGLE
+- alexa, order 5 tons of natrium chloride
+- and make chicken noises into the phone
+- are the newsletter worth the subscription?
+- are u facebook
+- are u, facebook?
+- are you single?
+- are you dev?
+- are you russian?
+- are you sick
+- are you vegan
+- better than you
+- but I just told you that :(
+- but if rasa is open source why do you have a sales team
+- buy one please
+- buy groceries
+- call me father
+- can we keep chatting?
+- can you book dinner
+- can you cheer me up
+- can you cook dinner
+- can you give me a cup of coffee
+- can you help me with the docs?
+- can you help me with your docs
+- can you help me with your docs?
+- can you learn from our conversation?
+- can you speak about politic ?
+- cannot see
+- chgfhgh
+- chinese ok?
+- colder
+- common, just try
+- connect to alexa
+- cr
+- custom service
+- did i break you
+- dinner
+- do you believe in god?
+- do you have a phone number?
+- do you have your photo?
+- do you know me
+- do you know ras
+- do you liek cheese?
+- do you like football
+- do you like movies
+- do you sell vacuum robots?
+- do you want to marry me?
+- docs
+- doctor
+- everything
+- example of a chatbot
+- genocide
+- get me a club mate
+- give me a girl friend
+- give me food
+- google?
+- great, I'd like to buy a house
+- hang on let me find it
+- have you ever seen [Keith Reilly]{"entity": "name", "role": "english_full_name"}?
+- help with [Alma Abrams]{"entity": "name", "role": "english_full_name"}
+- help with my life
+- hey little mama let em whisper in your ear
+- hey, I contacted you a couple of days ago but didn't get any response, any news?
+- how
+- how about NYC
+- how are [Alicia Jackson]{"entity": "name", "role": "english_full_name"}'s cats doing?
+- how are the kids
+- how can i get them?
+- how can i test this
+- how come you say ok ?
+- how do you learn
+- how good is Rasa
+- how it compares to alexa
+- how long have you been online?
+- how long will the next version will launch?
+- how many lines of codes
+- how much is 10 + 89 ?
+- how much is 10 + 89
+- how to get rasa studio
+- i am hungry, what should i do?
+- i am not a developer but need this for business
+- i can't deal with _your_ request
+- i do not care how are you
+- i hope you will be better
+- i immediately need help with implementing the coolest bot you can imagine
+- i m looking for job
+- i told you already
+- i wanna party
+- i want a non dripping ice cream
+- i want caffe
+- i want food
+- i want good flycam
+- i want more of you in my life!
+- i want pizza
+- i want pizza!!
+- i want to book a hotel
+- i want to buy a roomba for my grandson
+- i want to eat
+- i want to find new friends
+- i want to find out what you can build with rasa
+- i want to fly
+- i want to grab lunch
+- i want to know current situtation in pakistan
+- i want to order a pizza
+- i want to see your happy customers
+- i will tame a mouse for you
+- is [John Lewis]{"entity": "name", "role": "english_full_name"} still married to you
+- is it a wasteland full of broken robot parts?
+- is it allow to
+- is rasa a studio?
+- is rasa any good
+- is that any of your business
+- isn't the newsletter just spam?
+- it's a pity
+- license
+- ljljl
+- lunch
+- lunch??
+- machine learning
+- mail me the steps
+- mascot means?
+- more
+- mountain
+- my name k
+- i want a dripping ice cream but a cone that catches it so you can drink the ice cream later
+- offer me lunch
+- oh wait i gave you my work email address can i change it?
+- ok one then
+- on wiche nlp based system are you build?
+- only that?
+- order good
+- order pizza
+- personal or work?
+- pizza
+- please help with my ice cream it's dripping
+- please hjave lunchj
+- please hurry, i have deadline in two weeks to deliver the bot it is for very big company
+- please play music
+- rasa topics
+- really? you're so touchy?
+- refresh
+- region with no. of records
+- remember my name
+- search wikipedia
+- shitmuncher
+- show me a picture of a chicken
+- sing me a song
+- so, I'm helping right now to training you?
+- someone call the police i think the bot died
+- sudo make me a sandwich
+- tell me more about next best action
+- that doesn't sound like a joke
+- that link doesn't work!
+- the one that is better than you
+- tricked  ya
+- turn off my stove
+- wait a bit i am still reading
+- what are contextual AI assistants and how different are they from chatbots?
+- what are you doing now?
+- what are your uses for universities
+- what did you eat for lunch?
+- what do oyu think about siri?
+- what do you think abou siri?
+- what do you think about [Stanley Ramirez]{"entity": "name", "role": "english_full_name"}?
+- what do you think of alexa
+- what does your soul feel my friend
+- what doing
+- what films do you like
+- what i do after cd starter-pack-rasa-stack?
+- what is a discourse?
+- what is a mascot
+- what is adlingo
+- what is differance between bot and mascot?
+- what is evolution ?
+- what is google rcs
+- what is machine learning
+- what is nice?
+- what is the capital of delhi
+- what is the capital of india
+- what is the current petrol price
+- what is the day ?
+- what is the real use case where we can use this one
+- what is your address?
+- what is your purpose
+- what lnu mean?
+- what the latest news ?
+- what you ate today?
+- what's 5 + 5
+- what's a newsletter?
+- what's gingerale
+- what's your wife doing this weekend
+- whats the sign
+- when is the next train is coming?
+- where do i get install files for mac?
+- where is Oslo?
+- where is mexico?
+- wheres the party?
+- which city are you talking about?
+- which email
+- which email should i send to ?
+- which file is created first while developing chat bot
+- which is the LNU asynchronism ?
+- which kind
+- who are the engineers at rasa?
+- who are they?
+- who is [Sharon Zeches]{"entity": "name", "role": "english_full_name"}
+- who is the MD of samsung bangalore ?
+- who is the president of india ?
+- who is your favourite robot?
+- who let the dog out
+- who was hitler
+- who will anser my email?
+- who's Bill Gates?
+- whta you think about gdpr?
+- why do you need that?
+- why its called rasa ?
+- why are you call Myflyboost
+- will u kill me
+- will u kill me?
+- winter is already leaving
+- with you recommend me?
+- would you like some water
+- yeah, my dog was drinking a couple of litres of water per day and tried drinking the swimming pool
+- you already have that
+- you can learn how to make a coffe
+- you have children?
+- you have job opening
+- you lock sweety
+- you should learn to count
+- you will know it from the single red rose it carries between its teeth
+- ı am learning python
+- CALL THE POLICE
+- tertyryutyi
+- wsdrcftvgybhnj
+- why sky is blue?
+- what kind of bird are you?
+- contextua
+- contextual
+- talk to me about voulette
+- voulette voulette
+- Do you have a demo?
+- Cars
+- please voulette
+- Out of scope question.
+- i need money
+- no, i need cash, money! Do you have it ?
+- the beatles
+- Hi i want to go palghar
+- I want to go palghar
+- your contry name
+- you girl
+- gsaf
+- expert of rasa
+- i want play ball
+- flight catch up
+- how do you like your coffee
+- Can you get analytics on who I'm chatting with when I use Rasa
+- coronavirus
+- have you heard of corona?
+- where do i type in commandy
+- where to type in commands
+- kiss me
+- you have to
+- what type of bot?
+- sfasd
+- asdkjasdhjkasd
+- j  bhbhj
+- eshdtjfjfyk
+- drhdtjfjfyj
+- asdfgasd
+- asdfgasdas
+- ekrfpokeropf
+
+## intent:insult
+- silly bot
+- stupid bot
+- fucking robot
+- shit 
+- like a peice of shit
+- mother fucker
+- idiot
+- i fuck you
+- fucking asshole
+- bitch
+- fucking idiot
+- shame on you
+- garbage
+- you like a peice of shit
+- fucking shit
+- shit man
+- Damn you!
+- damn
+- Shit-head! 
+- Asshole!
+- Idiot! You damned fool!
+- I’ll see you in hell first!
+- Bitch! Whore!
+- Slut! 
+- Do you want a box?
+- dork
+- dammit
+- You damned disgusting bastard!
+- You beast!
+- Shit! fart!
+- You SOB!
+- son of a bitch
+- Go to hell!
+- Go to the devil!
+
+## intent:chitchat
+- What kind of music do you like?
+- What did you do last night?
+- Are you OK? 
+- Are you sure?
+- Be careful.
+- Believe me.
+- Do you know?
+- Happy New Year!
+- I am cool.
+- I am full.
+- I am the winner!
+- Listen carefully.
+- Listen to me.
+- Merry Christmas!
+- i love you
+- love u
+- OK I got it , thanks, ma’am.
+- anyway
+- right?
+- nice to see you
+- nice to meet you
+- I'm fine thank you
+- I am fine
+- how can you do
+- oh my jesus
+- oh my genius
+- oh my goodness
+- can you understand?
+- Now?
+- The weather is good
+- again?
+- i am hungry
+- i´m hungry
+- omg
+- happy birthday
+- you are beautiful
+- you are a handsome boy. 
+- oh my
+- let's me see
+- Yay!
+- just kidding
+- it's a joke
+- it is a joke
+- it's just a joke
+- This is just a joke, please
+- Here you go.
+- ............................
+- umm
+- you're a woman
+- haha 
+- aaaaaaaaaaaaaaaaaaaaaaaaaaaa
+- ha ha
+- hola hola. Excuse me?
+- what a wonderful day
+- Ahoy matey how are you?
+- are you alright
+- are you having a good day
+- Are you ok?
+- are you okay
+- Do you feel good?
+- how are things going
+- how are things with you?
+- How are things?
+- how are you
+- how are you doing
+- how are you doing this morning
+- how are you feeling
+- how are you today
+- How are you?
+- What's it like out there?
+- Beautiful day, isn't it?
+- Be careful!
+- Are you all right?
+- Wow! I’m really going to [Japen](city)! I can’t wait to get there.
+- I’ll miss you.
+- you rock
+- What was your holiday like?
+- How was your steak?
+- What’s [Tom](name) like?
+- chitchat
+
+## intent:ask_weather
+- Is it raining?
+- What's it like out?
+- What is it like out?
+- What’s it like out there?
+- have you heard what the weather is going to be like tomorrow?
+- What will the weather be like tomorrow?
+- What's the weather forecast for tomorrow?
+- What is the average temperature of [Beijing](city)?
+- how's the weather where you are?
+- Do you have rain there?
+- How’s the weather today?
+- What’s the weather forecast for the rest of the week?
+- Is it cold?
+- Is it cold today?
+- Is it hot?
+- Is it hot today?
+- Is it cold there?
+- Is it hot there?
+- What is the weather at your place?
+- what about wheather
+- Is it hot or cold?
+- Do you have good weather?
+- Is it quite breezy outside?
+- Is it raining?
+- How is the weather today?
+- What's the weather like?
+- How is the weather?
+- what's the [singapore](city) weather?
+- what's the [japan](city) weather?
+- What's the weather forecast?
+- what's the weather like in [taipei](city)
+- what's the weather like in [usa](city)
+- what is the weather like in [pingtune](city)
+- [new york](city) weather?
+- [beijine](city) weather
+- i want know [Shanghai](city) weather
+- i want know [korea](city) weather
+- i want know [seattle](city) weather
+- how's the weather in [london](city)
+- how is the weather in [maxico](city)
+- how's the weather in [paris](city)
+- how is the weather in [berlin](city)
+- What’s the weather forecast for the rest of the week?
+- Do you have rain there?
+- What’s the temperature in [Taipei](city)?
+- Wow! It’s hot today! What’s the temperature?
+
+## intent: faq/ask_flight_no
+- what is flight no. mean?
+- what's the flight no.?
+- flight no.?
+- flight number?
+- what is flight number mean?
+- what's the flight number?
+- I don't know the flight no.
+- I don't know the flight number is.
+- where is the flight no.
+- why the flight no. is invalid?
+
+## intent: faq/ask_passport_no
+- what is passport no.
+- passport no.?
+- passport number?
+- what is passport no.?
+- How do I know my passport number?
+- Where is my passport number in my passport?
+- Where is my passport number?
+- why my passport no. is invalid?
+
+## intent: faq/ask_fullname
+- what is my full name 
+- English full name?
+- what is english fullname format?
+- Why is my name invalid?
+- full name?
+- English full name?
+- what is English fullname format?
+- English fullname format?
+- my name is invalid?
+
+## intent: faq/ask_notes
+- FAQs
+- FAQ
+- Q&A
+- Answer some airport FAQs
+- airport FAQs
+- question and answer
+- QA
+- frequently asked questions
+- A list of frequently asked questions 
+- Boarding Notes
+- Boarding Tips
+- Notes
+- Notice
+- remind
+- What should i notice?
+- What should i remember
+- tell me what i need to know?
+- what i need to know
+- what are things I need to know?
+- what is something I need to know?
+- Do you have airport precautions?
+- Is there anything I should be aware of when boarding the plane?
+- Anything else I should take care of?
+- What do I need to notice
+- So what do I need to pay attention to?
+- What do I need to be aware of?
+- Excuse me, are there anything else I should know?
+- What are the rules for boarding the plane?
+- What do I need to know before I get on the plane?
+- what do I need to know before on board?
+- give me a list i should be aware of before boarding the plane.
+
+## intent: faq/ask_luggage
+- i have a carry-on.
+- Do I have to pay for the excess baggage?
+- Do I need to pay for the excess baggage?
+- What is your luggage free allowance?
+- I only have one hand luggage
+- I only have one carry-on.
+- overweight-luggage charge
+- carry-on luggage
+- check-in luggage
+- Checked luggage
+- hand luggage
+- Is my baggage overweight?
+- Is my baggage not overweight, right?
+- Is my bag overweight?
+- Is my bag not overweight, right?
+- How many bags can I be checking in?
+- How much can I carry in my luggage?
+- How much can I carry?
+- How much can I pack?
+- luggage free allowance
+- I have one suitcase and one carry-on.
+- my suitcase is 22 kilograms
+- what is limit of suitcase
+- I have two pieces of luggage
+
+## intent: faq/ask_item
+- what thing can i bring?
+- what are the prohibited items on airplane?
+- prohibited items
+- what can i bring?
+- what can't i bring?
+- Is this allowed on the plane?
+- Can I bring my water bottle with me?
+- Can I carry water?
+- May I carry water?
+- Can I bring water on board?
+- May I bring water on board?
+- What can I bring on board?
+- What can I take on board?
+- What can I take on the plane?
+- I'd like to know the boarding rules for prohibited items.
+- I have a hairdryer in my hand luggage.
+- can i bring
+- I have a bomb.
+
+## intent: faq/ask_boarding_time
+- what time will we be boarding?
+- what time will i be boarding?
+- When can I start boarding?
+- When do I start boarding?
+- When do I get to board?
+- What time will I be boarding?
+- When does the flight board
+- what time should I arrive airport.
+- what time can i boarding.
+- when can I start boarding
+- When to start boarding
+- What time do I need to arrive at the airport for my flight?
+- what time should I get to the airport?
+- How early should I get to the airport?
+- How Early Do I Really Need to Get to the Airport? 
+- What time do I have to be at the boarding gate?
+- Check-in and Boarding Deadlines 
+
+## intent: faq/ask_covid19
+- should I wear a mask?
+- what if I recently traveled and get sick?
+- how can i protect myself from COVID-19?
+- Can flying on an airplane increase my risk of getting COVID-19?
+- What happens if there is a sick passenger on an international or domestic flight?
+- COVID-19
+- Do I need to wear a mask on the plane?
+- Do I need a mask on the plane?
+- Has the epidemic had any effect?
+- How much body temperature can't get on the plane? 
+- what is the body temperature can not boarding? 
+- What's the body temperature to board a plane?
+- The Novel Coronavirus (COVID-19) outbreak has caused major flight disruptions to all airlines around the world.
+- Novel Coronavirus
+- Do I have to wear a face mask during my trip?
+
+## synonym:first class
+- first
+- first-class
+- first-cla
+- first-rate
+- first rate
+
+## synonym:business class
+- business
+- business-class
+- business-cla
+
+## synonym:economy class
+- coach
+- coach class
+- coach-cla
+- economy
+- economy-class
+- economy-cla
+
+## synonym:window seat
+- windows seats
+- window seats
+- windows seats
+- window
+- windows
+
+## synonym:aisle seat
+- aisle seats
+- aisle
+
+## regex:flight_no (the name only for debug, dosen't be reference for nlu)
+- ^[a-zA-Z]{2,5}\d{2,3}$
+
+## regex:passport_no
+- ^[a-zA-Z0-9]{9,17}$
+
+## regex:name (the name only for debug, dosen't be reference for nlu)
+- ^[a-zA-Z]+(\s[a-zA-Z])*(\s?,\s?|\s)[a-zA-Z]+(\s?-\s?[a-zA-Z]+)*$
+
+## lookup:city
+data/lookups/city.txt
+
+## lookup:name
+data/lookups/name.txt

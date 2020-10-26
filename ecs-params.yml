@@ -1,0 +1,16 @@
+version: 1
+task_definition:
+  services:
+    rasa:
+      cpu_shares: 512
+      mem_limit: 1000000000
+    duckling:
+      cpu_shares: 256
+      mem_limit: 100000000
+    app:
+      cpu_shares: 512
+      mem_limit: 1000000000
+    dynamodb:
+      cpu_shares: 256
+      mem_limit: 100000000
+      

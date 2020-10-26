@@ -1,0 +1,36 @@
+intent,button,entities
+greet,"Say ""Hi!"" ",
+goodbye,Bye!,
+affirm,Yes,
+deny,No,
+thankyou,Thanks!,
+mood_great,I'm happy!,
+mood_unhappy,I'm sad!,
+bot_challenge,Are you a bot?,
+stop,Stop.,
+continue,Continue.,
+user_restart,Restart.,
+goback,Go back.,
+insult,I am insult to you!,
+chitchat,I am chitchat with you.,
+how_to_get_started,How to start booking a flight?,
+book_flight,I want to book a flight.,
+check_ticket,I want to comfirm my flight.,
+cancel_ticket,I want to cancel my flight.,
+research,I want to research the flight information.,
+explain,Can you explain that?,
+ask_weather,Ask {city} weather.,city
+inform,I want to give you more information,
+inform,I want to tell you the city name is {city},city
+inform,I want to tell you my departure time is {time},time
+booking_form,I want to book a flight.,
+enter_data,I want to give you more information,
+enter_data,I want to book the flight {flight_no},flight_no
+enter_data,I want to go to {class_type},class_type
+enter_data,I want to seat the {seat_type},seat_type
+enter_data,My passport no. is {passport_no},passport_no
+enter_data,My name is {name},name
+enter_data,My email is {email},email
+introduction,Please introduction yourself.,
+city,A city name.,
+out_of_scope,Out of scope question.,

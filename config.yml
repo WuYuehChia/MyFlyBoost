@@ -1,0 +1,50 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: en
+
+pipeline:
+- name: WhitespaceTokenizer
+  case_sensitive: False
+- name: RegexFeaturizer
+- name: CRFEntityExtractor
+- name: LexicalSyntacticFeaturizer
+- name: CountVectorsFeaturizer
+- name: CountVectorsFeaturizer
+  analyzer: "char_wb"
+  min_ngram: 1
+  max_ngram: 4
+- name: DIETClassifier
+  epochs: 200
+  entity_recognition: False
+- name: DucklingHTTPExtractor
+  url: http://duckling:8000
+  #url: http://localhost:8000
+  dimensions: ["time", "email"]
+  locale: "en_US"
+  timezone: "Asia/Taipei"
+  timeout: 3
+- name: EntitySynonymMapper
+- name: ResponseSelector
+  retrieval_intent: faq
+  epochs: 100
+
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+  - name: FormPolicy
+  - name: TEDPolicy
+    max_history: 10
+    epochs: 20
+  - name: MappingPolicy
+  #- name: AugmentedMemoizationPolicy
+  - name: MemoizationPolicy
+  - name: TwoStageFallbackPolicy
+    nlu_threshold: 0.8
+    core_threshold: 0.3
+    fallback_core_action_name: "my_default_fallback"
+    fallback_nlu_action_name: "my_default_fallback"
+    deny_suggestion_intent_name: "out_of_scope"
+
+
+
